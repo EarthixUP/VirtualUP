@@ -1,4 +1,4 @@
-﻿Log file open, 09/16/18 20:20:15
+﻿Log file open, 09/17/18 22:50:51
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VirtualUP
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.186635
+LogStats: Stats thread started at 0.178669
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.061s to configure plugins.
+LogStreaming: Display: Took  0.068s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,459 +150,856 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.17-03.20.15:263][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-03.20.15:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.17-03.20.15:272][  0]LogHAL: Display: Platform has ~ 16 GB [17139462144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.17-03.20.15:272][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.17-03.20.15:272][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.17-03.20.15:272][  0]LogInit: Computer: DESKTOP-KINSOES
-[2018.09.17-03.20.15:272][  0]LogInit: User: ripple19
-[2018.09.17-03.20.15:272][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.17-03.20.15:272][  0]LogInit: High frequency timer resolution =3.703123 MHz
-[2018.09.17-03.20.15:273][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.09.17-03.20.15:273][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.17-03.20.15:273][  0]LogMemory: Process Physical Memory: 99.79 MB used, 99.79 MB peak
-[2018.09.17-03.20.15:273][  0]LogMemory: Process Virtual Memory: 84.22 MB used, 84.22 MB peak
-[2018.09.17-03.20.15:273][  0]LogMemory: Physical Memory: 5225.15 MB used,  11120.32 MB free, 16345.46 MB total
-[2018.09.17-03.20.15:273][  0]LogMemory: Virtual Memory: 4620.27 MB used,  11120.32 MB free, 134217728.00 MB total
-[2018.09.17-03.20.15:288][  0]LogInit: Using OS detected language (en-US).
-[2018.09.17-03.20.15:288][  0]LogInit: Using OS detected locale (en-US).
-[2018.09.17-03.20.15:289][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.17-03.20.15:601][  0]LogStreaming: Display: Took  0.313s to InitEngineTextLocalization.
-[2018.09.17-03.20.15:601][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.17-03.20.15:627][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.17-03.20.15:627][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.17-03.20.15:769][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-03.20.15:769][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.17-03.20.15:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.09.17-03.20.15:819][  0]LogD3D11RHI:       8079/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.17-03.20.15:821][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.17-03.20.15:821][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.17-03.20.15:821][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.17-03.20.15:825][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.17-03.20.15:825][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.17-03.20.15:825][  0]LogWindows: EnumDisplayDevices:
-[2018.09.17-03.20.15:825][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.09.17-03.20.15:825][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.09.17-03.20.15:826][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.09.17-03.20.15:826][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.09.17-03.20.15:826][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.09.17-03.20.15:826][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.09.17-03.20.15:826][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
-[2018.09.17-03.20.15:826][  0]LogD3D11RHI:      Driver Date: 6-24-2018
-[2018.09.17-03.20.15:826][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.09.17-03.20.15:855][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.17-03.20.15:871][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.09.17-03.20.15:920][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/Unreal Projects/VirtualUP/Intermediate/Shaders/WorkingDirectory/8764/).
-[2018.09.17-03.20.15:920][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ripple19/AppData/Local/Temp/UnrealShaderWorkingDir/790C9D3841EF1DC8BA492B99BE1B83F2/'.
-[2018.09.17-03.20.16:129][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.17-03.20.16:139][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.17-03.20.16:150][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.17-03.20.16:160][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.17-03.20.16:171][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.17-03.20.16:182][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.17-03.20.16:193][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.17-03.20.16:205][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.17-03.20.16:210][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.17-03.20.16:276][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.17-03.20.16:330][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-03.20.16:330][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.17-03.20.16:348][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-03.20.16:348][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.17-03.20.16:357][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.17-03.20.16:367][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.17-03.20.16:376][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.17-03.20.16:387][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.17-03.20.16:394][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.17-03.20.16:394][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.17-03.20.16:440][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.17-03.20.16:440][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.17-03.20.16:440][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.17-03.20.17:022][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: Loaded boot cache 0.05s 93MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.17-03.20.17:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.17-03.20.17:085][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.17-03.20.17:097][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ripple19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.17-03.20.17:097][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.17-03.20.17:097][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.17-03.20.17:112][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.17-03.20.17:113][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.17-03.20.17:114][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.17-03.20.17:178][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2018.09.17-03.20.17:427][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.17-03.20.17:544][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.17-03.20.17:547][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.17-03.20.17:547][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.17-03.20.17:547][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.17-03.20.17:547][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.17-03.20.17:560][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
-[2018.09.17-03.20.18:053][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.070456 seconds
-[2018.09.17-03.20.18:059][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.17-03.20.18:059][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.09.17-03.20.18:059][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.17-03.20.18:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.17-03.20.18:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.17-03.20.19:079][  0]SourceControl: Source control is disabled
-[2018.09.17-03.20.19:079][  0]SourceControl: Source control is disabled
-[2018.09.17-03.20.19:080][  0]SourceControl: Source control is disabled
-[2018.09.17-03.20.19:081][  0]SourceControl: Source control is disabled
-[2018.09.17-03.20.19:227][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.17-03.20.19:282][  0]LogOcInput: OculusInput pre-init called
-[2018.09.17-03.20.19:346][  0]LogEngine: Initializing Engine...
-[2018.09.17-03.20.19:347][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.17-03.20.19:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-03.20.19:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-03.20.19:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-03.20.19:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-03.20.19:549][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.17-03.20.19:561][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.17-03.20.19:572][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.17-03.20.19:596][  0]LogInit: FAudioDevice initialized.
-[2018.09.17-03.20.19:596][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.17-03.20.19:679][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.17-03.20.19:690][  0]LogInit: Texture streaming: Enabled
-[2018.09.17-03.20.19:704][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.17-03.20.19:713][  0]LogInit: Transaction tracking system initialized
-[2018.09.17-03.20.19:732][  0]BlueprintLog: New page: Editor Load
-[2018.09.17-03.20.19:795][  0]LocalizationService: Localization service is disabled
-[2018.09.17-03.20.20:022][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.17-03.20.20:022][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.17-03.20.20:022][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.17-03.20.20:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.17-03.20.20:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.17-03.20.20:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.17-03.20.20:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.17-03.20.20:118][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/' took 0.01s
-[2018.09.17-03.20.20:118][  0]SourceControl: Source control is disabled
-[2018.09.17-03.20.20:119][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/UE_4.20/FeaturePacks/StarterContent.upack)
-[2018.09.17-03.20.20:125][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.09.17-03.20.20:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.09.17-03.20.20:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.09.17-03.20.20:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.09.17-03.20.20:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.09.17-03.20.20:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.09.17-03.20.20:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.09.17-03.20.20:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.09.17-03.20.20:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.09.17-03.20.20:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.09.17-03.20.20:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.09.17-03.20.20:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.09.17-03.20.20:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.09.17-03.20.20:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.09.17-03.20.20:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.09.17-03.20.20:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.09.17-03.20.20:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.09.17-03.20.20:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.09.17-03.20.20:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Fire01.uasset"
-[2018.09.17-03.20.20:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.09.17-03.20.20:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.09.17-03.20.20:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.09.17-03.20.20:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Light01.uasset"
-[2018.09.17-03.20.20:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.09.17-03.20.20:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Light02.uasset"
-[2018.09.17-03.20.20:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.09.17-03.20.20:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.09.17-03.20.20:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.09.17-03.20.20:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.09.17-03.20.20:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.09.17-03.20.20:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.09.17-03.20.20:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.09.17-03.20.20:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.09.17-03.20.20:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.09.17-03.20.20:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Steam01.uasset"
-[2018.09.17-03.20.20:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.09.17-03.20.20:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.09.17-03.20.20:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.09.17-03.20.20:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.09.17-03.20.20:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.09.17-03.20.20:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.09.17-03.20.20:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.09.17-03.20.20:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.09.17-03.20.20:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.09.17-03.20.20:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.09.17-03.20.20:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.09.17-03.20.20:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.09.17-03.20.20:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.09.17-03.20.20:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.09.17-03.20.20:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.09.17-03.20.20:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.09.17-03.20.20:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.09.17-03.20.20:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.09.17-03.20.20:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.09.17-03.20.20:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.09.17-03.20.20:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.09.17-03.20.20:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.09.17-03.20.20:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/StarterMap.umap"
-[2018.09.17-03.20.20:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.09.17-03.20.20:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.09.17-03.20.20:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.09.17-03.20.20:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.09.17-03.20.20:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.09.17-03.20.20:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.09.17-03.20.20:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.09.17-03.20.20:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.09.17-03.20.20:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.09.17-03.20.21:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.09.17-03.20.21:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.09.17-03.20.21:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.09.17-03.20.21:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.09.17-03.20.21:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.09.17-03.20.21:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.09.17-03.20.21:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.09.17-03.20.21:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.09.17-03.20.21:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.09.17-03.20.21:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.09.17-03.20.21:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.09.17-03.20.21:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.09.17-03.20.21:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.09.17-03.20.21:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.09.17-03.20.21:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.09.17-03.20.21:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.09.17-03.20.21:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.09.17-03.20.21:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.09.17-03.20.21:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.09.17-03.20.21:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.09.17-03.20.21:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.09.17-03.20.21:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.09.17-03.20.21:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.09.17-03.20.21:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.09.17-03.20.21:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.09.17-03.20.21:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.09.17-03.20.21:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.09.17-03.20.21:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.09.17-03.20.21:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.09.17-03.20.21:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.09.17-03.20.21:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.09.17-03.20.21:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.09.17-03.20.21:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.09.17-03.20.21:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.09.17-03.20.21:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.09.17-03.20.21:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.09.17-03.20.21:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.09.17-03.20.21:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.09.17-03.20.21:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.09.17-03.20.21:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.09.17-03.20.21:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.09.17-03.20.21:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.09.17-03.20.21:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.09.17-03.20.21:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.09.17-03.20.21:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.09.17-03.20.21:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.09.17-03.20.21:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.09.17-03.20.21:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.09.17-03.20.21:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.09.17-03.20.21:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.09.17-03.20.21:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.09.17-03.20.21:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.09.17-03.20.21:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.09.17-03.20.21:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.09.17-03.20.21:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.09.17-03.20.21:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.09.17-03.20.21:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Door.uasset"
-[2018.09.17-03.20.21:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.09.17-03.20.21:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.09.17-03.20.21:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.09.17-03.20.21:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.09.17-03.20.21:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.09.17-03.20.21:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.09.17-03.20.21:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.09.17-03.20.21:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.09.17-03.20.21:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.09.17-03.20.21:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.09.17-03.20.21:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.09.17-03.20.21:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.09.17-03.20.21:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.09.17-03.20.21:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.09.17-03.20.21:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.09.17-03.20.21:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.09.17-03.20.21:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.09.17-03.20.21:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.09.17-03.20.21:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.09.17-03.20.21:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.09.17-03.20.21:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.09.17-03.20.21:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.09.17-03.20.21:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.09.17-03.20.21:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.09.17-03.20.21:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.09.17-03.20.21:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.09.17-03.20.21:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.09.17-03.20.21:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.09.17-03.20.21:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.09.17-03.20.21:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.09.17-03.20.21:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.09.17-03.20.21:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.09.17-03.20.21:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.09.17-03.20.21:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.09.17-03.20.21:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.09.17-03.20.21:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.09.17-03.20.21:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.09.17-03.20.21:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.09.17-03.20.21:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.09.17-03.20.21:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.09.17-03.20.21:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.09.17-03.20.21:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.09.17-03.20.21:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.09.17-03.20.21:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.09.17-03.20.21:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.09.17-03.20.21:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.09.17-03.20.21:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.09.17-03.20.21:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.09.17-03.20.21:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.09.17-03.20.21:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.09.17-03.20.21:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.09.17-03.20.22:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.09.17-03.20.22:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.09.17-03.20.22:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.09.17-03.20.22:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.09.17-03.20.22:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.09.17-03.20.22:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.09.17-03.20.22:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.09.17-03.20.22:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.09.17-03.20.22:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.09.17-03.20.22:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.09.17-03.20.22:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.09.17-03.20.22:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.09.17-03.20.22:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.09.17-03.20.22:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.09.17-03.20.22:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.09.17-03.20.22:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.09.17-03.20.22:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.09.17-03.20.22:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.09.17-03.20.22:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.09.17-03.20.22:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.09.17-03.20.22:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.09.17-03.20.22:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.09.17-03.20.22:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.09.17-03.20.22:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.09.17-03.20.22:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.09.17-03.20.22:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.09.17-03.20.22:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.09.17-03.20.22:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.09.17-03.20.22:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.09.17-03.20.22:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.09.17-03.20.22:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.09.17-03.20.22:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.09.17-03.20.22:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.09.17-03.20.22:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.09.17-03.20.22:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.09.17-03.20.22:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.09.17-03.20.22:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.09.17-03.20.22:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.09.17-03.20.22:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.09.17-03.20.22:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.09.17-03.20.22:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.09.17-03.20.22:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.09.17-03.20.22:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.09.17-03.20.22:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.09.17-03.20.22:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.09.17-03.20.23:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.09.17-03.20.23:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.09.17-03.20.23:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.09.17-03.20.23:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.09.17-03.20.23:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.09.17-03.20.23:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.09.17-03.20.23:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.09.17-03.20.23:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.09.17-03.20.23:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.09.17-03.20.23:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.09.17-03.20.23:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.09.17-03.20.23:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.09.17-03.20.23:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.09.17-03.20.23:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.09.17-03.20.23:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.09.17-03.20.23:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.09.17-03.20.23:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.09.17-03.20.23:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.09.17-03.20.23:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.09.17-03.20.23:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.09.17-03.20.23:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.09.17-03.20.23:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.09.17-03.20.23:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.09.17-03.20.23:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.09.17-03.20.23:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.09.17-03.20.23:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.09.17-03.20.23:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.09.17-03.20.23:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.09.17-03.20.23:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.09.17-03.20.23:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.09.17-03.20.23:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.09.17-03.20.23:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.09.17-03.20.23:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.09.17-03.20.23:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.09.17-03.20.23:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.09.17-03.20.23:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.09.17-03.20.23:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.09.17-03.20.23:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.09.17-03.20.23:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.09.17-03.20.23:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.09.17-03.20.23:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.09.17-03.20.23:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.09.17-03.20.23:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.09.17-03.20.23:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.09.17-03.20.23:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.09.17-03.20.23:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.09.17-03.20.23:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.09.17-03.20.23:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.09.17-03.20.23:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.09.17-03.20.24:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.09.17-03.20.24:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Unreal Projects/VirtualUP/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.09.17-03.20.24:084][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-03.20.24:131][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2018.09.17-03.20.24:147][  0]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/Floor_400x400AAB10B5F4924CB91102112A33B62E2FC.tmp' to 'D:/Unreal Projects/VirtualUP/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.09.17-03.20.24:151][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.09.17-03.20.24:152][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.17-03.20.24:152][  0]LightingResults: New page: Lighting Build
-[2018.09.17-03.20.24:154][  0]MapCheck: New page: Map Check
-[2018.09.17-03.20.24:155][  0]LightingResults: New page: Lighting Build
-[2018.09.17-03.20.24:258][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.09.17-03.20.24:264][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.17-03.20.24:284][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.17-03.20.24:337][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.308ms to complete.
-[2018.09.17-03.20.24:337][  0]LogFileHelpers: Loading map 'StartupMap' took 0.185
-[2018.09.17-03.20.24:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-03.20.24:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-03.20.24:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-03.20.24:456][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.17-03.20.24:465][  0]LogCollectionManager: Loaded 0 collections in 0.001317 seconds
-[2018.09.17-03.20.24:506][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Saved/Collections/' took 0.01s
-[2018.09.17-03.20.24:506][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Developers/ripple19/Collections/' took 0.01s
-[2018.09.17-03.20.24:506][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Collections/' took 0.01s
-[2018.09.17-03.20.24:506][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.17-03.20.24:514][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2572 classes and 603 folders.
-[2018.09.17-03.20.24:519][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-03.20.24:551][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-03.20.24:562][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.17-03.20.24:563][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.17-03.20.24:571][  0]LogSlate: Took 0.004623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.17-03.20.24:639][  0]LogRenderer: Reallocating scene render targets to support 1176x620 Format 26 NumSamples 1 (Frame:1).
-[2018.09.17-03.20.24:668][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.17-03.20.24:732][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.17-03.20.24:732][  0]LogLoad: (Engine Initialization) Total time: 10.66 seconds
-[2018.09.17-03.20.24:732][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.17-03.20.24:742][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.17-03.20.24:811][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.17-03.20.25:380][ 66]LogAssetRegistry: Asset discovery search completed in 8.2250 seconds
-[2018.09.17-03.20.25:382][ 66]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.09.17-03.20.25:383][ 66]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2018.09.18-05.50.51:756][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-05.50.51:756][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.18-05.50.51:770][  0]LogHAL: Display: Platform has ~ 16 GB [17139462144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.18-05.50.51:770][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.18-05.50.51:770][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.18-05.50.51:770][  0]LogInit: Computer: DESKTOP-KINSOES
+[2018.09.18-05.50.51:770][  0]LogInit: User: ripple19
+[2018.09.18-05.50.51:770][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.18-05.50.51:770][  0]LogInit: High frequency timer resolution =3.703123 MHz
+[2018.09.18-05.50.51:770][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.09.18-05.50.51:770][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.18-05.50.51:770][  0]LogMemory: Process Physical Memory: 100.29 MB used, 100.29 MB peak
+[2018.09.18-05.50.51:770][  0]LogMemory: Process Virtual Memory: 84.57 MB used, 84.57 MB peak
+[2018.09.18-05.50.51:770][  0]LogMemory: Physical Memory: 6365.53 MB used,  9979.93 MB free, 16345.46 MB total
+[2018.09.18-05.50.51:770][  0]LogMemory: Virtual Memory: 4620.27 MB used,  9979.93 MB free, 134217728.00 MB total
+[2018.09.18-05.50.51:785][  0]LogInit: Using OS detected language (en-US).
+[2018.09.18-05.50.51:785][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.18-05.50.51:785][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.18-05.50.52:112][  0]LogStreaming: Display: Took  0.327s to InitEngineTextLocalization.
+[2018.09.18-05.50.52:113][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.18-05.50.52:139][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.18-05.50.52:139][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.18-05.50.52:283][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-05.50.52:283][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.18-05.50.52:334][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.09.18-05.50.52:334][  0]LogD3D11RHI:       8079/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.18-05.50.52:336][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.18-05.50.52:336][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.18-05.50.52:336][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.18-05.50.52:342][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.18-05.50.52:342][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.18-05.50.52:342][  0]LogWindows: EnumDisplayDevices:
+[2018.09.18-05.50.52:342][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.09.18-05.50.52:342][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-05.50.52:342][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-05.50.52:342][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.18-05.50.52:343][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.18-05.50.52:343][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.09.18-05.50.52:343][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.09.18-05.50.52:343][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.09.18-05.50.52:343][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.09.18-05.50.52:374][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.18-05.50.52:392][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.18-05.50.52:440][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (D:/Unreal Projects/VirtualUP/Intermediate/Shaders/WorkingDirectory/14908/).
+[2018.09.18-05.50.52:441][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ripple19/AppData/Local/Temp/UnrealShaderWorkingDir/2284EBCB45FF36705EC4B5894F295EBC/'.
+[2018.09.18-05.50.52:659][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.18-05.50.52:670][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.18-05.50.52:680][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.18-05.50.52:691][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.18-05.50.52:702][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.18-05.50.52:713][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.18-05.50.52:723][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.18-05.50.52:733][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.18-05.50.52:739][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-05.50.52:803][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.18-05.50.52:858][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-05.50.52:858][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-05.50.52:878][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-05.50.52:878][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-05.50.52:887][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.18-05.50.52:898][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.18-05.50.52:908][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.18-05.50.52:919][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.18-05.50.52:926][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.18-05.50.52:926][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.18-05.50.52:980][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.18-05.50.52:980][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.18-05.50.52:980][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.18-05.50.53:672][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.18-05.50.53:730][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.18-05.50.53:743][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.18-05.50.53:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ripple19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.18-05.50.53:755][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.18-05.50.53:755][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.18-05.50.53:772][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.18-05.50.53:773][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.18-05.50.53:773][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.18-05.50.53:845][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2018.09.18-05.50.54:144][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-05.50.54:271][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.18-05.50.54:274][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.18-05.50.54:274][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.18-05.50.54:274][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.18-05.50.54:274][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.18-05.50.54:288][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
+[2018.09.18-05.50.54:784][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.098020 seconds
+[2018.09.18-05.50.54:790][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.18-05.50.54:790][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.18-05.50.54:790][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.18-05.50.55:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.18-05.50.55:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.18-05.50.55:677][  0]SourceControl: Source control is disabled
+[2018.09.18-05.50.56:261][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.18-05.50.56:324][  0]LogOcInput: OculusInput pre-init called
+[2018.09.18-05.50.56:377][  0]LogEngine: Initializing Engine...
+[2018.09.18-05.50.56:377][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-05.50.56:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-05.50.56:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-05.50.56:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-05.50.56:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-05.50.56:561][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.18-05.50.56:572][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.18-05.50.56:623][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-05.50.56:634][  0]LogInit: FAudioDevice initialized.
+[2018.09.18-05.50.56:634][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.18-05.50.56:741][  0]LogDerivedDataCache: Saved boot cache 0.11s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-05.50.56:752][  0]LogInit: Texture streaming: Enabled
+[2018.09.18-05.50.56:766][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.18-05.50.56:778][  0]LogInit: Transaction tracking system initialized
+[2018.09.18-05.50.56:798][  0]BlueprintLog: New page: Editor Load
+[2018.09.18-05.50.56:868][  0]LocalizationService: Localization service is disabled
+[2018.09.18-05.50.57:245][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.18-05.50.57:245][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.18-05.50.57:245][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.18-05.50.57:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-05.50.57:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-05.50.57:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-05.50.57:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-05.50.57:343][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/' took 0.02s
+[2018.09.18-05.50.57:343][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-05.50.57:343][  0]LightingResults: New page: Lighting Build
+[2018.09.18-05.50.57:346][  0]MapCheck: New page: Map Check
+[2018.09.18-05.50.57:346][  0]LightingResults: New page: Lighting Build
+[2018.09.18-05.50.57:472][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-05.50.57:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-05.50.57:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-05.50.57:555][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.643ms to complete.
+[2018.09.18-05.50.57:555][  0]LogFileHelpers: Loading map 'StartupMap' took 0.212
+[2018.09.18-05.50.57:663][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.50.57:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.50.57:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.50.57:684][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.50.57:693][  0]LogCollectionManager: Loaded 0 collections in 0.001332 seconds
+[2018.09.18-05.50.57:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Saved/Collections/' took 0.01s
+[2018.09.18-05.50.57:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Developers/ripple19/Collections/' took 0.01s
+[2018.09.18-05.50.57:731][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Collections/' took 0.01s
+[2018.09.18-05.50.57:731][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.18-05.50.57:739][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2572 classes and 603 folders.
+[2018.09.18-05.50.57:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-05.50.58:019][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.18-05.50.58:073][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.18-05.50.58:075][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.18-05.50.58:084][  0]LogSlate: Took 0.005520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.18-05.50.58:155][  0]LogRenderer: Reallocating scene render targets to support 1176x620 Format 26 NumSamples 1 (Frame:1).
+[2018.09.18-05.50.58:266][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.18-05.50.58:266][  0]LogLoad: (Engine Initialization) Total time: 7.79 seconds
+[2018.09.18-05.50.58:266][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.18-05.50.58:275][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.18-05.50.58:296][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.18-05.50.58:340][  0]LogSlate: Took 0.003839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-05.50.58:350][  1]LogAssetRegistry: Asset discovery search completed in 4.5288 seconds
+[2018.09.18-05.50.58:352][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.18-05.50.58:352][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.09.18-05.51.03:075][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.51.06:861][ 16]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-05.51.06:866][ 16]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+[2018.09.18-05.51.06:886][ 16]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-05.51.06:886][ 16]LightingResults: New page: Lighting Build
+[2018.09.18-05.51.06:887][ 16]LoadErrors: New page: Loading map: StartupMap.umap
+[2018.09.18-05.51.06:887][ 16]MapCheck: New page: Map Check
+[2018.09.18-05.51.06:888][ 16]LightingResults: New page: Lighting Build
+[2018.09.18-05.51.06:924][ 16]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-05.51.06:974][ 16]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-05.51.07:011][ 16]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-05.51.07:067][ 16]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.396ms to complete.
+[2018.09.18-05.51.07:068][ 16]LogFileHelpers: Loading map 'StartupMap' took 0.182
+[2018.09.18-05.51.09:609][314]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-05.51.09:620][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-05.51.09:632][314]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 3:51:09 PM)
+[2018.09.18-05.51.09:632][314]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-05.51.09:636][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003876s)
+[2018.09.18-05.51.09:636][314]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-05.51.09:637][314]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.09.18-05.51.09:637][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004543s)
+[2018.09.18-05.51.09:660][314]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-05.51.09:669][314]LogInit: FAudioDevice initialized.
+[2018.09.18-05.51.09:710][314]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-05.51.09:712][314]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.17-22.51.09
+[2018.09.18-05.51.09:712][314]LogWorld: Bringing up level for play took: 0.001260
+[2018.09.18-05.51.09:728][314]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.09.18-05.51.09:728][314]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-05.51.09:728][314]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-05.51.09:729][314]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-05.51.09:730][314]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-05.51.09:730][314]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.748
+[2018.09.18-05.51.10:900][453]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.09.18-05.51.10:900][453]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.09.18-05.51.10:900][453]LogNet: Browse: /Game/Levels/ShileyHall
+[2018.09.18-05.51.10:900][453]LogLoad: LoadMap: /Game/Levels/ShileyHall
+[2018.09.18-05.51.11:121][453]LogAIModule: Creating AISystem for world ShileyHall
+[2018.09.18-05.51.11:121][453]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.09.18-05.51.11:121][453]LogLoad: Game class is 'GameModeBase'
+[2018.09.18-05.51.11:122][453]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall up for play (max tick rate 0) at 2018.09.17-22.51.11
+[2018.09.18-05.51.11:123][453]LogWorld: Bringing up level for play took: 0.000763
+[2018.09.18-05.51.11:123][453]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.09.18-05.51.11:124][453]LogLoad: Took 0.223950 seconds to LoadMap(/Game/Levels/ShileyHall)
+[2018.09.18-05.51.19:647][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.51.19:676][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-05.51.19:696][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.51.19:748][478]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.09.18-05.51.22:759][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.51.25:901][212]LogAIModule: Creating AISystem for world ShileyHall
+[2018.09.18-05.51.25:903][212]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall.ShileyHall
+[2018.09.18-05.51.25:921][212]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/ShileyHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-05.51.25:922][212]LightingResults: New page: Lighting Build
+[2018.09.18-05.51.25:922][212]LoadErrors: New page: Loading map: ShileyHall.umap
+[2018.09.18-05.51.25:923][212]MapCheck: New page: Map Check
+[2018.09.18-05.51.25:923][212]LightingResults: New page: Lighting Build
+[2018.09.18-05.51.25:989][212]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-05.51.26:026][212]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-05.51.26:086][212]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.318ms to complete.
+[2018.09.18-05.51.26:086][212]LogFileHelpers: Loading map 'ShileyHall' took 0.165
+[2018.09.18-05.51.30:619][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.51.32:166][915]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.18-05.51.33:201][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.51.37:567][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.51.41:724][ 45]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2018.09.18-05.51.45:621][472]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.09.18-05.56.28:570][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-05.56.32:678][362]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-05.56.33:093][362]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.18-05.56.33:717][362]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.18-05.57.14:798][519]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.SKEL_MoreInfoWidget_C' ref from Metadata '/Game/UIWidgets/NewWidgetBlueprint.PackageMetaData'
+[2018.09.18-05.57.14:798][519]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.MoreInfoWidget_C' ref from Metadata '/Game/UIWidgets/NewWidgetBlueprint.PackageMetaData'
+[2018.09.18-05.57.14:798][519]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.MoreInfoWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UIWidgets/NewWidgetBlueprint.PackageMetaData'
+[2018.09.18-05.57.14:798][519]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.MoreInfoWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UIWidgets/NewWidgetBlueprint.PackageMetaData'
+[2018.09.18-05.57.14:798][519]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.MoreInfoWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UIWidgets/NewWidgetBlueprint.PackageMetaData'
+[2018.09.18-05.57.14:815][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.18-05.57.14:824][519]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidgetBB94592541ABDF78BEA1808815ADC861.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-05.57.25:463][335]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.18-05.57.26:387][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset" SILENT=true
+[2018.09.18-05.57.26:411][400]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget426A0F10431718C3CE88B99E7D7C543B.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset'
+[2018.09.18-05.57.27:499][489]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-05.57.27:501][489]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-05.57.28:612][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/ShileyHall" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/ShileyHall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-05.57.28:669][611]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/ShileyHallE29B1AAF4E573D7CCDE05F96366F671D.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/ShileyHall.umap'
+[2018.09.18-05.57.46:844][995]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-05.57.46:848][995]LogAssetEditorManager: Opening Asset editor for World /Game/VirtualRealityBP/Maps/StartupMap.StartupMap
+[2018.09.18-05.57.48:066][995]LogSlate: Window 'Save Content' being destroyed
+[2018.09.18-05.57.48:132][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset" SILENT=true
+[2018.09.18-05.57.48:140][995]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidgetA5D55C06433ED85AD708C98F83E9137A.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset'
+[2018.09.18-05.57.48:237][995]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-05.57.48:237][995]LightingResults: New page: Lighting Build
+[2018.09.18-05.57.48:237][995]LoadErrors: New page: Loading map: StartupMap.umap
+[2018.09.18-05.57.48:238][995]MapCheck: New page: Map Check
+[2018.09.18-05.57.48:238][995]LightingResults: New page: Lighting Build
+[2018.09.18-05.57.48:321][995]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-05.57.48:365][995]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-05.57.48:429][995]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.875ms to complete.
+[2018.09.18-05.57.48:429][995]LogFileHelpers: Loading map 'StartupMap' took 0.193
+[2018.09.18-05.57.50:282][213]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-05.57.50:293][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-05.57.50:293][213]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 3:57:50 PM)
+[2018.09.18-05.57.50:293][213]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-05.57.50:297][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003917s)
+[2018.09.18-05.57.50:298][213]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-05.57.50:298][213]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2018.09.18-05.57.50:298][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004567s)
+[2018.09.18-05.57.50:328][213]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-05.57.50:335][213]LogInit: FAudioDevice initialized.
+[2018.09.18-05.57.50:367][213]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-05.57.50:369][213]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.17-22.57.50
+[2018.09.18-05.57.50:369][213]LogWorld: Bringing up level for play took: 0.001203
+[2018.09.18-05.57.50:381][213]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-05.57.50:381][213]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-05.57.50:381][213]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-05.57.50:382][213]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-05.57.50:382][213]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.6
+[2018.09.18-05.57.51:963][402]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.09.18-05.57.51:963][402]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.09.18-05.57.51:963][402]LogNet: Browse: /Game/Levels/ShileyHall
+[2018.09.18-05.57.51:963][402]LogLoad: LoadMap: /Game/Levels/ShileyHall
+[2018.09.18-05.57.52:006][402]LogAIModule: Creating AISystem for world ShileyHall
+[2018.09.18-05.57.52:006][402]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.09.18-05.57.52:006][402]LogLoad: Game class is 'GameModeBase'
+[2018.09.18-05.57.52:007][402]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall up for play (max tick rate 0) at 2018.09.17-22.57.52
+[2018.09.18-05.57.52:007][402]LogWorld: Bringing up level for play took: 0.000659
+[2018.09.18-05.57.52:008][402]LogLoad: Took 0.044975 seconds to LoadMap(/Game/Levels/ShileyHall)
+[2018.09.18-05.58.05:224][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.58.05:254][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-05.58.05:279][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.58.05:324][991]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.18-05.58.18:519][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-05.58.27:501][448]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-06.05.15:371][380]LogSlate: Window 'MainMenuWidget*' being destroyed
+[2018.09.18-06.05.15:373][380]LogSlate: Window 'MainMenuWidget*' being destroyed
+[2018.09.18-06.05.19:092][697]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.18-06.05.19:333][697]SourceControl: rm 'Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-06.05.21:256][819]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.18-06.05.21:501][819]SourceControl: rm 'Content/UIWidgets/HelpWidget.uasset'
+[2018.09.18-06.05.24:015][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget1" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget1.uasset" SILENT=true
+[2018.09.18-06.05.24:031][ 96]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget1F623E541452EF68551A6E9985788EE13.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget1.uasset'
+[2018.09.18-06.05.26:900][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget2" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget2.uasset" SILENT=true
+[2018.09.18-06.05.26:916][390]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget29CC02ADF44AD026D18AAADBBC452E241.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget2.uasset'
+[2018.09.18-06.05.31:963][915]LogMetaData: Removing '/Game/UIWidgets/HelpWidget.SKEL_HelpWidget_C' ref from Metadata '/Game/UIWidgets/MainMenuWidget1.PackageMetaData'
+[2018.09.18-06.05.31:963][915]LogMetaData: Removing '/Game/UIWidgets/HelpWidget.HelpWidget_C' ref from Metadata '/Game/UIWidgets/MainMenuWidget1.PackageMetaData'
+[2018.09.18-06.05.31:974][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset" SILENT=true
+[2018.09.18-06.05.31:990][915]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidget15803C514654853B94696189265F5A31.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset'
+[2018.09.18-06.05.32:474][915]SourceControl: rm 'Content/UIWidgets/MainMenuWidget1.uasset'
+[2018.09.18-06.05.38:022][530]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.SKEL_MoreInfoWidget_C' ref from Metadata '/Game/UIWidgets/MainMenuWidget2.PackageMetaData'
+[2018.09.18-06.05.38:022][530]LogMetaData: Removing '/Game/UIWidgets/MoreInfoWidget.MoreInfoWidget_C' ref from Metadata '/Game/UIWidgets/MainMenuWidget2.PackageMetaData'
+[2018.09.18-06.05.38:034][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.18-06.05.38:049][530]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidget47E0AE574FEA701DCF177EA2EE6C80E0.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-06.05.38:542][530]SourceControl: rm 'Content/UIWidgets/MainMenuWidget2.uasset'
+[2018.09.18-06.05.39:259][614]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/HelpWidget.HelpWidget
+[2018.09.18-06.08.02:276][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.031
+[2018.09.18-06.08.02:278][ 82]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/MainMenuWidget] ([1] browsable assets)...
+[2018.09.18-06.08.02:278][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/MainMenuWidget]
+[2018.09.18-06.08.02:278][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-06.08.02:300][ 82]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget_Auto18ED51AA747F3930A3F88228A8A80F996.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto1.uasset'
+[2018.09.18-06.08.02:301][ 82]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/HelpWidget] ([1] browsable assets)...
+[2018.09.18-06.08.02:301][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/HelpWidget]
+[2018.09.18-06.08.02:301][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/HelpWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-06.08.02:332][ 82]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidget_Auto19A9CB66949BEA87DDFE1568AD7878F25.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/HelpWidget_Auto1.uasset'
+[2018.09.18-06.08.02:333][ 82]LogFileHelpers: Auto-saving content packages took 0.055
+[2018.09.18-06.35.43:053][621]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2018.09.18-06.35.43:113][621]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-06.35.43:113][621]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-06.35.43:113][621]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-06.35.52:286][343]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-06.36.53:981][480]LogSlate: Window 'HelpWidget*' being destroyed
+[2018.09.18-06.36.56:309][754]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-06.37.03:011][335]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/HelpWidget.HelpWidget
+[2018.09.18-06.37.58:810][206]BlueprintLog: New page: Compile HelpWidget
+[2018.09.18-06.37.59:841][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.024
+[2018.09.18-06.37.59:842][276]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/HelpWidget] ([1] browsable assets)...
+[2018.09.18-06.37.59:842][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/HelpWidget]
+[2018.09.18-06.37.59:843][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/HelpWidget_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-06.37.59:859][276]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidget_Auto2EF567FF24051CBC744082C917F7C86F7.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/HelpWidget_Auto2.uasset'
+[2018.09.18-06.37.59:859][276]LogFileHelpers: Auto-saving content packages took 0.017
+[2018.09.18-06.38.09:031][ 15]LogEditorTransaction: Undo Move Widget
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_6.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_8.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_9.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Game/UIWidgets/HelpWidget.HelpWidget:WidgetTree.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_4.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Game/UIWidgets/HelpWidget.HelpWidget_C:WidgetTree.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_10.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_11.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_12.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_13.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_14.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_15.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_16.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236 or CanvasPanel /Engine/Transient.World_10:HelpWidget_C_17.WidgetTree_0.CanvasPanel_236
+[2018.09.18-06.39.22:986][952]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_10:HelpWidget_C_7.WidgetTree_0.CanvasPanel_236.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Button_297).  Import failed...
+[2018.09.18-06.39.22:986][952]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_236.CanvasPanelSlot_2"''
+[2018.09.18-06.39.23:041][956]SourceControl: fatal: C:/UE_4.20/Engine/Content/UMG/Editor: 'C:/UE_4.20/Engine/Content/UMG/Editor' is outside repository
+[2018.09.18-06.43.24:217][439]LogEditorTransaction: Undo Move Widget
+[2018.09.18-06.43.33:240][158]BlueprintLog: New page: Compile HelpWidget
+[2018.09.18-06.43.34:522][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset" SILENT=true
+[2018.09.18-06.43.34:547][260]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidget86D10B35448A31B078C6EF834CEA799F.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset'
+[2018.09.18-06.43.37:652][532]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.18-06.43.37:654][532]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.18-06.43.39:415][734]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-06.44.50:128][682]LogEditorTransaction: Undo Add Variable
+[2018.09.18-06.48.00:357][364]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.032
+[2018.09.18-06.48.00:358][364]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/MainMenuWidget] ([1] browsable assets)...
+[2018.09.18-06.48.00:358][364]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/MainMenuWidget]
+[2018.09.18-06.48.00:359][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-06.48.00:381][364]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget_Auto38676D12E4AD0E4A65EFDE7879418C785.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto3.uasset'
+[2018.09.18-06.48.00:382][364]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.09.18-07.13.48:255][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.028
+[2018.09.18-07.13.48:256][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/MainMenuWidget] ([1] browsable assets)...
+[2018.09.18-07.13.48:256][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/MainMenuWidget]
+[2018.09.18-07.13.48:257][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-07.13.48:279][322]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget_Auto46D325AA34C346E9A2C07C99ED7A156F8.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto4.uasset'
+[2018.09.18-07.13.48:280][322]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.09.18-07.16.38:453][167]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.18-07.18.40:100][343]LogSlate: Took 0.005452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.18-07.20.55:410][526]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.18-07.20.56:000][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset" SILENT=true
+[2018.09.18-07.20.56:022][573]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget2C40EE974DB88FD3C747E5AC00955F66.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset'
+[2018.09.18-07.21.03:356][944]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-07.21.03:376][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-07.21.03:377][944]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 5:21:03 PM)
+[2018.09.18-07.21.03:377][944]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-07.21.03:381][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004324s)
+[2018.09.18-07.21.03:382][944]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-07.21.03:382][944]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.09.18-07.21.03:382][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.005222s)
+[2018.09.18-07.21.03:414][944]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-07.21.03:421][944]LogInit: FAudioDevice initialized.
+[2018.09.18-07.21.03:452][944]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-07.21.03:454][944]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-00.21.03
+[2018.09.18-07.21.03:454][944]LogWorld: Bringing up level for play took: 0.001433
+[2018.09.18-07.21.03:466][944]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-07.21.03:466][944]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-07.21.03:466][944]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-07.21.03:467][944]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-07.21.03:467][944]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.485
+[2018.09.18-07.21.05:844][228]LogScript: Warning: Accessed None trying to read property HelpWidget
+	MainMenuWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenuWidget_C_0
+	Function /Game/UIWidgets/MainMenuWidget.MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget:0015
+[2018.09.18-07.21.08:127][502]LogScript: Warning: Accessed None trying to read property HelpWidget
+	MainMenuWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenuWidget_C_0
+	Function /Game/UIWidgets/MainMenuWidget.MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget:0015
+[2018.09.18-07.21.10:644][804]LogScript: Warning: Accessed None trying to read property HelpWidget
+	MainMenuWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenuWidget_C_0
+	Function /Game/UIWidgets/MainMenuWidget.MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget:0015
+[2018.09.18-07.21.12:037][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.21.12:070][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-07.21.12:098][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.21.12:140][976]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.18-07.21.12:491][ 18]Cmd: SELECT NONE
+[2018.09.18-07.24.15:064][290]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.028
+[2018.09.18-07.24.15:066][290]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UIWidgets/MainMenuWidget] ([1] browsable assets)...
+[2018.09.18-07.24.15:066][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/MainMenuWidget]
+[2018.09.18-07.24.15:066][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-07.24.15:084][290]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget_Auto52D8701EB43B35CA4D7745AA767083F0E.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/UIWidgets/MainMenuWidget_Auto5.uasset'
+[2018.09.18-07.24.15:084][290]LogFileHelpers: Auto-saving content packages took 0.018
+[2018.09.18-08.03.01:124][608]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.18-08.03.01:665][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset" SILENT=true
+[2018.09.18-08.03.01:707][649]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidgetCD5F6DA74C83AF38469C2CAC8FA061A7.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset'
+[2018.09.18-08.03.02:413][733]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-08.03.02:416][733]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-08.03.03:300][835]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-08.03.03:317][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-08.03.03:318][835]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 6:03:03 PM)
+[2018.09.18-08.03.03:318][835]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-08.03.03:322][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003947s)
+[2018.09.18-08.03.03:322][835]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-08.03.03:322][835]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2018.09.18-08.03.03:322][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004674s)
+[2018.09.18-08.03.03:354][835]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-08.03.03:361][835]LogInit: FAudioDevice initialized.
+[2018.09.18-08.03.03:395][835]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-08.03.03:397][835]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-01.03.03
+[2018.09.18-08.03.03:398][835]LogWorld: Bringing up level for play took: 0.001415
+[2018.09.18-08.03.03:409][835]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.03.03:409][835]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.03.03:409][835]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.03.03:410][835]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.03.03:410][835]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.428
+[2018.09.18-08.03.07:458][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.03.07:497][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-08.03.07:528][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.03.07:562][324]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.18-08.03.08:138][393]Cmd: SELECT NONE
+[2018.09.18-08.03.11:486][794]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/HelpWidget.HelpWidget
+[2018.09.18-08.04.03:359][651]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.18-08.04.13:099][793]BlueprintLog: New page: Compile HelpWidget
+[2018.09.18-08.04.14:027][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset" SILENT=true
+[2018.09.18-08.04.14:048][891]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidgetFA8DE69A422D09971E240FB3C66321F9.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset'
+[2018.09.18-08.04.18:044][370]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.18-08.04.18:046][370]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.18-08.04.19:385][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-08.04.19:401][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-08.04.19:401][527]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 6:04:19 PM)
+[2018.09.18-08.04.19:401][527]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-08.04.19:405][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003596s)
+[2018.09.18-08.04.19:405][527]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-08.04.19:405][527]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2018.09.18-08.04.19:405][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004239s)
+[2018.09.18-08.04.19:437][527]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-08.04.19:444][527]LogInit: FAudioDevice initialized.
+[2018.09.18-08.04.19:474][527]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-08.04.19:475][527]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-01.04.19
+[2018.09.18-08.04.19:476][527]LogWorld: Bringing up level for play took: 0.001304
+[2018.09.18-08.04.19:487][527]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.04.19:487][527]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.04.19:487][527]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.04.19:488][527]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.04.19:488][527]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.506
+[2018.09.18-08.04.43:190][367]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.09.18-08.04.43:190][367]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.09.18-08.04.43:190][367]LogNet: Browse: /Game/Levels/ShileyHall
+[2018.09.18-08.04.43:191][367]LogLoad: LoadMap: /Game/Levels/ShileyHall
+[2018.09.18-08.04.43:347][367]LogAIModule: Creating AISystem for world ShileyHall
+[2018.09.18-08.04.43:347][367]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.09.18-08.04.43:347][367]LogLoad: Game class is 'GameModeBase'
+[2018.09.18-08.04.43:349][367]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall up for play (max tick rate 0) at 2018.09.18-01.04.43
+[2018.09.18-08.04.43:349][367]LogWorld: Bringing up level for play took: 0.000913
+[2018.09.18-08.04.43:350][367]LogLoad: Took 0.160328 seconds to LoadMap(/Game/Levels/ShileyHall)
+[2018.09.18-08.06.50:011][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-08.06.53:190][  7]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-08.06.54:738][143]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget
+[2018.09.18-08.08.50:274][211]Cmd: TRANSACTION UNDO
+[2018.09.18-08.08.50:274][211]LogEditorTransaction: Undo Move Widget
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget_C:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HelpWidget_C_4.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_10.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget_C:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:MainMenuWidget_C_10.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenuWidget_C_2.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_2.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenuWidget_C_56:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HelpWidget_C_3.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HelpWidget_C_27:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:MainMenuWidget_C_2.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HelpWidget_C_2.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenuWidget_C_51:WidgetTree.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_12.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_15.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:MainMenuWidget_C_12.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_12:MainMenuWidget_C_11.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_16:MainMenuWidget_C_1.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:852][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_13.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_3.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_4.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_14.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_7.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_8.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UIWidgets/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:MoreInfoWidget_C_9.WidgetTree_0.CanvasPanel_0
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_14.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_13.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.09.18-08.08.53:853][482]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_15.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2018.09.18-08.08.53:853][482]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_18:MoreInfoWidget_C_16.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_582).  Import failed...
+[2018.09.18-08.08.53:853][482]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2018.09.18-08.08.53:946][484]SourceControl: fatal: C:/UE_4.20/Engine/Content/UMG/Editor: 'C:/UE_4.20/Engine/Content/UMG/Editor' is outside repository
+[2018.09.18-08.48.13:957][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.48.13:989][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-08.48.14:018][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.48.14:063][109]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.18-08.48.32:786][291]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.18-08.48.37:552][856]BlueprintLog: New page: Compile MoreInfoWidget
+[2018.09.18-08.48.38:009][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.18-08.48.38:030][897]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidgetA3ABED754A1618AE176B108276AF229E.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-08.48.39:073][ 21]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.18-08.48.39:075][ 21]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.18-08.48.41:009][245]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-08.48.41:020][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-08.48.41:020][245]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 6:48:41 PM)
+[2018.09.18-08.48.41:020][245]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-08.48.41:024][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003942s)
+[2018.09.18-08.48.41:025][245]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-08.48.41:025][245]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.09.18-08.48.41:025][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004768s)
+[2018.09.18-08.48.41:055][245]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-08.48.41:063][245]LogInit: FAudioDevice initialized.
+[2018.09.18-08.48.41:096][245]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-08.48.41:097][245]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-01.48.41
+[2018.09.18-08.48.41:098][245]LogWorld: Bringing up level for play took: 0.001326
+[2018.09.18-08.48.41:109][245]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.48.41:109][245]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.48.41:109][245]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.48.41:110][245]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.48.41:110][245]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.128
+[2018.09.18-08.48.53:934][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.48.53:964][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-08.48.53:990][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.48.54:033][788]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.18-08.48.55:590][974]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget
+[2018.09.18-08.48.58:881][270]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.18-08.49.23:047][999]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.18-08.49.27:071][476]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.18-08.49.27:571][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset" SILENT=true
+[2018.09.18-08.49.27:596][510]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidget96A6FD6447F43CB068A81A8CE3C2A30B.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset'
+[2018.09.18-08.49.28:795][653]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-08.49.28:798][653]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.18-08.49.30:063][797]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-08.49.30:074][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-08.49.30:074][797]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 6:49:30 PM)
+[2018.09.18-08.49.30:074][797]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-08.49.30:079][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004441s)
+[2018.09.18-08.49.30:079][797]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-08.49.30:079][797]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2018.09.18-08.49.30:079][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.005131s)
+[2018.09.18-08.49.30:113][797]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-08.49.30:120][797]LogInit: FAudioDevice initialized.
+[2018.09.18-08.49.30:152][797]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-08.49.30:153][797]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-01.49.30
+[2018.09.18-08.49.30:154][797]LogWorld: Bringing up level for play took: 0.001234
+[2018.09.18-08.49.30:165][797]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.49.30:165][797]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.49.30:165][797]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.49.30:166][797]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.49.30:166][797]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.816
+[2018.09.18-08.49.38:132][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.49.38:162][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-08.49.38:188][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-08.49.38:238][758]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.18-08.49.38:805][826]Cmd: SELECT NONE
+[2018.09.18-08.49.40:928][ 80]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget
+[2018.09.18-08.50.11:803][451]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.674 s
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: Ensure condition failed: CurrentTransaction [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\EditorTransaction.cpp] [Line: 1368]
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: Stack: 
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd8b071e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd8840c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd885b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc29fcc80 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44ae39a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b2459 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b30dc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b371e UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b20ac UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd9499d17 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd949a177 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffe6624b3b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc281da6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc281d86f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92eb448 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92becf7 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92c41de UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffce3b4730 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92b01a2 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ad180 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffce382b38 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ae6e5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ad83d UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffc2d24713 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd9464cc9 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffd948abed UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.11:803][451]LogOutputDevice: Error: [Callstack] 0x00007fffce992d6c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7555b7c UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffcea0f60a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7c48a9e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7ce1ff8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7cc7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7cbb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff807d46cc1 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff807d46693 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a3f54e5 UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a405b3c UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a405bba UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a413dac UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a415aaa UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff805943034 KERNEL32.DLL!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: [Callstack] 0x00007ff807fc1461 ntdll.dll!UnknownFunction []
+[2018.09.18-08.50.11:804][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.11:814][451]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.18-08.50.12:603][451]LogStats:                    SendNewReport -  0.789 s
+[2018.09.18-08.50.12:603][451]LogStats:             FDebug::EnsureFailed -  1.474 s
+[2018.09.18-08.50.12:605][451]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: Ensure condition failed: Pin->LinkedTo.Contains(ReferencingPin) || GEditor->Trans->IsObjectTransacting(Pin->GetOwningNode()) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1728]
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: Stack: 
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd8b071e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd8840c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd885b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44ae3c9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b2459 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b30dc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b371e UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc44b20ac UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd9499d17 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd949a177 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffe6624b3b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc281da6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc281d86f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92eb448 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92becf7 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92c41de UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffce3b4730 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92b01a2 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ad180 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffce382b38 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ae6e5 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd92ad83d UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffc2d24713 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd9464cc9 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd948abed UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffce992d6c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7555b7c UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffcea0f60a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7c48a9e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7ce1ff8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7cc7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007fffd7cbb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff807d46cc1 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff807d46693 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ffffc3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a3f54e5 UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a405b3c UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a405bba UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a413dac UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff79a415aaa UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff805943034 KERNEL32.DLL!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: [Callstack] 0x00007ff807fc1461 ntdll.dll!UnknownFunction []
+[2018.09.18-08.50.12:605][451]LogOutputDevice: Error: 
+[2018.09.18-08.50.12:607][451]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.18-08.50.12:923][451]LogStats:                    SendNewReport -  0.315 s
+[2018.09.18-08.50.12:923][451]LogStats:             FDebug::EnsureFailed -  0.319 s
+[2018.09.18-08.50.16:947][929]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.003 s
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: 
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Open Level' not reciprocally linked with pin 'then' on node 'On Clicked (Button_326)'
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: Stack: 
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd8b071e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd8840c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd885b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffc446533f UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffc446513f UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffc4465a3a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd93e115d UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffc4465789 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd93e1000 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffc2d3ed3f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd73ed749 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd74005b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd7c824df UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd7cc437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffcea1cd80 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd7c470ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd7cc606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007fffd7cb9846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ffffc3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ffffc3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff807d46cc1 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff807d46693 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ffffc3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff79a3f54e5 UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff79a405b3c UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff79a405bba UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff79a413dac UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff79a415aaa UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff805943034 KERNEL32.DLL!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: [Callstack] 0x00007ff807fc1461 ntdll.dll!UnknownFunction []
+[2018.09.18-08.50.16:947][929]LogOutputDevice: Error: 
+[2018.09.18-08.50.16:957][929]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.18-08.50.17:263][929]LogStats:                    SendNewReport -  0.307 s
+[2018.09.18-08.50.17:263][929]LogStats:             FDebug::EnsureFailed -  0.320 s
+[2018.09.18-08.50.37:853][159]BlueprintLog: New page: Compile MoreInfoWidget
+[2018.09.18-08.50.37:891][159]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: 
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Open Level' not reciprocally linked with pin 'then' on node 'On Clicked (Button_326)'
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: Stack: 
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd8b071e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd8840c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd885b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffc446533f UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffc446513f UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffc4471090 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffc446374c UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffe6502ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffe64d756e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffe6453f54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffe64534ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd73a0091 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffc2d7df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd739f8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd74005b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7c929fe UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7d95872 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7d724bf UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7e59c3b UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7c494c5 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7ce1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7cc7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007fffd7cbb25c UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ffffc3b0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ffffc3bf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ffffc3ac209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff807d46cc1 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff807d46693 USER32.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ffffc3c0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff79a3f54e5 UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff79a405b3c UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff79a405bba UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff79a413dac UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff79a415aaa UE4Editor.exe!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff805943034 KERNEL32.DLL!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: [Callstack] 0x00007ff807fc1461 ntdll.dll!UnknownFunction []
+[2018.09.18-08.50.37:891][159]LogOutputDevice: Error: 
+[2018.09.18-08.50.37:895][159]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.18-08.50.38:198][159]LogStats:                    SendNewReport -  0.304 s
+[2018.09.18-08.50.38:198][159]LogStats:             FDebug::EnsureFailed -  0.311 s
+[2018.09.18-08.50.38:607][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.18-08.50.38:623][197]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidgetB20D29CA4B54D2E8F375D2AF0A00EA6A.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-08.50.44:926][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.18-08.50.44:941][942]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidget17B956544A3FE4BAF662EA9A9DFF852A.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.18-08.50.45:848][ 50]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.18-08.50.45:851][ 50]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.18-08.50.46:760][155]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.18-08.50.46:781][155]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.18-08.50.46:785][155]LogPlayLevel: [PlayLevel] Compiling MoreInfoWidget before play...
+[2018.09.18-08.50.46:893][155]LogPlayLevel: PlayLevel: Blueprint regeneration took 111 ms (1 blueprints)
+[2018.09.18-08.50.46:893][155]PIE: New page: PIE session: StartupMap (Sep 17, 2018, 6:50:46 PM)
+[2018.09.18-08.50.46:893][155]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.18-08.50.46:897][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003786s)
+[2018.09.18-08.50.46:897][155]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.18-08.50.46:898][155]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2018.09.18-08.50.46:898][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.004483s)
+[2018.09.18-08.50.46:928][155]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.18-08.50.46:935][155]LogInit: FAudioDevice initialized.
+[2018.09.18-08.50.46:963][155]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.18-08.50.46:965][155]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.18-01.50.46
+[2018.09.18-08.50.46:965][155]LogWorld: Bringing up level for play took: 0.001339
+[2018.09.18-08.50.46:977][155]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.50.46:978][155]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.18-08.50.46:978][155]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.50.46:978][155]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.18-08.50.46:979][155]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.004
+[2018.09.18-18.28.38:831][550]LogHttp: Warning: 000001C9E8E56980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.18-18.28.38:831][550]LogHttp: Warning: 000001C9E8E56980: libcurl info message cache 0 (Connection 81 seems to be dead!)
+[2018.09.18-18.28.38:832][550]LogHttp: Warning: 000001C9E8E56980: libcurl info message cache 1 (Closing connection 81)
+[2018.09.18-18.28.38:832][550]LogHttp: Warning: 000001C9E8E56980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.18-18.28.38:832][550]LogHttp: Warning: 000001C9E8E56980: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.18-18.28.38:832][550]LogHttp: Warning: 000001C9E8E56980: libcurl info message cache 4 (Closing connection 82)
+[2018.09.18-18.29.03:594][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-18.29.03:648][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-18.29.03:686][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-18.29.03:716][595]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.18-18.29.06:726][952]SourceControl: fatal: C:/UE_4.20/Engine/Content: 'C:/UE_4.20/Engine/Content' is outside repository
+[2018.09.18-18.29.16:676][952]LogSlate: Window 'Submit Files' being destroyed
+[2018.09.18-18.29.17:627][952]LogSourceControl: commit successful: [master 14f768c] Added lots of stuff
+[2018.09.18-18.29.17:814][952]SourceControl: [master 14f768c] Added lots of stuff
+[2018.09.18-18.29.17:814][952]SourceControl:  8 files changed, 0 insertions(+), 0 deletions(-)
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/Blueprints/MainMenu.uasset
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/Blueprints/MenuGameMode.uasset
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/Images/3309_university_of_portland_2.uasset
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/Levels/ShileyHall.umap
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/UIWidgets/HelpWidget.uasset
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/UIWidgets/MainMenuWidget.uasset
+[2018.09.18-18.29.17:814][952]SourceControl:  create mode 100644 Content/UIWidgets/MoreInfoWidget.uasset
+[2018.09.18-18.29.17:818][952]SourceControl: Commited [master 14f768c] Added lots of stuff.
