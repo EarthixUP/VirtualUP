@@ -1,0 +1,590 @@
+﻿Log file open, 09/19/18 00:30:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VirtualUP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.180523
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.075s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.19-07.30.42:693][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-07.30.42:693][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.19-07.30.42:703][  0]LogHAL: Display: Platform has ~ 16 GB [17139462144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.19-07.30.42:703][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.19-07.30.42:703][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.19-07.30.42:703][  0]LogInit: Computer: DESKTOP-KINSOES
+[2018.09.19-07.30.42:703][  0]LogInit: User: ripple19
+[2018.09.19-07.30.42:703][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.19-07.30.42:703][  0]LogInit: High frequency timer resolution =3.703123 MHz
+[2018.09.19-07.30.42:703][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.09.19-07.30.42:703][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.19-07.30.42:703][  0]LogMemory: Process Physical Memory: 100.13 MB used, 100.13 MB peak
+[2018.09.19-07.30.42:703][  0]LogMemory: Process Virtual Memory: 84.20 MB used, 84.20 MB peak
+[2018.09.19-07.30.42:703][  0]LogMemory: Physical Memory: 5935.40 MB used,  10410.06 MB free, 16345.46 MB total
+[2018.09.19-07.30.42:703][  0]LogMemory: Virtual Memory: 4620.27 MB used,  10410.06 MB free, 134217728.00 MB total
+[2018.09.19-07.30.42:717][  0]LogInit: Using OS detected language (en-US).
+[2018.09.19-07.30.42:717][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.19-07.30.42:718][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.19-07.30.43:039][  0]LogStreaming: Display: Took  0.321s to InitEngineTextLocalization.
+[2018.09.19-07.30.43:040][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.19-07.30.43:059][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.19-07.30.43:059][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.19-07.30.43:204][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.19-07.30.43:204][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.19-07.30.43:258][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.09.19-07.30.43:258][  0]LogD3D11RHI:       8079/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.19-07.30.43:260][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.19-07.30.43:260][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.19-07.30.43:260][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.19-07.30.43:265][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.19-07.30.43:265][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.19-07.30.43:265][  0]LogWindows: EnumDisplayDevices:
+[2018.09.19-07.30.43:265][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.09.19-07.30.43:266][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.19-07.30.43:266][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.19-07.30.43:266][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.09.19-07.30.43:266][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.19-07.30.43:266][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.09.19-07.30.43:266][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.09.19-07.30.43:266][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.09.19-07.30.43:266][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.09.19-07.30.43:296][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.19-07.30.43:312][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.19-07.30.43:360][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (D:/Unreal Projects/VirtualUP/Intermediate/Shaders/WorkingDirectory/12412/).
+[2018.09.19-07.30.43:360][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ripple19/AppData/Local/Temp/UnrealShaderWorkingDir/F336BAB34D9D65B64F15718D6171F711/'.
+[2018.09.19-07.30.43:566][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.19-07.30.43:577][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.19-07.30.43:587][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.19-07.30.43:598][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.19-07.30.43:609][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.19-07.30.43:620][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.19-07.30.43:631][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.19-07.30.43:643][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.19-07.30.43:649][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:716][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.19-07.30.43:717][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.19-07.30.43:774][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-07.30.43:774][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.19-07.30.43:795][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-07.30.43:795][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.19-07.30.43:805][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.19-07.30.43:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.19-07.30.43:830][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.19-07.30.43:840][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.19-07.30.43:847][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.19-07.30.43:848][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.19-07.30.43:897][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.19-07.30.43:897][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.19-07.30.43:897][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.19-07.30.44:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.19-07.30.44:599][  0]LogDerivedDataCache: Loaded boot cache 0.06s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-07.30.44:599][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.19-07.30.44:599][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.19-07.30.44:599][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.19-07.30.44:600][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.19-07.30.44:600][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.19-07.30.44:611][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.19-07.30.44:623][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ripple19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.19-07.30.44:623][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.19-07.30.44:623][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.19-07.30.44:639][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.19-07.30.44:640][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.19-07.30.44:640][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.19-07.30.44:707][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.09.19-07.30.44:976][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.19-07.30.45:098][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.19-07.30.45:101][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.19-07.30.45:101][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.19-07.30.45:101][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.19-07.30.45:101][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.19-07.30.45:115][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
+[2018.09.19-07.30.45:564][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.089816 seconds
+[2018.09.19-07.30.45:572][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.19-07.30.45:572][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.19-07.30.45:572][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.19-07.30.46:373][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.19-07.30.46:386][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.19-07.30.46:528][  0]SourceControl: Source control is disabled
+[2018.09.19-07.30.47:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.19-07.30.47:065][  0]LogOcInput: OculusInput pre-init called
+[2018.09.19-07.30.47:118][  0]LogEngine: Initializing Engine...
+[2018.09.19-07.30.47:118][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.19-07.30.47:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-07.30.47:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-07.30.47:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-07.30.47:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-07.30.47:317][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.19-07.30.47:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.19-07.30.47:339][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.19-07.30.47:349][  0]LogInit: FAudioDevice initialized.
+[2018.09.19-07.30.47:349][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.19-07.30.47:426][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.19-07.30.47:439][  0]LogInit: Texture streaming: Enabled
+[2018.09.19-07.30.47:454][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.19-07.30.47:464][  0]LogInit: Transaction tracking system initialized
+[2018.09.19-07.30.47:485][  0]BlueprintLog: New page: Editor Load
+[2018.09.19-07.30.47:554][  0]LocalizationService: Localization service is disabled
+[2018.09.19-07.30.47:778][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.19-07.30.47:778][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.19-07.30.47:778][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.19-07.30.47:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.19-07.30.47:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.19-07.30.47:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.19-07.30.47:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.19-07.30.47:872][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/' took 0.01s
+[2018.09.19-07.30.47:872][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.19-07.30.47:872][  0]LightingResults: New page: Lighting Build
+[2018.09.19-07.30.47:874][  0]MapCheck: New page: Map Check
+[2018.09.19-07.30.47:874][  0]LightingResults: New page: Lighting Build
+[2018.09.19-07.30.48:015][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.19-07.30.48:021][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.19-07.30.48:039][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.19-07.30.48:094][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.791ms to complete.
+[2018.09.19-07.30.48:094][  0]LogFileHelpers: Loading map 'StartupMap' took 0.223
+[2018.09.19-07.30.48:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.30.48:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.30.48:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.30.48:204][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.30.48:209][  0]LogCollectionManager: Loaded 0 collections in 0.001393 seconds
+[2018.09.19-07.30.48:248][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Saved/Collections/' took 0.01s
+[2018.09.19-07.30.48:248][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Developers/ripple19/Collections/' took 0.01s
+[2018.09.19-07.30.48:248][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Collections/' took 0.01s
+[2018.09.19-07.30.48:248][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.19-07.30.48:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2572 classes and 603 folders.
+[2018.09.19-07.30.48:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.19-07.30.48:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.19-07.30.48:305][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.19-07.30.48:306][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.19-07.30.48:311][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.19-07.30.48:376][  0]LogRenderer: Reallocating scene render targets to support 1176x620 Format 26 NumSamples 1 (Frame:1).
+[2018.09.19-07.30.48:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.19-07.30.48:462][  0]LogLoad: (Engine Initialization) Total time: 6.98 seconds
+[2018.09.19-07.30.48:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.19-07.30.48:472][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.19-07.30.48:494][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.19-07.30.48:529][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.19-07.30.48:544][  1]LogAssetRegistry: Asset discovery search completed in 3.8587 seconds
+[2018.09.19-07.30.48:545][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.19-07.30.48:545][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.09.19-07.31.29:330][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.19-07.31.46:400][425]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.19-07.31.46:475][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.
+[2018.09.19-07.31.46:475][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:478][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.
+[2018.09.19-07.31.46:478][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:500][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.
+[2018.09.19-07.31.46:501][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:503][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.
+[2018.09.19-07.31.46:503][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:528][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.
+[2018.09.19-07.31.46:529][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:532][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.
+[2018.09.19-07.31.46:532][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:639][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.
+[2018.09.19-07.31.46:639][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:641][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.
+[2018.09.19-07.31.46:641][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.31.46:704][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.31.46:707][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:806][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.
+[2018.09.19-07.31.46:806][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:809][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.
+[2018.09.19-07.31.46:809][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:908][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.
+[2018.09.19-07.31.46:909][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:911][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.
+[2018.09.19-07.31.46:911][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:969][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.
+[2018.09.19-07.31.46:969][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.46:971][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.
+[2018.09.19-07.31.46:971][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:048][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.
+[2018.09.19-07.31.47:048][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:050][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.
+[2018.09.19-07.31.47:050][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:092][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.
+[2018.09.19-07.31.47:094][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:096][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.
+[2018.09.19-07.31.47:096][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:146][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.
+[2018.09.19-07.31.47:146][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:151][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.
+[2018.09.19-07.31.47:151][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.31.47:300][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.31.47:303][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:327][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.
+[2018.09.19-07.31.47:327][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:330][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.
+[2018.09.19-07.31.47:330][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:336][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.
+[2018.09.19-07.31.47:336][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.47:338][425]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.
+[2018.09.19-07.31.47:338][425]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.31.50:436][425]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.19-07.34.16:873][603]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.19-07.34.16:879][603]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.19-07.34.19:035][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.
+[2018.09.19-07.34.19:035][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:042][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.
+[2018.09.19-07.34.19:042][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk005_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:137][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.
+[2018.09.19-07.34.19:137][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:139][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.
+[2018.09.19-07.34.19:139][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk007_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:256][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.
+[2018.09.19-07.34.19:256][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:263][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.
+[2018.09.19-07.34.19:263][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk009_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:608][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.
+[2018.09.19-07.34.19:608][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:611][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.
+[2018.09.19-07.34.19:611][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk025_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.34.19:835][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.34.19:838][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk030_group000_sub006_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:159][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.
+[2018.09.19-07.34.20:159][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:161][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.
+[2018.09.19-07.34.20:161][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk038_group000_sub002_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:488][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.
+[2018.09.19-07.34.20:488][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:490][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.
+[2018.09.19-07.34.20:490][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk047_group000_sub006_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:666][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.
+[2018.09.19-07.34.20:667][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:668][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.
+[2018.09.19-07.34.20:668][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk052_group000_sub003_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:837][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.
+[2018.09.19-07.34.20:837][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:838][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.
+[2018.09.19-07.34.20:838][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk080_group000_sub004_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:950][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.
+[2018.09.19-07.34.20:950][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.20:958][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.
+[2018.09.19-07.34.20:958][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk084_group000_sub003_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:102][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.
+[2018.09.19-07.34.21:102][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:103][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.
+[2018.09.19-07.34.21:103][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2.8996ab530a6a49179ef636e8e6fdeff0_chunk092_group000_sub007_filled001_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.34.21:162][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2 0 (FlipX:0). The remaining elements will not get cooked.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: Failed to cook convex: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.09.19-07.34.21:163][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window063_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:173][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.
+[2018.09.19-07.34.21:173][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:176][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.
+[2018.09.19-07.34.21:176][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window066_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:179][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.
+[2018.09.19-07.34.21:179][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.21:182][603]LogPhysics: Warning: Failed to cook TriMesh: /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.
+[2018.09.19-07.34.21:182][603]LogPhysics: Warning: Attempt to build physics data for /Game/Images/8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2.8996ab530a6a49179ef636e8e6fdeff0_window067_group000_sub002_2:BodySetup_0 when we are unable to.
+[2018.09.19-07.34.44:064][603]SourceControl: rm 'Content/Images/3309_university_of_portland_2.uasset'
+[2018.09.19-07.34.47:943][903]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../Users/ripple19/Documents/Unreal Images (Virtual UP)/3309_university_of_portland_2.jpg)
+[2018.09.19-07.34.47:954][903]LogTexture: Display: Building textures: 3309_university_of_portland_2 (BGRA8, 830X380)
+[2018.09.19-07.34.52:927][493]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/HelpWidget.HelpWidget
+[2018.09.19-07.34.53:519][493]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.19-07.34.54:251][493]LogSlate: Took 0.004447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.19-07.35.03:788][281]BlueprintLog: New page: Compile HelpWidget
+[2018.09.19-07.35.05:758][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/HelpWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset" SILENT=true
+[2018.09.19-07.35.05:780][438]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/HelpWidget07779ED0416DF1B952876DB005F4D5FF.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/HelpWidget.uasset'
+[2018.09.19-07.35.06:541][506]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.19-07.35.06:544][506]LogSlate: Window 'HelpWidget' being destroyed
+[2018.09.19-07.35.07:527][619]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MainMenuWidget.MainMenuWidget
+[2018.09.19-07.35.11:601][936]BlueprintLog: New page: Compile MainMenuWidget
+[2018.09.19-07.35.12:103][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MainMenuWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset" SILENT=true
+[2018.09.19-07.35.12:126][965]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MainMenuWidgetABA0ED0948B54A9DEBFC16B09C4F2B99.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MainMenuWidget.uasset'
+[2018.09.19-07.35.12:774][ 24]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.19-07.35.12:776][ 24]LogSlate: Window 'MainMenuWidget' being destroyed
+[2018.09.19-07.35.13:614][120]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/MoreInfoWidget.MoreInfoWidget
+[2018.09.19-07.35.18:407][500]BlueprintLog: New page: Compile MoreInfoWidget
+[2018.09.19-07.35.19:717][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/MoreInfoWidget" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset" SILENT=true
+[2018.09.19-07.35.19:736][601]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MoreInfoWidget2CFB27204FA454A07B7A869144011F62.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/MoreInfoWidget.uasset'
+[2018.09.19-07.35.20:634][682]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.19-07.35.20:636][682]LogSlate: Window 'MoreInfoWidget' being destroyed
+[2018.09.19-07.36.58:364][264]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.19-07.36.58:377][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.19-07.36.58:391][264]PIE: New page: PIE session: StartupMap (Sep 18, 2018, 5:36:58 PM)
+[2018.09.19-07.36.58:391][264]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.09.19-07.36.58:395][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004574s)
+[2018.09.19-07.36.58:396][264]LogAIModule: Creating AISystem for world StartupMap
+[2018.09.19-07.36.58:396][264]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.09.19-07.36.58:396][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.005702s)
+[2018.09.19-07.36.58:429][264]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.19-07.36.58:437][264]LogInit: FAudioDevice initialized.
+[2018.09.19-07.36.58:476][264]LogLoad: Game class is 'MenuGameMode_C'
+[2018.09.19-07.36.58:477][264]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.09.19-00.36.58
+[2018.09.19-07.36.58:478][264]LogWorld: Bringing up level for play took: 0.001454
+[2018.09.19-07.36.58:496][264]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.09.19-07.36.58:496][264]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.19-07.36.58:496][264]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.09.19-07.36.58:496][264]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.09.19-07.36.58:499][264]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.09.19-07.36.58:499][264]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.263
+[2018.09.19-07.37.01:156][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.37.01:184][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.19-07.37.01:222][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.19-07.37.01:254][585]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.19-07.40.51:622][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.032
+[2018.09.19-07.40.51:624][778]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Imagess/3309_university_of_portland_2] ([1] browsable assets)...
+[2018.09.19-07.40.51:628][778]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Imagess/3309_university_of_portland_2.3309_university_of_portland_2]
+[2018.09.19-07.40.51:628][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imagess/3309_university_of_portland_2]
+[2018.09.19-07.40.51:642][778]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/3309_university_of_portland_2_Au2839808E40F7F151E4FF8986009EF934.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Imagess/3309_university_of_portland_2_Auto1.uasset'
+[2018.09.19-07.40.51:642][778]LogFileHelpers: Auto-saving content packages took 0.019
+[2018.09.20-03.55.41:910][879]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 0 (Connection 109 seems to be dead!)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 1 (Closing connection 109)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.20-03.55.42:017][880]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 4 (Closing connection 110)
+[2018.09.20-17.46.41:709][ 29]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 0 (Connection 233 seems to be dead!)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 1 (Closing connection 233)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.20-19.17.27:866][940]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 4 (Closing connection 234)
+[2018.09.20-19.17.28:959][942]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.21-02.36.08:750][443]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.21-03.44.45:887][506]LogHttp: Warning: 000001943AEC1F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.21-03.44.45:888][506]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 0 (Connection 337 seems to be dead!)
+[2018.09.21-03.44.45:888][506]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 1 (Closing connection 337)
+[2018.09.21-03.44.45:888][506]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.21-03.44.45:888][506]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.21-03.44.45:888][506]LogHttp: Warning: 000001943AEC1F80: libcurl info message cache 4 (Closing connection 338)
+[2018.09.21-03.44.46:697][508]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.21-07.16.39:133][654]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.21-08.02.00:012][305]LogFactory: FactoryCreateFile: FileMediaSource with AndroidFileMediaSourceFactory (0 0 ../../../../Users/ripple19/Downloads/360_VR Master Series _ Free Download _ Crystal Shower Falls.mp4)
+[2018.09.21-08.02.03:190][664]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.071
+[2018.09.21-08.02.03:194][664]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Videos/360_VR_Master_Series___Free_Download___Crystal_Shower_Falls] ([1] browsable assets)...
+[2018.09.21-08.02.03:195][664]OBJ SavePackage: Finished generating thumbnails for package [/Game/Videos/360_VR_Master_Series___Free_Download___Crystal_Shower_Falls]
+[2018.09.21-08.02.03:208][664]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/360_VR_Master_Series___Free_Down8B42FE2342330C176665489A6E528A6A.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Videos/360_VR_Master_Series___Free_Download___Crystal_Shower_Falls_Auto2.uasset'
+[2018.09.21-08.02.03:210][664]LogFileHelpers: Auto-saving content packages took 0.020
+[2018.09.22-17.39.42:631][835]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 0 (Connection 516 seems to be dead!)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 1 (Closing connection 516)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.23-08.11.27:879][726]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 4 (Closing connection 517)
+[2018.09.23-08.11.28:946][727]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.23-21.05.05:035][190]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 0 (Connection 579 seems to be dead!)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 1 (Closing connection 579)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.23-21.05.05:572][191]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 4 (Closing connection 580)
+[2018.09.23-22.49.16:567][623]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.24-23.22.39:686][331]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 0 (Connection 877 seems to be dead!)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 1 (Closing connection 877)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.09.24-23.22.41:035][334]LogHttp: Warning: 000001943AEC2D40: libcurl info message cache 4 (Closing connection 878)
