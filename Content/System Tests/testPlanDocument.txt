@@ -1,0 +1,17 @@
+TEST-PLAN DOCUMENT
+
+CS Senior Capstone 2018/2019
+Group-name: VirtualUP
+Faculty advisor: Dr. Steve Vegdahl
+Industry advisor: Matthew Young
+
+~~~ System-test #1: ~~~
+With the HTC Vive headset, the user is able to successfully navigate the virtual world by having the ability to look around 360-degrees at a single position in the world.
+
+
+~~~ System-test #2: ~~~
+With the HTC Vive headset, the user experiences no more than 3-second lag between actual user's movements and the movements visible in the virtual world. (This system-test will be reliant on the specs of the computer's processor, graphics card, and RAM memory usage.)
+
+
+~~~ System-test #3: ~~~
+With the hand-held controllers (whether these controllers are keyboard-and-mouse, or a controller with 2 joysticks), the user is able to move themselves in the world by "walking" in the X-direction, Y-direction, and Z-directions.
