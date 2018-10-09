@@ -1,4 +1,4 @@
-﻿Log file open, 10/08/18 23:20:23
+﻿Log file open, 10/09/18 02:12:10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VirtualUP
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.247110
+LogStats: Stats thread started at 0.174121
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -95,7 +95,7 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin FbxAutomationTestBuilder
 LogPluginManager: Mounting plugin FunctionalTestingEditor
-LogStreaming: Display: Took  0.150s to configure plugins.
+LogStreaming: Display: Took  0.064s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,333 +149,235 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.09-06.20.23:651][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.09-06.20.23:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.09-06.20.23:680][  0]LogHAL: Display: Platform has ~ 16 GB [17139462144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.09-06.20.23:680][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.09-06.20.23:680][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.09-06.20.23:684][  0]LogInit: Computer: DESKTOP-KINSOES
-[2018.10.09-06.20.23:685][  0]LogInit: User: ripple19
-[2018.10.09-06.20.23:685][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.09-06.20.23:685][  0]LogInit: High frequency timer resolution =3.703126 MHz
-[2018.10.09-06.20.23:685][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.10.09-06.20.23:685][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.09-06.20.23:685][  0]LogMemory: Process Physical Memory: 99.91 MB used, 99.91 MB peak
-[2018.10.09-06.20.23:685][  0]LogMemory: Process Virtual Memory: 84.23 MB used, 84.23 MB peak
-[2018.10.09-06.20.23:685][  0]LogMemory: Physical Memory: 6474.83 MB used,  9870.63 MB free, 16345.46 MB total
-[2018.10.09-06.20.23:685][  0]LogMemory: Virtual Memory: 4620.27 MB used,  9870.63 MB free, 134217728.00 MB total
-[2018.10.09-06.20.23:716][  0]LogInit: Using OS detected language (en-US).
-[2018.10.09-06.20.23:716][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.09-06.20.23:717][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.09-06.20.24:119][  0]LogStreaming: Display: Took  0.403s to InitEngineTextLocalization.
-[2018.10.09-06.20.24:119][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.09-06.20.24:166][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.09-06.20.24:166][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.09-06.20.26:071][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.09-06.20.26:071][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.09-06.20.26:146][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.10.09-06.20.26:146][  0]LogD3D11RHI:       8079/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.09-06.20.26:158][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.09-06.20.26:158][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.09-06.20.26:158][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.09-06.20.26:164][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.09-06.20.26:164][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.09-06.20.26:164][  0]LogWindows: EnumDisplayDevices:
-[2018.10.09-06.20.26:164][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.10.09-06.20.26:164][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.10.09-06.20.26:165][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.10.09-06.20.26:165][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.10.09-06.20.26:165][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.10.09-06.20.26:165][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.10.09-06.20.26:165][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
-[2018.10.09-06.20.26:165][  0]LogD3D11RHI:      Driver Date: 6-24-2018
-[2018.10.09-06.20.26:165][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.10.09-06.20.26:197][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.09-06.20.26:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.09-06.20.26:262][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (D:/Unreal Projects/VirtualUP/Intermediate/Shaders/WorkingDirectory/13012/).
-[2018.10.09-06.20.26:262][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ripple19/AppData/Local/Temp/UnrealShaderWorkingDir/2942A04143F11F100274E8AD177F4DB9/'.
-[2018.10.09-06.20.26:691][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.09-06.20.26:702][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.09-06.20.26:713][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.09-06.20.26:725][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.09-06.20.26:740][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.09-06.20.26:752][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.09-06.20.26:764][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.09-06.20.26:775][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.09-06.20.26:782][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:854][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.09-06.20.26:856][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.09-06.20.26:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.09-06.20.26:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.09-06.20.26:933][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.09-06.20.26:933][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.09-06.20.26:944][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.09-06.20.26:955][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.09-06.20.26:967][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.09-06.20.26:982][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.09-06.20.26:990][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.09-06.20.26:990][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.09-06.20.27:064][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.09-06.20.27:064][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.09-06.20.27:064][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.09-06.20.28:569][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: Loaded boot cache 0.29s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.09-06.20.28:861][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.09-06.20.28:872][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.09-06.20.28:885][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ripple19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.09-06.20.28:885][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.09-06.20.28:885][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.09-06.20.28:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.09-06.20.28:902][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.09-06.20.28:914][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.09-06.20.29:156][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2018.10.09-06.20.29:436][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.09-06.20.29:561][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.09-06.20.29:566][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.09-06.20.29:566][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.09-06.20.29:566][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.09-06.20.29:566][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.09-06.20.29:579][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
-[2018.10.09-06.20.30:073][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.102295 seconds
-[2018.10.09-06.20.30:079][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.09-06.20.30:079][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.09-06.20.30:079][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.09-06.20.32:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.09-06.20.32:842][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.09-06.20.33:035][  0]SourceControl: Source control is disabled
-[2018.10.09-06.20.33:626][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.09-06.20.33:696][  0]LogOcInput: OculusInput pre-init called
-[2018.10.09-06.20.33:787][  0]LogEngine: Initializing Engine...
-[2018.10.09-06.20.33:788][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.09-06.20.33:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.09-06.20.33:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.09-06.20.33:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.09-06.20.33:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.09-06.20.33:970][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.09-06.20.33:987][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.09-06.20.34:046][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.10.09-06.20.34:057][  0]LogInit: FAudioDevice initialized.
-[2018.10.09-06.20.34:057][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.09-06.20.34:151][  0]LogDerivedDataCache: Saved boot cache 0.09s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.09-06.20.34:159][  0]LogInit: Texture streaming: Enabled
-[2018.10.09-06.20.34:177][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.09-06.20.34:194][  0]LogInit: Transaction tracking system initialized
-[2018.10.09-06.20.34:225][  0]BlueprintLog: New page: Editor Load
-[2018.10.09-06.20.34:319][  0]LocalizationService: Localization service is disabled
-[2018.10.09-06.20.34:715][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.09-06.20.34:715][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.09-06.20.34:716][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.09-06.20.34:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.09-06.20.34:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.09-06.20.34:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.09-06.20.34:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.09-06.20.34:812][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/' took 0.02s
-[2018.10.09-06.20.34:907][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-06.20.34:961][  0]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.34:966][  0]MapCheck: New page: Map Check
-[2018.10.09-06.20.34:966][  0]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.35:467][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.10.09-06.20.35:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-06.20.35:505][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-06.20.35:560][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.185ms to complete.
-[2018.10.09-06.20.35:560][  0]LogFileHelpers: Loading map 'StartupMap' took 0.652
-[2018.10.09-06.20.35:710][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.20.35:718][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.20.35:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.20.35:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.20.35:747][  0]LogCollectionManager: Loaded 0 collections in 0.001328 seconds
-[2018.10.09-06.20.35:806][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Saved/Collections/' took 0.01s
-[2018.10.09-06.20.35:806][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Developers/ripple19/Collections/' took 0.01s
-[2018.10.09-06.20.35:806][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Collections/' took 0.01s
-[2018.10.09-06.20.35:806][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.09-06.20.35:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2575 classes and 607 folders.
-[2018.10.09-06.20.35:831][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.09-06.20.36:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.09-06.20.36:321][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.09-06.20.36:321][  0]LogLoad: (Engine Initialization) Total time: 15.92 seconds
-[2018.10.09-06.20.36:321][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.09-06.20.36:330][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.10.09-06.20.36:353][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.09-06.20.36:359][  0]LogSlate: Took 0.005128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.09-06.20.36:365][  0]LogSlate: Took 0.005101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.09-06.20.36:376][  0]LogSlate: Took 0.005618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.09-06.20.36:516][  2]LogRenderer: Reallocating scene render targets to support 772x528 Format 26 NumSamples 1 (Frame:1).
-[2018.10.09-06.20.40:518][460]LogSlate: Took 0.007291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.09-06.20.41:193][525]LogAssetRegistry: Asset discovery search completed in 12.0587 seconds
-[2018.10.09-06.20.41:194][525]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.09-06.20.41:195][525]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
-[2018.10.09-06.20.50:951][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.20.51:132][852]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.09-06.20.51:300][852]LogAIModule: Creating AISystem for world FTEST_ShielyHall
-[2018.10.09-06.20.51:304][852]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/FTEST_ShielyHall.FTEST_ShielyHall
-[2018.10.09-06.20.51:325][852]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/FTEST_ShielyHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-06.20.51:326][852]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.51:326][852]LoadErrors: New page: Loading map: FTEST_ShielyHall.umap
-[2018.10.09-06.20.51:327][852]MapCheck: New page: Map Check
-[2018.10.09-06.20.51:327][852]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.51:353][852]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-06.20.51:392][852]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-06.20.51:447][852]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.443ms to complete.
-[2018.10.09-06.20.51:447][852]LogFileHelpers: Loading map 'FTEST_ShielyHall' took 0.122
-[2018.10.09-06.20.53:995][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.20.54:365][172]LogAIModule: Creating AISystem for world ShileyHall
-[2018.10.09-06.20.54:376][172]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall.ShileyHall
-[2018.10.09-06.20.54:397][172]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/ShileyHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-06.20.54:397][172]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.54:397][172]LoadErrors: New page: Loading map: ShileyHall.umap
-[2018.10.09-06.20.54:398][172]MapCheck: New page: Map Check
-[2018.10.09-06.20.54:398][172]LightingResults: New page: Lighting Build
-[2018.10.09-06.20.54:425][172]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-06.20.54:464][172]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-06.20.54:520][172]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.566ms to complete.
-[2018.10.09-06.20.54:520][172]LogFileHelpers: Loading map 'ShileyHall' took 0.123
-[2018.10.09-06.21.01:938][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.21.04:765][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall' with GeneratedClass '/Game/Levels/ShileyHall.ShileyHall_C' with ClassGeneratedBy '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall'
-[2018.10.09-06.21.04:766][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.09-06.21.04:782][389]PIE: New page: PIE session: ShileyHall (Oct 8, 2018, 4:21:04 PM)
-[2018.10.09-06.21.04:782][389]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall
-[2018.10.09-06.21.04:791][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008631s)
-[2018.10.09-06.21.04:792][389]LogAIModule: Creating AISystem for world ShileyHall
-[2018.10.09-06.21.04:792][389]LogPlayLevel: PIE: World Init took: (0.000682s)
-[2018.10.09-06.21.04:792][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall.ShileyHall to /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall (0.009671s)
-[2018.10.09-06.21.04:818][389]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.10.09-06.21.04:826][389]LogInit: FAudioDevice initialized.
-[2018.10.09-06.21.04:827][389]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.21.04:877][389]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.10.09-06.21.04:877][389]LogLoad: Game class is 'GameModeBase'
-[2018.10.09-06.21.04:890][389]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall up for play (max tick rate 0) at 2018.10.08-23.21.04
-[2018.10.09-06.21.04:898][389]LogWorld: Bringing up level for play took: 0.010185
-[2018.10.09-06.21.04:923][389]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
-[2018.10.09-06.21.04:936][389]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall -0.2
-[2018.10.09-06.21.04:937][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall' with GeneratedClass '/Game/Levels/ShileyHall.ShileyHall_C' with ClassGeneratedBy '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall'
-[2018.10.09-06.21.17:783][894]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall' with GeneratedClass '/Game/Levels/ShileyHall.ShileyHall_C' with ClassGeneratedBy '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall'
-[2018.10.09-06.21.17:792][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.21.17:829][894]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.09-06.21.17:829][894]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall' with GeneratedClass '/Game/Levels/ShileyHall.ShileyHall_C' with ClassGeneratedBy '/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.ShileyHall'
-[2018.10.09-06.21.17:849][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.21.17:853][894]LogActorComponent: ReregisterComponent: (/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.Plane_5.MediaSound.AudioComponent_1) Not currently registered. Aborting.
-[2018.10.09-06.21.17:853][894]LogActorComponent: ReregisterComponent: (/Game/Levels/ShileyHall.ShileyHall:PersistentLevel.Sphere_14.MediaSound.AudioComponent_1) Not currently registered. Aborting.
-[2018.10.09-06.21.17:883][898]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.10.09-06.21.18:613][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.21.18:913][ 19]LogAIModule: Creating AISystem for world FTEST_ShielyHall
-[2018.10.09-06.21.18:916][ 19]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/FTEST_ShielyHall.FTEST_ShielyHall
-[2018.10.09-06.21.18:935][ 19]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/FTEST_ShielyHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-06.21.18:935][ 19]LightingResults: New page: Lighting Build
-[2018.10.09-06.21.18:935][ 19]LoadErrors: New page: Loading map: FTEST_ShielyHall.umap
-[2018.10.09-06.21.18:936][ 19]MapCheck: New page: Map Check
-[2018.10.09-06.21.18:936][ 19]LightingResults: New page: Lighting Build
-[2018.10.09-06.21.18:956][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-06.21.18:996][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-06.21.19:054][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.797ms to complete.
-[2018.10.09-06.21.19:054][ 19]LogFileHelpers: Loading map 'FTEST_ShielyHall' took 0.120
-[2018.10.09-06.21.20:220][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.21.20:320][167]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.09-06.21.20:334][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.09-06.21.20:334][167]PIE: New page: PIE session: FTEST_ShielyHall (Oct 8, 2018, 4:21:20 PM)
-[2018.10.09-06.21.20:334][167]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FTEST_ShielyHall
-[2018.10.09-06.21.20:338][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003889s)
-[2018.10.09-06.21.20:338][167]LogAIModule: Creating AISystem for world FTEST_ShielyHall
-[2018.10.09-06.21.20:338][167]LogPlayLevel: PIE: World Init took: (0.000581s)
-[2018.10.09-06.21.20:338][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FTEST_ShielyHall.FTEST_ShielyHall to /Game/Levels/UEDPIE_0_FTEST_ShielyHall.FTEST_ShielyHall (0.004581s)
-[2018.10.09-06.21.20:364][167]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.10.09-06.21.20:372][167]LogInit: FAudioDevice initialized.
-[2018.10.09-06.21.20:405][167]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.10.09-06.21.20:405][167]LogLoad: Game class is 'GameModeBase'
-[2018.10.09-06.21.20:406][167]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FTEST_ShielyHall.FTEST_ShielyHall up for play (max tick rate 0) at 2018.10.08-23.21.20
-[2018.10.09-06.21.20:406][167]LogWorld: Bringing up level for play took: 0.000725
-[2018.10.09-06.21.20:419][167]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FTEST_ShielyHall -0.718
-[2018.10.09-06.21.26:333][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.21.26:361][875]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.09-06.21.26:381][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.09-06.21.26:436][881]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.10.09-06.21.29:345][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.21.35:748][996]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tests/ButtonPushTest.ButtonPushTest
-[2018.10.09-06.21.36:197][996]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.10.09-06.21.36:966][996]LogSlate: Took 0.004768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.09-06.21.37:093][997]LogSlate: Took 0.004398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.09-06.25.37:139][989]LogSlate: Window 'ButtonPushTest*' being destroyed
-[2018.10.09-06.25.37:142][989]LogSlate: Window 'ButtonPushTest*' being destroyed
-[2018.10.09-06.25.40:622][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.25.46:851][ 66]LogRenderer: Reallocating scene render targets to support 776x528 Format 26 NumSamples 1 (Frame:4688).
-[2018.10.09-06.25.46:894][ 66]LogRenderer: Reallocating scene render targets to support 780x528 Format 26 NumSamples 1 (Frame:4689).
-[2018.10.09-06.25.46:936][ 66]LogRenderer: Reallocating scene render targets to support 788x528 Format 26 NumSamples 1 (Frame:4690).
-[2018.10.09-06.25.46:976][ 66]LogRenderer: Reallocating scene render targets to support 796x528 Format 26 NumSamples 1 (Frame:4691).
-[2018.10.09-06.25.47:018][ 66]LogRenderer: Reallocating scene render targets to support 804x528 Format 26 NumSamples 1 (Frame:4692).
-[2018.10.09-06.25.47:060][ 66]LogRenderer: Reallocating scene render targets to support 812x528 Format 26 NumSamples 1 (Frame:4693).
-[2018.10.09-06.25.47:102][ 66]LogRenderer: Reallocating scene render targets to support 824x528 Format 26 NumSamples 1 (Frame:4694).
-[2018.10.09-06.25.47:145][ 66]LogRenderer: Reallocating scene render targets to support 832x528 Format 26 NumSamples 1 (Frame:4695).
-[2018.10.09-06.25.47:186][ 66]LogRenderer: Reallocating scene render targets to support 836x528 Format 26 NumSamples 1 (Frame:4696).
-[2018.10.09-06.25.47:227][ 66]LogRenderer: Reallocating scene render targets to support 840x528 Format 26 NumSamples 1 (Frame:4697).
-[2018.10.09-06.31.28:226][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/FTEST_ShielyHall' took 0.038
-[2018.10.09-06.31.28:229][190]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tests/ButtonPushTest] ([1] browsable assets)...
-[2018.10.09-06.31.28:229][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tests/ButtonPushTest]
-[2018.10.09-06.31.28:229][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tests/ButtonPushTest" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Tests/ButtonPushTest_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.10.09-06.31.28:711][190]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/ButtonPushTest_Auto1E22EA7234D5E90E7594649A8D3DC3E50.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Tests/ButtonPushTest_Auto1.uasset'
-[2018.10.09-06.31.28:713][190]LogFileHelpers: Auto-saving content packages took 0.486
-[2018.10.09-06.55.13:357][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.55.53:178][276]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.10.09-06.56.38:001][738]LogAIModule: Creating AISystem for world ShileyHall
-[2018.10.09-06.56.38:005][738]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall.ShileyHall
-[2018.10.09-06.56.39:636][738]LogSlate: Window 'Save Content' being destroyed
-[2018.10.09-06.56.39:738][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tests/ButtonPushTest" FILE="D:/Unreal Projects/VirtualUP/Content/Tests/ButtonPushTest.uasset" SILENT=true
-[2018.10.09-06.56.39:765][738]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/ButtonPushTestD4C42A864FCE8779F84BFE88AC0F916D.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Tests/ButtonPushTest.uasset'
-[2018.10.09-06.56.39:781][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/TourHud" FILE="D:/Unreal Projects/VirtualUP/Content/UIWidgets/TourHud.uasset" SILENT=true
-[2018.10.09-06.56.39:789][738]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/TourHudD252356A4F52AEF4D45E948096160835.tmp' to 'D:/Unreal Projects/VirtualUP/Content/UIWidgets/TourHud.uasset'
-[2018.10.09-06.56.39:919][738]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/ShileyHall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.09-06.56.39:919][738]LightingResults: New page: Lighting Build
-[2018.10.09-06.56.39:920][738]LoadErrors: New page: Loading map: ShileyHall.umap
-[2018.10.09-06.56.39:920][738]MapCheck: New page: Map Check
-[2018.10.09-06.56.39:920][738]LightingResults: New page: Lighting Build
-[2018.10.09-06.56.39:950][738]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.09-06.56.39:995][738]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.09-06.56.40:060][738]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.267ms to complete.
-[2018.10.09-06.56.40:060][738]LogFileHelpers: Loading map 'ShileyHall' took 0.141
-[2018.10.09-06.56.41:148][864]LogEditorViewport: Clicking Background
-[2018.10.09-06.56.42:115][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.56.50:315][961]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.56.52:938][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.56.53:444][335]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.56.53:738][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.09-06.57.19:147][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.09-06.57.21:316][410]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.10.09-06.59.17:900][210]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.10.09-07.00.08:256][978]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Levels/VirtualUPGameMode.VirtualUPGameMode
-[2018.10.09-07.00.08:573][979]LogRenderer: Reallocating scene render targets to support 840x540 Format 26 NumSamples 1 (Frame:1).
-[2018.10.09-07.00.10:934][257]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.10.09-07.06.38:435][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/ShileyHall' took 0.034
-[2018.10.09-07.06.38:437][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/VirtualUPGameMode] ([1] browsable assets)...
-[2018.10.09-07.06.38:437][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/VirtualUPGameMode]
-[2018.10.09-07.06.38:437][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VirtualUPGameMode" FILE="D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Levels/VirtualUPGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2018.10.09-07.06.38:450][795]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/VirtualUPGameMode_Auto24AAC4E884F86CDAE8DAB3DBCE9093FB5.tmp' to 'D:/Unreal Projects/VirtualUP/Saved/Autosaves/Game/Levels/VirtualUPGameMode_Auto2.uasset'
-[2018.10.09-07.06.38:451][795]LogFileHelpers: Auto-saving content packages took 0.016
-[2018.10.09-07.21.31:089][ 45]LogSlate: Window 'VirtualUPGameMode*' being destroyed
-[2018.10.09-07.21.31:093][ 45]LogSlate: Window 'VirtualUPGameMode*' being destroyed
-[2018.10.09-07.21.35:125][520]SourceControl: fatal: C:/UE_4.20/Engine/Content: 'C:/UE_4.20/Engine/Content' is outside repository
-[2018.10.09-07.21.41:796][520]LogSlate: Window 'Submit Files' being destroyed
-[2018.10.09-07.21.47:086][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VirtualUPGameMode" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/VirtualUPGameMode.uasset" SILENT=true
-[2018.10.09-07.21.47:096][145]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/VirtualUPGameMode74133A5E4A4D1D2355A48EB0AE1C0CB5.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/VirtualUPGameMode.uasset'
-[2018.10.09-07.21.55:123][808]LogSlate: Window 'Submit Files' being destroyed
+[2018.10.09-09.12.10:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-09.12.10:980][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.09-09.12.10:989][  0]LogHAL: Display: Platform has ~ 16 GB [17139462144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.09-09.12.10:989][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.09-09.12.10:989][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.09-09.12.10:990][  0]LogInit: Computer: DESKTOP-KINSOES
+[2018.10.09-09.12.10:990][  0]LogInit: User: ripple19
+[2018.10.09-09.12.10:990][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.09-09.12.10:990][  0]LogInit: High frequency timer resolution =3.703126 MHz
+[2018.10.09-09.12.10:990][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.09-09.12.10:990][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.09-09.12.10:990][  0]LogMemory: Process Physical Memory: 99.50 MB used, 99.50 MB peak
+[2018.10.09-09.12.10:990][  0]LogMemory: Process Virtual Memory: 90.77 MB used, 90.77 MB peak
+[2018.10.09-09.12.10:990][  0]LogMemory: Physical Memory: 5808.01 MB used,  10537.46 MB free, 16345.46 MB total
+[2018.10.09-09.12.10:990][  0]LogMemory: Virtual Memory: 4626.71 MB used,  10537.46 MB free, 134217728.00 MB total
+[2018.10.09-09.12.11:005][  0]LogInit: Using OS detected language (en-US).
+[2018.10.09-09.12.11:005][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.09-09.12.11:005][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.09-09.12.11:318][  0]LogStreaming: Display: Took  0.314s to InitEngineTextLocalization.
+[2018.10.09-09.12.11:318][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.09-09.12.11:341][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.09-09.12.11:341][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.09-09.12.11:512][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-09.12.11:512][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.09-09.12.11:575][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.10.09-09.12.11:575][  0]LogD3D11RHI:       8079/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.09-09.12.11:577][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.09-09.12.11:577][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.09-09.12.11:577][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.09-09.12.11:583][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.09-09.12.11:583][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.09-09.12.11:583][  0]LogWindows: EnumDisplayDevices:
+[2018.10.09-09.12.11:583][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.10.09-09.12.11:584][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.09-09.12.11:584][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.09-09.12.11:584][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.09-09.12.11:584][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.09-09.12.11:584][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.10.09-09.12.11:584][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.10.09-09.12.11:584][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.10.09-09.12.11:584][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.10.09-09.12.11:622][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.09-09.12.11:638][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.09-09.12.11:686][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/Unreal Projects/VirtualUP/Intermediate/Shaders/WorkingDirectory/3416/).
+[2018.10.09-09.12.11:687][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ripple19/AppData/Local/Temp/UnrealShaderWorkingDir/D0567E94432455C20A80F285EDB3404A/'.
+[2018.10.09-09.12.11:903][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.09-09.12.11:913][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.09-09.12.11:924][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.09-09.12.11:934][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.09-09.12.11:945][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.09-09.12.11:956][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.09-09.12.11:967][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.09-09.12.11:978][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.09-09.12.11:983][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:045][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.09-09.12.12:046][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.09-09.12.12:102][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-09.12.12:102][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.09-09.12.12:120][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-09.12.12:120][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.09-09.12.12:130][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.09-09.12.12:140][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.09-09.12.12:150][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.09-09.12.12:160][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.09-09.12.12:167][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.09-09.12.12:167][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.09-09.12.12:214][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.09-09.12.12:214][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.09-09.12.12:214][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.09-09.12.12:805][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: Loaded boot cache 0.05s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.09-09.12.12:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.09-09.12.12:870][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.09-09.12.12:882][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ripple19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.09-09.12.12:882][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.09-09.12.12:882][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.09-09.12.12:897][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.09-09.12.12:898][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.09-09.12.12:899][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.09-09.12.12:962][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.10.09-09.12.13:227][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.09-09.12.13:335][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.09-09.12.13:337][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.09-09.12.13:337][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.09-09.12.13:338][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.09-09.12.13:338][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.09-09.12.13:349][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
+[2018.10.09-09.12.13:737][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.069165 seconds
+[2018.10.09-09.12.13:742][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.09-09.12.13:742][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.09-09.12.13:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.09-09.12.14:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.09-09.12.14:437][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.09-09.12.14:563][  0]SourceControl: Source control is disabled
+[2018.10.09-09.12.14:972][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.09-09.12.15:023][  0]LogOcInput: OculusInput pre-init called
+[2018.10.09-09.12.15:075][  0]LogEngine: Initializing Engine...
+[2018.10.09-09.12.15:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.09-09.12.15:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.09-09.12.15:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-09.12.15:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-09.12.15:077][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-09.12.15:249][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.09-09.12.15:261][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.09-09.12.15:272][  0]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-09.12.15:290][  0]LogInit: FAudioDevice initialized.
+[2018.10.09-09.12.15:290][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.09-09.12.15:363][  0]LogDerivedDataCache: Saved boot cache 0.07s 86MB C:/Users/ripple19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.09-09.12.15:376][  0]LogInit: Texture streaming: Enabled
+[2018.10.09-09.12.15:389][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.09-09.12.15:399][  0]LogInit: Transaction tracking system initialized
+[2018.10.09-09.12.15:416][  0]BlueprintLog: New page: Editor Load
+[2018.10.09-09.12.15:478][  0]LocalizationService: Localization service is disabled
+[2018.10.09-09.12.15:678][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.09-09.12.15:678][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.09-09.12.15:678][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.09-09.12.15:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.09-09.12.15:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.09-09.12.15:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.09-09.12.15:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.09-09.12.15:769][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/' took 0.01s
+[2018.10.09-09.12.15:769][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/StartingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.09-09.12.15:770][  0]LightingResults: New page: Lighting Build
+[2018.10.09-09.12.15:772][  0]MapCheck: New page: Map Check
+[2018.10.09-09.12.15:772][  0]LightingResults: New page: Lighting Build
+[2018.10.09-09.12.15:824][  0]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.09-09.12.15:824][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.09-09.12.15:843][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.09-09.12.15:893][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.216ms to complete.
+[2018.10.09-09.12.15:893][  0]LogFileHelpers: Loading map 'StartingLevel' took 0.123
+[2018.10.09-09.12.15:970][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.15:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.15:983][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.15:990][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.15:995][  0]LogCollectionManager: Loaded 0 collections in 0.001401 seconds
+[2018.10.09-09.12.16:034][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Saved/Collections/' took 0.01s
+[2018.10.09-09.12.16:034][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Developers/ripple19/Collections/' took 0.01s
+[2018.10.09-09.12.16:034][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/VirtualUP/Content/Collections/' took 0.01s
+[2018.10.09-09.12.16:034][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.09-09.12.16:042][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2575 classes and 607 folders.
+[2018.10.09-09.12.16:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.09-09.12.16:079][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.09-09.12.16:083][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.10.09-09.12.16:179][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.09-09.12.16:179][  0]LogLoad: (Engine Initialization) Total time: 6.36 seconds
+[2018.10.09-09.12.16:179][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.09-09.12.16:213][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.09-09.12.16:214][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.09-09.12.16:215][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.09-09.12.16:219][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.09-09.12.16:301][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.09-09.12.16:332][  1]LogRenderer: Reallocating scene render targets to support 880x576 Format 26 NumSamples 1 (Frame:1).
+[2018.10.09-09.12.16:346][  1]LogAssetRegistry: Asset discovery search completed in 3.4062 seconds
+[2018.10.09-09.12.16:349][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.09-09.12.16:349][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2018.10.09-09.12.19:168][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-09.12.19:260][153]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.09-09.12.19:274][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-09.12.19:286][153]PIE: New page: PIE session: StartingLevel (Oct 8, 2018, 7:12:19 PM)
+[2018.10.09-09.12.19:286][153]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2018.10.09-09.12.19:287][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000504s)
+[2018.10.09-09.12.19:287][153]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.09-09.12.19:287][153]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2018.10.09-09.12.19:287][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.001099s)
+[2018.10.09-09.12.19:311][153]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-09.12.19:319][153]LogInit: FAudioDevice initialized.
+[2018.10.09-09.12.19:326][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.19:374][153]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.10.09-09.12.19:376][153]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2018.10.09-02.12.19
+[2018.10.09-09.12.19:376][153]LogWorld: Bringing up level for play took: 0.000357
+[2018.10.09-09.12.19:388][153]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.10.09-09.12.19:391][153]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2018.10.09-09.12.19:391][153]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.19:391][153]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.19:391][153]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.19:393][153]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.19:397][153]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.26
+[2018.10.09-09.12.19:417][153]LogRenderer: Reallocating scene render targets to support 1292x756 Format 26 NumSamples 1 (Frame:1).
+[2018.10.09-09.12.20:385][266]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.09-09.12.20:385][266]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.09-09.12.20:385][266]LogNet: Browse: /Game/Levels/ShileyHall
+[2018.10.09-09.12.20:385][266]LogLoad: LoadMap: /Game/Levels/ShileyHall
+[2018.10.09-09.12.20:772][266]LogAIModule: Creating AISystem for world ShileyHall
+[2018.10.09-09.12.20:772][266]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.09-09.12.20:776][266]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall.ShileyHall up for play (max tick rate 0) at 2018.10.09-02.12.20
+[2018.10.09-09.12.20:777][266]LogWorld: Bringing up level for play took: 0.003444
+[2018.10.09-09.12.20:777][266]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.20:777][266]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.20:777][266]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.20:779][266]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.20:779][266]LogLoad: Took 0.393865 seconds to LoadMap(/Game/Levels/ShileyHall)
+[2018.10.09-09.12.36:408][108]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.09-09.12.36:409][108]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.09-09.12.36:409][108]LogNet: Browse: /Game/Levels/MemoryBubbleOne
+[2018.10.09-09.12.36:409][108]LogLoad: LoadMap: /Game/Levels/MemoryBubbleOne
+[2018.10.09-09.12.36:497][108]LogAIModule: Creating AISystem for world MemoryBubbleOne
+[2018.10.09-09.12.36:497][108]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.09-09.12.36:500][108]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MemoryBubbleOne.MemoryBubbleOne up for play (max tick rate 0) at 2018.10.09-02.12.36
+[2018.10.09-09.12.36:500][108]LogWorld: Bringing up level for play took: 0.002181
+[2018.10.09-09.12.36:501][108]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.36:501][108]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.09-09.12.36:501][108]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.36:518][108]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.09-09.12.36:518][108]LogLoad: Took 0.108837 seconds to LoadMap(/Game/Levels/MemoryBubbleOne)
+[2018.10.09-09.12.47:154][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.09-09.12.47:168][360]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.09-09.12.47:199][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.09-09.12.47:239][362]LogPlayLevel: Display: Destroying online subsystem :Context_1
