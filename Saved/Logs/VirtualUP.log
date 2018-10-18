@@ -1242,3 +1242,596 @@ LogInit: Object subsystem initialized
 [2018.10.18-22.43.33:746][798]SourceControl:  6 files changed, 0 insertions(+), 0 deletions(-)
 [2018.10.18-22.43.33:746][798]SourceControl:  rewrite Content/Blueprints/MovementSystem.uasset (79%)
 [2018.10.18-22.43.33:750][798]SourceControl: Commited [master 405ada2] Time Travel?.
+[2018.10.18-22.43.50:355][896]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.00.18:730][470]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/TourHudWidget.TourHudWidget
+[2018.10.18-23.00.49:202][953]LogSlate: Window 'TourHudWidget' being destroyed
+[2018.10.18-23.00.49:205][953]LogSlate: Window 'TourHudWidget' being destroyed
+[2018.10.18-23.00.52:114][298]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.00.52:129][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.00.52:129][298]PIE: New page: PIE session: StartingLevel (Oct 18, 2018, 9:00:52 AM)
+[2018.10.18-23.00.52:130][298]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2018.10.18-23.00.52:130][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000511s)
+[2018.10.18-23.00.52:131][298]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.18-23.00.52:131][298]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.10.18-23.00.52:131][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.001198s)
+[2018.10.18-23.00.52:165][298]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.00.52:172][298]LogInit: FAudioDevice initialized.
+[2018.10.18-23.00.52:200][298]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.10.18-23.00.52:201][298]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2018.10.18-16.00.52
+[2018.10.18-23.00.52:201][298]LogWorld: Bringing up level for play took: 0.000297
+[2018.10.18-23.00.52:212][298]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.00.52:212][298]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.00.52:212][298]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.00.52:214][298]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.00.52:214][298]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.503
+[2018.10.18-23.00.56:139][768]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.00.56:998][871]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.00.56:998][871]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.00.56:998][871]LogNet: Browse: /Game/Levels/MatterportSample
+[2018.10.18-23.00.56:998][871]LogLoad: LoadMap: /Game/Levels/MatterportSample
+[2018.10.18-23.00.58:887][871]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.00.58:887][871]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.00.58:902][871]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.00.58
+[2018.10.18-23.00.58:903][871]LogWorld: Bringing up level for play took: 0.014795
+[2018.10.18-23.00.58:903][871]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.00.58:903][871]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.00.58:903][871]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.00.58:905][871]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.00.58:905][871]LogLoad: Took 1.907006 seconds to LoadMap(/Game/Levels/MatterportSample)
+[2018.10.18-23.01.47:661][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.01.47:717][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.01.47:747][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.01.47:761][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.18-23.01.53:057][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.01.53:231][668]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/TourHudWidget.TourHudWidget
+[2018.10.18-23.01.54:294][750]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.01.54:312][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.01.54:312][750]PIE: New page: PIE session: StartingLevel (Oct 18, 2018, 9:01:54 AM)
+[2018.10.18-23.01.54:312][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2018.10.18-23.01.54:312][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000481s)
+[2018.10.18-23.01.54:313][750]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.18-23.01.54:313][750]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2018.10.18-23.01.54:313][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.001145s)
+[2018.10.18-23.01.54:346][750]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.01.54:354][750]LogInit: FAudioDevice initialized.
+[2018.10.18-23.01.54:388][750]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.10.18-23.01.54:389][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2018.10.18-16.01.54
+[2018.10.18-23.01.54:389][750]LogWorld: Bringing up level for play took: 0.000297
+[2018.10.18-23.01.54:400][750]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.01.54:400][750]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.01.54:400][750]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.01.54:402][750]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.01.54:402][750]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.69
+[2018.10.18-23.01.55:628][883]LogSlate: Window 'TourHudWidget' being destroyed
+[2018.10.18-23.01.55:631][883]LogSlate: Window 'TourHudWidget' being destroyed
+[2018.10.18-23.01.56:731][ 11]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.01.56:731][ 11]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.01.56:731][ 11]LogNet: Browse: /Game/Levels/MatterportSample
+[2018.10.18-23.01.56:731][ 11]LogLoad: LoadMap: /Game/Levels/MatterportSample
+[2018.10.18-23.01.58:591][ 11]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.01.58:592][ 11]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.01.58:608][ 11]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.01.58
+[2018.10.18-23.01.58:608][ 11]LogWorld: Bringing up level for play took: 0.015174
+[2018.10.18-23.01.58:609][ 11]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.01.58:609][ 11]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.01.58:609][ 11]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.01.58:610][ 11]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.01.58:610][ 11]LogLoad: Took 1.879017 seconds to LoadMap(/Game/Levels/MatterportSample)
+[2018.10.18-23.02.01:199][237]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.02.02:158][320]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.02.02:158][320]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.02.02:158][320]LogNet: Browse: /Game/Levels/StartingLevel
+[2018.10.18-23.02.02:168][320]LogLoad: LoadMap: /Game/Levels/StartingLevel
+[2018.10.18-23.02.02:203][320]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2018.10.18-23.02.02:204][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000732s)
+[2018.10.18-23.02.02:205][320]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.18-23.02.02:205][320]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2018.10.18-23.02.02:205][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.001450s)
+[2018.10.18-23.02.02:205][320]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.10.18-23.02.02:206][320]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2018.10.18-16.02.02
+[2018.10.18-23.02.02:206][320]LogWorld: Bringing up level for play took: 0.000361
+[2018.10.18-23.02.02:207][320]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.10.18-23.02.02:207][320]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.02.02:207][320]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.02.02:207][320]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.02.02:208][320]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.02.02:208][320]LogLoad: Took 0.039980 seconds to LoadMap(/Game/Levels/UEDPIE_0_StartingLevel)
+[2018.10.18-23.02.08:292][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.02.19:522][397]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.02.19:522][397]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.02.19:522][397]LogNet: Browse: /Game/Levels/MatterportSample
+[2018.10.18-23.02.19:522][397]LogLoad: LoadMap: /Game/Levels/MatterportSample
+[2018.10.18-23.02.21:353][397]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.02.21:353][397]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.02.21:369][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.02.21
+[2018.10.18-23.02.21:370][397]LogWorld: Bringing up level for play took: 0.015282
+[2018.10.18-23.02.21:370][397]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.02.21:370][397]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.02.21:370][397]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.02.21:371][397]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.02.21:371][397]LogLoad: Took 1.849581 seconds to LoadMap(/Game/Levels/MatterportSample)
+[2018.10.18-23.02.25:429][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.02.25:485][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.02.25:512][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.02.25:535][751]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.18-23.10.54:344][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.11.02:895][607]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../Users/ripple19/Downloads/AK - 52 Weeks (Copyright Free).mp3)
+[2018.10.18-23.11.16:479][  8]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.11.16:499][  8]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MatterportSample.MatterportSample
+[2018.10.18-23.11.17:786][  8]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-23.11.17:843][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/AK_-_52_Weeks__Copyright_Free_" FILE="D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free_.uasset" SILENT=true
+[2018.10.18-23.11.17:848][  8]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/AK_-_52_Weeks__Copyright_Free_930DD30C4FDC4E0AB1F2A5B937FD2730.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free_.uasset'
+[2018.10.18-23.11.17:946][  8]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-23.11.17:946][  8]LightingResults: New page: Lighting Build
+[2018.10.18-23.11.17:946][  8]LoadErrors: New page: Loading map: MatterportSample.umap
+[2018.10.18-23.11.17:946][  8]MapCheck: New page: Map Check
+[2018.10.18-23.11.17:947][  8]LightingResults: New page: Lighting Build
+[2018.10.18-23.11.17:976][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:976][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:976][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:976][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[1] invalid
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[2] invalid
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[3] invalid
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:977][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:979][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:979][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:980][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:980][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:980][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:981][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:982][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:982][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:983][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:983][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:984][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:985][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:985][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.17:986][  8]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.11.17:986][  8]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.11.18:080][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-23.11.18:134][  8]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-23.11.18:395][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 261.227ms to complete.
+[2018.10.18-23.11.18:399][  8]LogFileHelpers: Loading map 'MatterportSample' took 0.454
+[2018.10.18-23.11.21:462][250]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.13.48:070][535]LogSlate: Took 0.004151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.18-23.14.34:076][976]LogSlate: Window 'Create Media Player' being destroyed
+[2018.10.18-23.14.35:939][114]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Videos/NewMediaPlayer1.NewMediaPlayer1
+[2018.10.18-23.14.35:949][114]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.10.18-23.14.35:992][114]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.18-23.14.35:992][114]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.18-23.14.36:027][114]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2018.10.18-23.14.43:017][726]LogSlate: Window 'NewMediaPlayer1*' being destroyed
+[2018.10.18-23.14.43:027][726]LogSlate: Window 'NewMediaPlayer1*' being destroyed
+[2018.10.18-23.14.51:419][406]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MatterportSample.MatterportSample
+[2018.10.18-23.14.53:263][406]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-23.14.53:601][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.14.54:332][406]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSample6797478D40CC5A524B6842874E58AD9B.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.14.54:358][406]LogFileHelpers: Saving map 'MatterportSample' took 1.004
+[2018.10.18-23.14.54:358][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/NewMediaPlayer1" FILE="D:/Unreal Projects/VirtualUP/Content/Videos/NewMediaPlayer1.uasset" SILENT=true
+[2018.10.18-23.14.54:364][406]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/NewMediaPlayer11A063B7E469A8082237055A79C3AF275.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Videos/NewMediaPlayer1.uasset'
+[2018.10.18-23.14.54:464][406]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-23.14.54:464][406]LightingResults: New page: Lighting Build
+[2018.10.18-23.14.54:465][406]LoadErrors: New page: Loading map: MatterportSample.umap
+[2018.10.18-23.14.54:471][406]MapCheck: New page: Map Check
+[2018.10.18-23.14.54:471][406]LightingResults: New page: Lighting Build
+[2018.10.18-23.14.54:882][406]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.14.54:884][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:884][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:885][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:885][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[1] invalid
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[2] invalid
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[3] invalid
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:886][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:888][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:888][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:889][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:889][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:889][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:889][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:890][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:890][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:892][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:892][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:892][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:892][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:893][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:893][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:893][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:893][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:895][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:895][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:895][406]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.14.54:895][406]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.14.54:986][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-23.14.55:042][406]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-23.14.55:282][406]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 238.989ms to complete.
+[2018.10.18-23.14.55:282][406]LogFileHelpers: Loading map 'MatterportSample' took 0.819
+[2018.10.18-23.15.00:086][795]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.17.14:411][683]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.18-23.17.14:660][683]SourceControl: rm 'Content/Videos/AK_-_52_Weeks__Copyright_Free_.uasset'
+[2018.10.18-23.17.59:603][ 47]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.17.59:617][ 47]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.18.14:516][174]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../Users/ripple19/Downloads/AK - 52 Weeks (Copyright Free).wav)
+[2018.10.18-23.21.31:851][939]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.22.08:175][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.22.08:968][756]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSample4B7E4504435C8839572881834015BEDF.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.22.08:996][756]LogFileHelpers: Saving map 'MatterportSample' took 1.080
+[2018.10.18-23.22.21:258][724]BlueprintLog: New page: Compile MatterportSample
+[2018.10.18-23.22.22:154][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.22.22:948][759]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSampleB602F764430BB424AFD8FBB436C44F02.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.22.22:975][759]LogFileHelpers: Saving map 'MatterportSample' took 1.076
+[2018.10.18-23.25.40:828][124]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.25.40:841][124]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.25.49:520][352]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.18-23.25.57:350][533]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\ripple19\Downloads\AK - 52 Weeks (Copyright Free).wav)
+[2018.10.18-23.25.59:170][603]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave AK_-_52_Weeks__Copyright_Free_...
+[2018.10.18-23.25.59:177][603]LogTemp: Couldn't find amount to resample to.
+[2018.10.18-23.26.01:793][603]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 32633856 while cooking SoundWave /Game/Videos/AK_-_52_Weeks__Copyright_Free_.AK_-_52_Weeks__Copyright_Free_.
+[2018.10.18-23.26.19:076][878]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.27.31:514][495]BlueprintLog: New page: Compile MatterportSample
+[2018.10.18-23.27.32:279][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.27.33:064][520]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSampleE5C3F3AA4F0B5CAFB1A1FFB649E28D31.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.27.33:093][520]LogFileHelpers: Saving map 'MatterportSample' took 1.070
+[2018.10.18-23.27.33:559][557]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.27.33:572][557]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.27.37:164][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.18-23.27.41:721][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.28.00:401][620]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.29.09:932][894]BlueprintLog: New page: Compile MatterportSample
+[2018.10.18-23.29.11:267][987]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.29.11:281][987]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.29.17:242][426]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.18-23.29.17:244][426]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartingLevel.StartingLevel
+[2018.10.18-23.29.18:452][426]LogSlate: Window 'Save Content' being destroyed
+[2018.10.18-23.29.18:798][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.29.19:592][426]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSampleCA28B16B4AD2BA03B57136A7A4665489.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.29.19:619][426]LogFileHelpers: Saving map 'MatterportSample' took 1.078
+[2018.10.18-23.29.19:642][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/AK_-_52_Weeks__Copyright_Free_" FILE="D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free_.uasset" SILENT=true
+[2018.10.18-23.29.19:777][426]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/AK_-_52_Weeks__Copyright_Free_AA5654454B8C474FA20B16878D29AAE8.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free_.uasset'
+[2018.10.18-23.29.20:953][426]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/StartingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-23.29.20:953][426]LightingResults: New page: Lighting Build
+[2018.10.18-23.29.20:954][426]LoadErrors: New page: Loading map: StartingLevel.umap
+[2018.10.18-23.29.20:960][426]MapCheck: New page: Map Check
+[2018.10.18-23.29.20:960][426]LightingResults: New page: Lighting Build
+[2018.10.18-23.29.21:049][426]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-23.29.21:099][426]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-23.29.21:342][426]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 243.196ms to complete.
+[2018.10.18-23.29.21:345][426]LogFileHelpers: Loading map 'StartingLevel' took 0.393
+[2018.10.18-23.29.22:132][516]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.29.22:151][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.29.22:152][516]PIE: New page: PIE session: StartingLevel (Oct 18, 2018, 9:29:22 AM)
+[2018.10.18-23.29.22:152][516]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2018.10.18-23.29.22:153][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000502s)
+[2018.10.18-23.29.22:153][516]LogAIModule: Creating AISystem for world StartingLevel
+[2018.10.18-23.29.22:153][516]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2018.10.18-23.29.22:153][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.001115s)
+[2018.10.18-23.29.22:185][516]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.29.22:193][516]LogInit: FAudioDevice initialized.
+[2018.10.18-23.29.22:222][516]LogLoad: Game class is 'MainMenuGameMode_C'
+[2018.10.18-23.29.22:223][516]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2018.10.18-16.29.22
+[2018.10.18-23.29.22:223][516]LogWorld: Bringing up level for play took: 0.000271
+[2018.10.18-23.29.22:235][516]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.22:235][516]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.22:235][516]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.22:237][516]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.22:237][516]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.525
+[2018.10.18-23.29.23:339][648]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.29.23:339][648]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.29.23:340][648]LogNet: Browse: /Game/Levels/MatterportSample
+[2018.10.18-23.29.23:340][648]LogLoad: LoadMap: /Game/Levels/MatterportSample
+[2018.10.18-23.29.23:796][648]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.29.23:797][648]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.29.23:811][648]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.29.23
+[2018.10.18-23.29.23:812][648]LogWorld: Bringing up level for play took: 0.014615
+[2018.10.18-23.29.23:812][648]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.23:813][648]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.23:813][648]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.23:814][648]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.23:814][648]LogLoad: Took 0.474120 seconds to LoadMap(/Game/Levels/MatterportSample)
+[2018.10.18-23.29.57:254][815]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.29.57:254][815]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.29.57:254][815]LogNet: Browse: /Game/Levels/MemoryBubbleTwo
+[2018.10.18-23.29.57:260][815]LogLoad: LoadMap: /Game/Levels/MemoryBubbleTwo
+[2018.10.18-23.29.57:407][815]LogAIModule: Creating AISystem for world MemoryBubbleTwo
+[2018.10.18-23.29.57:407][815]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.29.57:410][815]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MemoryBubbleTwo.MemoryBubbleTwo up for play (max tick rate 0) at 2018.10.18-16.29.57
+[2018.10.18-23.29.57:410][815]LogWorld: Bringing up level for play took: 0.002152
+[2018.10.18-23.29.57:411][815]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.57:411][815]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.29.57:411][815]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.57:412][815]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.29.57:412][815]LogLoad: Took 0.151399 seconds to LoadMap(/Game/Levels/MemoryBubbleTwo)
+[2018.10.18-23.30.00:612][187]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.30.00:612][187]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.10.18-23.30.00:612][187]LogNet: Browse: /Game/Levels/MatterportSample
+[2018.10.18-23.30.00:612][187]LogLoad: LoadMap: /Game/Levels/MatterportSample
+[2018.10.18-23.30.02:563][187]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.30.02:563][187]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.30.02:581][187]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.30.02
+[2018.10.18-23.30.02:582][187]LogWorld: Bringing up level for play took: 0.017454
+[2018.10.18-23.30.02:582][187]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.30.02:582][187]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.30.02:582][187]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.30.02:583][187]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.30.02:583][187]LogLoad: Took 1.971303 seconds to LoadMap(/Game/Levels/MatterportSample)
+[2018.10.18-23.30.22:143][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.30.22:186][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.30.22:218][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.30.22:232][931]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.18-23.30.29:226][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.32.56:505][105]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.32.56:525][105]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MatterportSample.MatterportSample
+[2018.10.18-23.32.56:558][105]Cmd: MAP LOAD FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.18-23.32.56:558][105]LightingResults: New page: Lighting Build
+[2018.10.18-23.32.56:558][105]LoadErrors: New page: Loading map: MatterportSample.umap
+[2018.10.18-23.32.56:559][105]MapCheck: New page: Map Check
+[2018.10.18-23.32.56:559][105]LightingResults: New page: Lighting Build
+[2018.10.18-23.32.56:589][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:589][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk035_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:589][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:589][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk044_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[1] invalid
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[2] invalid
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk091_group000_sub000_filled001] ScaledElem[3] invalid
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:590][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk093_group001_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:592][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:592][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk250_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:593][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:593][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk296_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:594][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:594][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk302_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:595][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:595][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk369_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk488_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk492_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:597][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk497_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:598][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:598][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk540_group000_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:598][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:598][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk592_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:599][105]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.10.18-23.32.56:599][105]LogPhysics: Warning: ForeachShape(Convex): [/Game/MatterportSample/SlightlyLessJankyTwoStoryHouse/fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001.fb0f76d24b2f4145bb5ba9cae86a0f46_chunk645_group002_sub000_filled001] ScaledElem[0] invalid
+[2018.10.18-23.32.56:691][105]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.18-23.32.56:750][105]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.18-23.32.57:008][105]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 258.428ms to complete.
+[2018.10.18-23.32.57:009][105]LogFileHelpers: Loading map 'MatterportSample' took 0.452
+[2018.10.18-23.33.00:896][406]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.33.54:589][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fb0f76d24b2f4145bb5ba9cae86a0f46_chunk489_group001_sub000)
+[2018.10.18-23.33.55:723][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.33.56:410][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SecondFloor2)
+[2018.10.18-23.33.58:370][  5]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.10.18-23.34.03:854][480]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.18-23.34.05:331][599]Cmd: SELECT NONE
+[2018.10.18-23.34.54:137][119]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.34.57:651][377]BlueprintLog: New page: Compile MatterportSample
+[2018.10.18-23.34.58:865][464]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.34.58:878][464]LogSlate: Window 'MatterportSample* - Level Blueprint Editor' being destroyed
+[2018.10.18-23.35.03:796][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.35.15:028][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.35.21:581][199]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/Videos/AK_-_52_Weeks__Copyright_Free__Cue.AK_-_52_Weeks__Copyright_Free__Cue
+[2018.10.18-23.35.35:734][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/AK_-_52_Weeks__Copyright_Free__Cue" FILE="D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free__Cue.uasset" SILENT=true
+[2018.10.18-23.35.35:742][264]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/AK_-_52_Weeks__Copyright_Free__C06FAC7FF4F5B27F9584E2ABD29A616E9.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Videos/AK_-_52_Weeks__Copyright_Free__Cue.uasset'
+[2018.10.18-23.35.37:032][360]LogSlate: Window 'AK_-_52_Weeks__Copyright_Free__Cue' being destroyed
+[2018.10.18-23.35.37:046][360]LogSlate: Window 'AK_-_52_Weeks__Copyright_Free__Cue' being destroyed
+[2018.10.18-23.35.45:258][969]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free_)
+[2018.10.18-23.35.46:244][ 44]Cmd: DELETE
+[2018.10.18-23.35.46:244][ 44]Cmd: ACTOR DELETE
+[2018.10.18-23.35.46:260][ 44]LogEditorActor: Deleted Actor: AmbientSound
+[2018.10.18-23.35.46:287][ 44]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.10.18-23.35.46:931][100]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free__Cue)
+[2018.10.18-23.35.54:015][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.35.57:684][936]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.35.57:705][936]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.35.57:705][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.35.57:705][936]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:35:57 AM)
+[2018.10.18-23.35.57:705][936]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.35.57:744][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039190s)
+[2018.10.18-23.35.57:745][936]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.35.57:745][936]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.10.18-23.35.57:745][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.040185s)
+[2018.10.18-23.35.57:775][936]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.35.57:783][936]LogInit: FAudioDevice initialized.
+[2018.10.18-23.35.57:811][936]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.35.57:817][936]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.35.57
+[2018.10.18-23.35.57:818][936]LogWorld: Bringing up level for play took: 0.006116
+[2018.10.18-23.35.57:830][936]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.35.57:830][936]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.35.57:830][936]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.35.57:832][936]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.35.57:832][936]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample 0.119
+[2018.10.18-23.35.57:832][936]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.04:025][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.04:026][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.04:079][508]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.36.04:079][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.04:107][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.04:115][508]LogActorComponent: ReregisterComponent: (/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.AK_-_52_Weeks__Copyright_Free__2.AudioComponent0) Not currently registered. Aborting.
+[2018.10.18-23.36.04:135][509]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.10.18-23.36.07:430][754]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free__Cue)
+[2018.10.18-23.36.09:629][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.36.13:189][192]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.36.13:204][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.13:204][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.36.13:204][192]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:36:13 AM)
+[2018.10.18-23.36.13:204][192]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.36.13:243][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038687s)
+[2018.10.18-23.36.13:244][192]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.36.13:244][192]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2018.10.18-23.36.13:244][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.039531s)
+[2018.10.18-23.36.13:278][192]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.36.13:286][192]LogInit: FAudioDevice initialized.
+[2018.10.18-23.36.13:317][192]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.36.13:323][192]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.36.13
+[2018.10.18-23.36.13:324][192]LogWorld: Bringing up level for play took: 0.006150
+[2018.10.18-23.36.13:336][192]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.13:336][192]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.13:336][192]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.13:338][192]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.13:338][192]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample -0.375
+[2018.10.18-23.36.13:338][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.14:424][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.14:424][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.14:477][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.36.14:477][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.14:507][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.14:514][277]LogActorComponent: ReregisterComponent: (/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.AK_-_52_Weeks__Copyright_Free__2.AudioComponent0) Not currently registered. Aborting.
+[2018.10.18-23.36.14:533][278]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.10.18-23.36.16:680][426]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free__Cue)
+[2018.10.18-23.36.17:624][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.36.20:552][719]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.36.20:568][719]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.20:568][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.36.20:568][719]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:36:20 AM)
+[2018.10.18-23.36.20:568][719]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.36.20:607][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039089s)
+[2018.10.18-23.36.20:608][719]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.36.20:608][719]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2018.10.18-23.36.20:608][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.039849s)
+[2018.10.18-23.36.20:641][719]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.36.20:648][719]LogInit: FAudioDevice initialized.
+[2018.10.18-23.36.20:677][719]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.36.20:683][719]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.36.20
+[2018.10.18-23.36.20:684][719]LogWorld: Bringing up level for play took: 0.005970
+[2018.10.18-23.36.20:695][719]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.20:695][719]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.20:695][719]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.20:697][719]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.20:697][719]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample 0.985
+[2018.10.18-23.36.20:697][719]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.28:125][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.28:125][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.28:180][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.36.28:180][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.28:209][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.28:217][435]LogActorComponent: ReregisterComponent: (/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.AK_-_52_Weeks__Copyright_Free__2.AudioComponent0) Not currently registered. Aborting.
+[2018.10.18-23.36.28:238][436]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.10.18-23.36.32:588][757]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.36.33:763][845]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.36.33:765][845]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample
+[2018.10.18-23.36.37:597][129]BlueprintLog: New page: Compile MatterportSample
+[2018.10.18-23.36.38:255][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.36.38:514][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.36.39:297][166]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSample177CE11E47EE9DE9898CF1B7604D9CD9.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.36.39:326][166]LogFileHelpers: Saving map 'MatterportSample' took 1.067
+[2018.10.18-23.36.39:683][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.36.39:759][198]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.36.39:772][198]LogSlate: Window 'MatterportSample - Level Blueprint Editor' being destroyed
+[2018.10.18-23.36.40:431][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.36.40:516][255]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.36.40:531][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.40:531][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.36.40:531][255]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:36:40 AM)
+[2018.10.18-23.36.40:531][255]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.36.40:570][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038452s)
+[2018.10.18-23.36.40:571][255]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.36.40:571][255]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2018.10.18-23.36.40:571][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.039334s)
+[2018.10.18-23.36.40:605][255]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.36.40:612][255]LogInit: FAudioDevice initialized.
+[2018.10.18-23.36.40:642][255]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.36.40:649][255]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.36.40
+[2018.10.18-23.36.40:649][255]LogWorld: Bringing up level for play took: 0.006227
+[2018.10.18-23.36.40:661][255]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.40:661][255]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.36.40:661][255]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.40:663][255]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.36.40:663][255]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample 0.951
+[2018.10.18-23.36.40:663][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.48:600][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.48:601][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.48:638][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.36.48:638][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.36.48:666][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.36.48:709][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.10.18-23.36.49:549][135]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.18-23.38.46:160][ 28]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free__Cue)
+[2018.10.18-23.38.47:741][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.38.54:029][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.38.54:029][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.38.54:029][661]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:38:54 AM)
+[2018.10.18-23.38.54:029][661]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.38.54:068][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038853s)
+[2018.10.18-23.38.54:069][661]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.38.54:069][661]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.10.18-23.38.54:069][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.040053s)
+[2018.10.18-23.38.54:103][661]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.38.54:111][661]LogInit: FAudioDevice initialized.
+[2018.10.18-23.38.54:143][661]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.38.54:149][661]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.38.54
+[2018.10.18-23.38.54:150][661]LogWorld: Bringing up level for play took: 0.006272
+[2018.10.18-23.38.54:162][661]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.38.54:162][661]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.38.54:162][661]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.38.54:163][661]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.38.54:163][661]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample 0.451
+[2018.10.18-23.38.54:163][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.01:760][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.01:761][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.39.01:818][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.39.01:818][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.01:845][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.39.01:874][429]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.10.18-23.39.03:607][568]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AK_-_52_Weeks__Copyright_Free__Cue)
+[2018.10.18-23.39.04:789][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.39.09:475][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.18-23.39.09:489][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.09:489][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.18-23.39.09:490][ 20]PIE: New page: PIE session: MatterportSample (Oct 18, 2018, 9:39:09 AM)
+[2018.10.18-23.39.09:490][ 20]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MatterportSample
+[2018.10.18-23.39.09:528][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037901s)
+[2018.10.18-23.39.09:528][ 20]LogAIModule: Creating AISystem for world MatterportSample
+[2018.10.18-23.39.09:528][ 20]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2018.10.18-23.39.09:528][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MatterportSample.MatterportSample to /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample (0.038674s)
+[2018.10.18-23.39.09:559][ 20]LogInit: XAudio2 using 'Speakers (3- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.18-23.39.09:567][ 20]LogInit: FAudioDevice initialized.
+[2018.10.18-23.39.09:595][ 20]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2018.10.18-23.39.09:601][ 20]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MatterportSample.MatterportSample up for play (max tick rate 0) at 2018.10.18-16.39.09
+[2018.10.18-23.39.09:602][ 20]LogWorld: Bringing up level for play took: 0.006157
+[2018.10.18-23.39.09:614][ 20]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.39.09:614][ 20]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.18-23.39.09:614][ 20]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.39.09:616][ 20]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.18-23.39.09:616][ 20]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MatterportSample -0.096
+[2018.10.18-23.39.09:616][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.45:187][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.45:188][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.39.45:246][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.18-23.39.45:246][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample' with GeneratedClass '/Game/Levels/MatterportSample.MatterportSample_C' with ClassGeneratedBy '/Game/Levels/MatterportSample.MatterportSample:PersistentLevel.MatterportSample'
+[2018.10.18-23.39.45:276][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.18-23.39.45:303][341]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.10.18-23.43.26:047][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.45.43:662][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.18-23.45.45:734][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.45.46:518][ 99]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSampleB7097A2C4B213BEB0EB0249B41462EBA.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
+[2018.10.18-23.45.48:245][229]SourceControl: fatal: C:/UE_4.20/Engine/Content: 'C:/UE_4.20/Engine/Content' is outside repository
+[2018.10.18-23.45.49:830][229]LogSlate: Window 'Submit Files' being destroyed
+[2018.10.18-23.45.52:687][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MatterportSample" FILE="D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.18-23.45.53:471][442]LogSavePackage: Moving 'D:/Unreal Projects/VirtualUP/Saved/MatterportSample8028EED84962B4249BDC01956B37FCE1.tmp' to 'D:/Unreal Projects/VirtualUP/Content/Levels/MatterportSample.umap'
