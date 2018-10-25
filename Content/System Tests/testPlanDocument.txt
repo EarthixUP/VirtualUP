@@ -14,4 +14,4 @@ With the HTC Vive headset, the user experiences no more than 3-second lag betwee
 
 
 ~~~ System-test #3: ~~~
-With the hand-held controllers (whether these controllers are keyboard-and-mouse, or a controller with 2 joysticks), the user is able to move themselves in the world by "walking" in the X-direction, Y-direction, and Z-directions.
+With the hand-held controllers (whether these controllers are keyboard-and-mouse, or a controller with 2 joysticks), the user is able to move themselves in the world by "walking" in the X-direction, Y-direction, and Z-directions.  
