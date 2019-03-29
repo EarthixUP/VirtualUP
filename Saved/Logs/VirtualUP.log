@@ -1,4 +1,5 @@
-﻿LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+﻿Log file open, 03/29/19 13:25:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
 LogWindows: File 'VSPerf140.dll' does not exist
@@ -8,6 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VirtualUP
 LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.277709
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,6 +96,7 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin FbxAutomationTestBuilder
 LogPluginManager: Mounting plugin FunctionalTestingEditor
+LogStreaming: Display: Took  0.092s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -113,17 +117,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4302132
-LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1080
-LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: AMD Radeon (TM) R9 390 Series
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
-LogInit: Base Directory: C:/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line: -SkipBuildPatchPrereq
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -146,3 +150,1176 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.29-20.25.09:985][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-20.25.09:985][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.29-20.25.09:997][  0]LogHAL: Display: Platform has ~ 16 GB [17099636736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.29-20.25.09:997][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.29-20.25.09:997][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.29-20.25.09:997][  0]LogInit: Computer: EN304-19179
+[2019.03.29-20.25.09:997][  0]LogInit: User: nguyenmi19
+[2019.03.29-20.25.09:997][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.29-20.25.09:997][  0]LogInit: High frequency timer resolution =3.507521 MHz
+[2019.03.29-20.25.09:998][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.29-20.25.09:998][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.29-20.25.09:998][  0]LogMemory: Process Physical Memory: 101.24 MB used, 101.24 MB peak
+[2019.03.29-20.25.09:998][  0]LogMemory: Process Virtual Memory: 93.55 MB used, 93.55 MB peak
+[2019.03.29-20.25.09:998][  0]LogMemory: Physical Memory: 7230.90 MB used,  9076.58 MB free, 16307.48 MB total
+[2019.03.29-20.25.09:998][  0]LogMemory: Virtual Memory: 4645.04 MB used,  9076.58 MB free, 134217728.00 MB total
+[2019.03.29-20.25.10:010][  0]LogInit: Using OS detected language (en-US).
+[2019.03.29-20.25.10:010][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.29-20.25.10:011][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.29-20.25.10:390][  0]LogStreaming: Display: Took  0.380s to InitEngineTextLocalization.
+[2019.03.29-20.25.10:390][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.29-20.25.10:460][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.29-20.25.10:460][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.29-20.25.10:820][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.29-20.25.10:848][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2019.03.29-20.25.10:848][  0]LogD3D11RHI:       8168/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2019.03.29-20.25.10:849][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.29-20.25.10:849][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.29-20.25.10:849][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.29-20.25.10:856][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.29-20.25.10:856][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.29-20.25.10:856][  0]LogWindows: EnumDisplayDevices:
+[2019.03.29-20.25.10:856][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2019.03.29-20.25.10:856][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2019.03.29-20.25.10:856][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:856][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:857][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:857][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:857][  0]LogWindows:    6. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:857][  0]LogWindows:    7. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:858][  0]LogWindows:    8. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:858][  0]LogWindows:    9. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:858][  0]LogWindows:    10. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:858][  0]LogWindows:    11. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:859][  0]LogWindows:    12. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:859][  0]LogWindows:    13. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:859][  0]LogWindows:    14. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:860][  0]LogWindows:    15. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2019.03.29-20.25.10:860][  0]LogWindows: DebugString: FoundDriverCount:16 
+[2019.03.29-20.25.10:860][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2019.03.29-20.25.10:860][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.11.1 (internal:25.20.14011.1003, unified:25.20.14011.1003)
+[2019.03.29-20.25.10:860][  0]LogD3D11RHI:      Driver Date: 11-7-2018
+[2019.03.29-20.25.10:860][  0]LogRHI: Texture pool is 5717 MB (70% of 8168 MB)
+[2019.03.29-20.25.10:908][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.29-20.25.10:920][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.03.29-20.25.10:922][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Intermediate/Shaders/WorkingDirectory/6588/).
+[2019.03.29-20.25.10:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nguyenmi19/AppData/Local/Temp/UnrealShaderWorkingDir/8F40A44248893D523F153395D0EBB7D9/'.
+[2019.03.29-20.25.11:169][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.29-20.25.11:182][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.29-20.25.11:196][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.29-20.25.11:210][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.29-20.25.11:224][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.29-20.25.11:238][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.29-20.25.11:251][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.29-20.25.11:265][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.29-20.25.11:271][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:348][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-20.25.11:349][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.29-20.25.11:409][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.29-20.25.11:409][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.29-20.25.11:433][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.29-20.25.11:433][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.29-20.25.11:445][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.29-20.25.11:458][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.29-20.25.11:471][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.29-20.25.11:483][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.29-20.25.11:492][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.29-20.25.11:492][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.29-20.25.11:544][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.29-20.25.11:544][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.29-20.25.11:544][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.29-20.25.12:243][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: Loaded boot cache 0.07s 86MB C:/Users/nguyenmi19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nguyenmi19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.29-20.25.12:312][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.29-20.25.12:326][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.29-20.25.12:338][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nguyenmi19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.29-20.25.12:338][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.29-20.25.12:338][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.29-20.25.12:357][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.29-20.25.12:359][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.29-20.25.12:360][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.29-20.25.12:435][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2019.03.29-20.25.12:771][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-20.25.12:907][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.29-20.25.12:910][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.29-20.25.12:910][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.29-20.25.12:910][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.29-20.25.12:910][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.29-20.25.12:968][  0]LogNetVersion: VirtualUP 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1504370664)
+[2019.03.29-20.25.13:502][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118149 seconds
+[2019.03.29-20.25.13:510][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.29-20.25.13:510][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.29-20.25.13:510][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.29-20.25.14:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.29-20.25.14:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.29-20.25.14:607][  0]SourceControl: Source control is disabled
+[2019.03.29-20.25.15:138][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.29-20.25.15:242][  0]LogOcInput: OculusInput pre-init called
+[2019.03.29-20.25.15:309][  0]LogEngine: Initializing Engine...
+[2019.03.29-20.25.15:377][  0]LogHMD: SteamVR initialized.  Driver: holographic  Display: WindowsHolographic
+[2019.03.29-20.25.15:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.29-20.25.15:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-20.25.15:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.29-20.25.15:378][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-20.25.15:595][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.29-20.25.15:610][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.29-20.25.15:636][  0]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.25.15:653][  0]LogInit: FAudioDevice initialized.
+[2019.03.29-20.25.15:653][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.29-20.25.15:735][  0]LogDerivedDataCache: Saved boot cache 0.08s 86MB C:/Users/nguyenmi19/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.29-20.25.15:746][  0]LogInit: Texture streaming: Enabled
+[2019.03.29-20.25.15:766][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.29-20.25.15:781][  0]LogInit: Transaction tracking system initialized
+[2019.03.29-20.25.15:805][  0]BlueprintLog: New page: Editor Load
+[2019.03.29-20.25.15:879][  0]LocalizationService: Localization service is disabled
+[2019.03.29-20.25.16:114][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.29-20.25.16:114][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.29-20.25.16:114][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.29-20.25.16:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.29-20.25.16:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-20.25.16:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.29-20.25.16:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-20.25.16:234][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/StartingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.25.16:235][  0]LightingResults: New page: Lighting Build
+[2019.03.29-20.25.16:238][  0]MapCheck: New page: Map Check
+[2019.03.29-20.25.16:238][  0]LightingResults: New page: Lighting Build
+[2019.03.29-20.25.17:063][  0]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.25.17:097][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.25.17:122][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.25.17:188][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.317ms to complete.
+[2019.03.29-20.25.17:188][  0]LogFileHelpers: Loading map 'StartingLevel' took 0.954
+[2019.03.29-20.25.17:397][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.25.17:407][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.25.17:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.25.17:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.25.17:435][  0]LogCollectionManager: Loaded 0 collections in 0.002210 seconds
+[2019.03.29-20.25.17:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/Collections/' took 0.01s
+[2019.03.29-20.25.17:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Developers/nguyenmi19/Collections/' took 0.01s
+[2019.03.29-20.25.17:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Collections/' took 0.01s
+[2019.03.29-20.25.17:522][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.29-20.25.17:533][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2584 classes and 612 folders.
+[2019.03.29-20.25.17:542][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-20.25.17:598][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-20.25.17:604][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.29-20.25.17:671][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.29-20.25.17:673][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.29-20.25.17:679][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.29-20.25.17:763][  0]LogRenderer: Reallocating scene render targets to support 864x288 Format 26 NumSamples 1 (Frame:1).
+[2019.03.29-20.25.17:931][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-20.25.17:931][  0]LogLoad: (Engine Initialization) Total time: 9.69 seconds
+[2019.03.29-20.25.17:931][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.29-20.25.17:940][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.29-20.25.17:986][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.29-20.25.18:012][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-20.25.20:308][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.25.21:976][452]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.29-20.25.32:285][679]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-20.25.35:545][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_459_jpg_railuv_png, compiling. 
+[2019.03.29-20.25.35:546][679]LogMaterial: Warning: C:\Users\nguyenmi19\Documents\GitHub\VirtualUP\Content\ShileyHall_Matterport_obj_and_textures\99c48a26d12c4d62a48590d082b297e6_459_jpg_railuv_png.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.29-20.25.35:546][679]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.29-20.25.37:092][679]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.25.37:101][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_000_jpg.99c48a26d12c4d62a48590d082b297e6_000_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:103][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_000_jpg, compiling. 
+[2019.03.29-20.25.37:167][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_000_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_000_jpg.99c48a26d12c4d62a48590d082b297e6_000_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:209][679]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.29-20.25.37:209][679]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.29-20.25.37:209][679]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.29-20.25.37:209][679]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.29-20.25.37:213][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_001_jpg.99c48a26d12c4d62a48590d082b297e6_001_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:216][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_001_jpg, compiling. 
+[2019.03.29-20.25.37:239][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_001_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_001_jpg.99c48a26d12c4d62a48590d082b297e6_001_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:243][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_011_jpg.99c48a26d12c4d62a48590d082b297e6_011_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:245][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_011_jpg, compiling. 
+[2019.03.29-20.25.37:266][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_011_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_011_jpg.99c48a26d12c4d62a48590d082b297e6_011_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:282][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_136_jpg.99c48a26d12c4d62a48590d082b297e6_136_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:284][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_136_jpg, compiling. 
+[2019.03.29-20.25.37:300][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_136_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_136_jpg.99c48a26d12c4d62a48590d082b297e6_136_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:300][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_114_jpg.99c48a26d12c4d62a48590d082b297e6_114_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:306][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_114_jpg, compiling. 
+[2019.03.29-20.25.37:322][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_114_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_114_jpg.99c48a26d12c4d62a48590d082b297e6_114_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:323][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_177_jpg.99c48a26d12c4d62a48590d082b297e6_177_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:325][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_177_jpg, compiling. 
+[2019.03.29-20.25.37:340][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_177_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_177_jpg.99c48a26d12c4d62a48590d082b297e6_177_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:340][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_045_jpg.99c48a26d12c4d62a48590d082b297e6_045_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:343][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_045_jpg, compiling. 
+[2019.03.29-20.25.37:359][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_045_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_045_jpg.99c48a26d12c4d62a48590d082b297e6_045_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:360][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_329_jpg.99c48a26d12c4d62a48590d082b297e6_329_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:362][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_329_jpg, compiling. 
+[2019.03.29-20.25.37:379][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_329_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_329_jpg.99c48a26d12c4d62a48590d082b297e6_329_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:380][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_179_jpg.99c48a26d12c4d62a48590d082b297e6_179_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:382][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_179_jpg, compiling. 
+[2019.03.29-20.25.37:398][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_179_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_179_jpg.99c48a26d12c4d62a48590d082b297e6_179_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:399][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_092_jpg.99c48a26d12c4d62a48590d082b297e6_092_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:401][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_092_jpg, compiling. 
+[2019.03.29-20.25.37:419][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_092_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_092_jpg.99c48a26d12c4d62a48590d082b297e6_092_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:420][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_139_jpg.99c48a26d12c4d62a48590d082b297e6_139_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:423][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_139_jpg, compiling. 
+[2019.03.29-20.25.37:444][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_139_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_139_jpg.99c48a26d12c4d62a48590d082b297e6_139_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:449][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_336_jpg.99c48a26d12c4d62a48590d082b297e6_336_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:452][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_336_jpg, compiling. 
+[2019.03.29-20.25.37:469][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_336_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_336_jpg.99c48a26d12c4d62a48590d082b297e6_336_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:470][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_165_jpg.99c48a26d12c4d62a48590d082b297e6_165_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:472][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_165_jpg, compiling. 
+[2019.03.29-20.25.37:490][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_165_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_165_jpg.99c48a26d12c4d62a48590d082b297e6_165_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:491][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_128_jpg.99c48a26d12c4d62a48590d082b297e6_128_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:493][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_128_jpg, compiling. 
+[2019.03.29-20.25.37:515][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_128_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_128_jpg.99c48a26d12c4d62a48590d082b297e6_128_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:517][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_435_jpg.99c48a26d12c4d62a48590d082b297e6_435_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:521][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_435_jpg, compiling. 
+[2019.03.29-20.25.37:546][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_435_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_435_jpg.99c48a26d12c4d62a48590d082b297e6_435_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:549][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_332_jpg.99c48a26d12c4d62a48590d082b297e6_332_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:552][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_332_jpg, compiling. 
+[2019.03.29-20.25.37:577][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_332_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_332_jpg.99c48a26d12c4d62a48590d082b297e6_332_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:578][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_147_jpg.99c48a26d12c4d62a48590d082b297e6_147_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:584][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_147_jpg, compiling. 
+[2019.03.29-20.25.37:607][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_147_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_147_jpg.99c48a26d12c4d62a48590d082b297e6_147_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:608][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_444_jpg.99c48a26d12c4d62a48590d082b297e6_444_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:610][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_444_jpg, compiling. 
+[2019.03.29-20.25.37:632][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_444_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_444_jpg.99c48a26d12c4d62a48590d082b297e6_444_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:632][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_275_jpg.99c48a26d12c4d62a48590d082b297e6_275_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:635][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_275_jpg, compiling. 
+[2019.03.29-20.25.37:657][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_275_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_275_jpg.99c48a26d12c4d62a48590d082b297e6_275_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:658][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_008_jpg.99c48a26d12c4d62a48590d082b297e6_008_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:660][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_008_jpg, compiling. 
+[2019.03.29-20.25.37:684][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_008_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_008_jpg.99c48a26d12c4d62a48590d082b297e6_008_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.37:685][679]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_129_jpg.99c48a26d12c4d62a48590d082b297e6_129_jpg needed to have new flag set bUsedWithStaticLighting !
+[2019.03.29-20.25.37:691][679]LogMaterial: Display: Missing cached shader map for material 99c48a26d12c4d62a48590d082b297e6_129_jpg, compiling. 
+[2019.03.29-20.25.37:717][679]MapCheck: Warning: 99c48a26d12c4d62a48590d082b297e6_129_jpg Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_129_jpg.99c48a26d12c4d62a48590d082b297e6_129_jpg was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.29-20.25.38:033][679]LogShaderCompilers: Display: Shaders left to compile 620
+[2019.03.29-20.25.38:042][679]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel
+[2019.03.29-20.25.38:094][679]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.25.38:094][679]LightingResults: New page: Lighting Build
+[2019.03.29-20.25.38:095][679]LoadErrors: New page: Loading map: ShileyHall_Matterport_NewLevel.umap
+[2019.03.29-20.25.38:097][679]MapCheck: New page: Map Check
+[2019.03.29-20.25.38:097][679]LightingResults: New page: Lighting Build
+[2019.03.29-20.25.39:560][679]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.03.29-20.25.39:676][679]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.25.40:111][679]LogShaderCompilers: Display: Shaders left to compile 610
+[2019.03.29-20.25.40:111][679]LogShaderCompilers: Display: Shaders left to compile 600
+[2019.03.29-20.25.40:111][679]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 434.643ms to complete.
+[2019.03.29-20.25.40:113][679]LogFileHelpers: Loading map 'ShileyHall_Matterport_NewLevel' took 2.020
+[2019.03.29-20.25.40:209][679]LogAssetRegistry: Asset discovery search completed in 27.7963 seconds
+[2019.03.29-20.25.40:214][679]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2019.03.29-20.25.41:295][714]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 9, WantedMips: 9, Boost: 0.2 (updated)
+[2019.03.29-20.25.42:036][770]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.25.42:051][771]LogSlate: Window 'Message Log' being destroyed
+[2019.03.29-20.25.42:070][771]LogSlate: Window 'Message Log' being destroyed
+[2019.03.29-20.25.42:267][789]LogShaderCompilers: Display: Shaders left to compile 590
+[2019.03.29-20.25.42:454][797]LogShaderCompilers: Display: Shaders left to compile 580
+[2019.03.29-20.25.44:814][901]LogShaderCompilers: Display: Shaders left to compile 570
+[2019.03.29-20.25.45:570][935]LogShaderCompilers: Display: Shaders left to compile 560
+[2019.03.29-20.25.45:702][941]LogShaderCompilers: Display: Shaders left to compile 550
+[2019.03.29-20.25.48:039][ 34]LogShaderCompilers: Display: Shaders left to compile 540
+[2019.03.29-20.25.48:076][ 35]LogShaderCompilers: Display: Shaders left to compile 530
+[2019.03.29-20.25.50:051][ 97]LogShaderCompilers: Display: Shaders left to compile 520
+[2019.03.29-20.25.50:301][103]LogShaderCompilers: Display: Shaders left to compile 510
+[2019.03.29-20.25.50:710][120]LogShaderCompilers: Display: Shaders left to compile 500
+[2019.03.29-20.25.51:963][197]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 9/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.25.52:206][211]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.25.53:003][247]LogShaderCompilers: Display: Shaders left to compile 490
+[2019.03.29-20.25.53:121][255]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2019.03.29-20.25.53:705][267]LogShaderCompilers: Display: Shaders left to compile 480
+[2019.03.29-20.25.54:390][284]LogShaderCompilers: Display: Shaders left to compile 470
+[2019.03.29-20.25.55:198][305]LogShaderCompilers: Display: Shaders left to compile 460
+[2019.03.29-20.25.57:012][352]LogShaderCompilers: Display: Shaders left to compile 450
+[2019.03.29-20.25.57:578][366]LogShaderCompilers: Display: Shaders left to compile 440
+[2019.03.29-20.25.58:766][397]LogShaderCompilers: Display: Shaders left to compile 430
+[2019.03.29-20.25.58:899][398]LogShaderCompilers: Display: Shaders left to compile 420
+[2019.03.29-20.26.00:467][439]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.26.01:045][495]LogShaderCompilers: Display: Shaders left to compile 410
+[2019.03.29-20.26.01:871][532]LogShaderCompilers: Display: Shaders left to compile 400
+[2019.03.29-20.26.02:274][542]LogShaderCompilers: Display: Shaders left to compile 390
+[2019.03.29-20.26.03:415][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.26.03:540][578]LogShaderCompilers: Display: Shaders left to compile 380
+[2019.03.29-20.26.04:938][609]LogShaderCompilers: Display: Shaders left to compile 370
+[2019.03.29-20.26.05:037][612]LogShaderCompilers: Display: Shaders left to compile 360
+[2019.03.29-20.26.07:083][666]LogShaderCompilers: Display: Shaders left to compile 350
+[2019.03.29-20.26.07:398][674]LogShaderCompilers: Display: Shaders left to compile 340
+[2019.03.29-20.26.07:813][685]LogShaderCompilers: Display: Shaders left to compile 330
+[2019.03.29-20.26.08:596][700]LogAIModule: Creating AISystem for world MemoryBubbleVegdahlOffice
+[2019.03.29-20.26.08:604][700]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MemoryBubbleVegdahlOffice.MemoryBubbleVegdahlOffice
+[2019.03.29-20.26.09:519][700]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.03.29-20.26.09:835][700]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.03.29-20.26.10:554][700]LogSlate: Window 'Save Content' being destroyed
+[2019.03.29-20.26.10:653][700]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.03.29-20.26.11:707][700]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.03.29-20.26.12:038][700]LogShaderCompilers: Display: Shaders left to compile 280
+[2019.03.29-20.26.13:272][700]LogShaderCompilers: Display: Shaders left to compile 270
+[2019.03.29-20.26.13:873][700]LogShaderCompilers: Display: Shaders left to compile 260
+[2019.03.29-20.26.13:943][700]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHall_Matterport_NewLevel1F003D714DA433381557C6940F7F1DE0.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap'
+[2019.03.29-20.26.14:031][700]LogFileHelpers: Saving map 'ShileyHall_Matterport_NewLevel' took 3.317
+[2019.03.29-20.26.14:033][700]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/MemoryBubbleVegdahlOffice.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.26.14:033][700]LightingResults: New page: Lighting Build
+[2019.03.29-20.26.14:035][700]LoadErrors: New page: Loading map: MemoryBubbleVegdahlOffice.umap
+[2019.03.29-20.26.14:081][700]MapCheck: New page: Map Check
+[2019.03.29-20.26.14:081][700]LightingResults: New page: Lighting Build
+[2019.03.29-20.26.14:276][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.26.14:375][700]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.26.14:825][700]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 449.705ms to complete.
+[2019.03.29-20.26.14:828][700]LogFileHelpers: Loading map 'MemoryBubbleVegdahlOffice' took 0.796
+[2019.03.29-20.26.14:896][700]LogShaderCompilers: Display: Shaders left to compile 250
+[2019.03.29-20.26.15:866][801]LogShaderCompilers: Display: Shaders left to compile 240
+[2019.03.29-20.26.17:251][950]LogShaderCompilers: Display: Shaders left to compile 230
+[2019.03.29-20.26.17:317][957]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2019.03.29-20.26.17:963][  9]LogShaderCompilers: Display: Shaders left to compile 220
+[2019.03.29-20.26.18:846][ 76]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.03.29-20.26.20:266][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.26.20:694][233]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.03.29-20.26.20:738][238]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.03.29-20.26.22:326][381]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.03.29-20.26.23:369][468]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.03.29-20.26.23:506][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.26.23:756][484]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.26.23:951][484]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.03.29-20.26.23:951][484]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/MemoryBubbleVegdahlOffice8424910F47C398E3ECEEDE902C1FE43A.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/MemoryBubbleVegdahlOffice.umap'
+[2019.03.29-20.26.24:483][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.26.25:368][530]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.26.25:651][530]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.03.29-20.26.25:655][530]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel
+[2019.03.29-20.26.25:702][530]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.26.25:702][530]LightingResults: New page: Lighting Build
+[2019.03.29-20.26.25:703][530]LoadErrors: New page: Loading map: ShileyHall_Matterport_NewLevel.umap
+[2019.03.29-20.26.25:737][530]MapCheck: New page: Map Check
+[2019.03.29-20.26.25:737][530]LightingResults: New page: Lighting Build
+[2019.03.29-20.26.26:503][530]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.03.29-20.26.26:505][530]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.26.26:628][530]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.26.27:066][530]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.03.29-20.26.27:066][530]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 437.063ms to complete.
+[2019.03.29-20.26.27:071][530]LogFileHelpers: Loading map 'ShileyHall_Matterport_NewLevel' took 1.370
+[2019.03.29-20.26.27:482][548]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.26.27:583][555]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.26.28:330][603]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.03.29-20.26.29:341][624]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.03.29-20.26.29:365][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (editModel)
+[2019.03.29-20.26.32:435][625]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.03.29-20.26.32:435][625]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.03.29-20.26.32:435][625]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.03.29-20.26.32:444][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (editModel)
+[2019.03.29-20.26.33:522][633]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.03.29-20.26.33:819][635]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.29-20.26.33:945][636]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.29-20.26.34:945][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.26.36:140][735]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.29-20.26.36:655][785]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.29-20.26.37:413][816]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.29-20.26.38:665][851]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.29-20.26.47:885][197]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHall_Matterport_NewLevel04EAB378430F202A87EAF689380B0C15.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap'
+[2019.03.29-20.26.50:843][197]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHall_Matterport_NewLevel_B25FAAC5841EA2E04075CB1AA5484F9F2.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel_BuiltData.uasset'
+[2019.03.29-20.26.53:082][290]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.27.01:934][941]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.27.03:210][ 53]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.27.11:530][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.27.16:068][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.16:068][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.27.16:080][195]PIE: New page: SIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:27:16 AM)
+[2019.03.29-20.27.16:080][195]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.16:179][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098856s)
+[2019.03.29-20.27.16:180][195]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.16:180][195]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2019.03.29-20.27.16:180][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.099948s)
+[2019.03.29-20.27.16:220][195]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.27.16:232][195]LogInit: FAudioDevice initialized.
+[2019.03.29-20.27.16:276][195]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.27.16:323][195]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.27.16
+[2019.03.29-20.27.16:328][195]LogWorld: Bringing up level for play took: 0.050649
+[2019.03.29-20.27.16:340][195]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.27.16:349][195]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.03.29-20.27.16:349][195]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.16:356][195]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.16:356][195]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel -0.425
+[2019.03.29-20.27.16:385][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.17:978][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.17:983][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.18:031][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.27.18:032][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.18:062][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.18:091][355]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.29-20.27.25:758][943]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.27.27:576][ 97]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.27.31:381][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.27.31:465][453]LogTemp: Repeating last play command: Simulate
+[2019.03.29-20.27.31:490][453]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.31:491][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.27.31:491][453]PIE: New page: SIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:27:31 AM)
+[2019.03.29-20.27.31:491][453]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.31:596][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104505s)
+[2019.03.29-20.27.31:596][453]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.31:596][453]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2019.03.29-20.27.31:597][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.105733s)
+[2019.03.29-20.27.31:638][453]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.27.31:651][453]LogInit: FAudioDevice initialized.
+[2019.03.29-20.27.31:685][453]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.27.31:729][453]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.27.31
+[2019.03.29-20.27.31:733][453]LogWorld: Bringing up level for play took: 0.048333
+[2019.03.29-20.27.31:746][453]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.27.31:746][453]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.31:749][453]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.31:749][453]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel 0.969
+[2019.03.29-20.27.31:752][453]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.33:521][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.27.33:611][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.33:612][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.33:655][618]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.27.33:656][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.33:681][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.33:715][619]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.29-20.27.45:307][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.27.45:356][637]LogTemp: Repeating last play command: Simulate
+[2019.03.29-20.27.45:382][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.45:382][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.27.45:382][637]PIE: New page: SIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:27:45 AM)
+[2019.03.29-20.27.45:382][637]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.45:481][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098787s)
+[2019.03.29-20.27.45:482][637]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.45:482][637]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2019.03.29-20.27.45:482][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.100016s)
+[2019.03.29-20.27.45:524][637]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.27.45:535][637]LogInit: FAudioDevice initialized.
+[2019.03.29-20.27.45:566][637]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.27.45:610][637]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.27.45
+[2019.03.29-20.27.45:614][637]LogWorld: Bringing up level for play took: 0.047940
+[2019.03.29-20.27.45:626][637]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.27.45:626][637]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.45:630][637]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.45:630][637]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel 0.849
+[2019.03.29-20.27.45:633][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.47:595][764]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.47:595][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.47:639][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.27.47:640][764]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.47:668][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.47:703][765]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.29-20.27.49:392][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.49:392][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.27.49:392][919]PIE: New page: PIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:27:49 AM)
+[2019.03.29-20.27.49:393][919]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.49:490][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097279s)
+[2019.03.29-20.27.49:491][919]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.27.49:491][919]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.03.29-20.27.49:491][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.098390s)
+[2019.03.29-20.27.49:531][919]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.27.49:543][919]LogInit: FAudioDevice initialized.
+[2019.03.29-20.27.49:585][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.27.49:781][919]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.27.49:825][919]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.27.49
+[2019.03.29-20.27.49:829][919]LogWorld: Bringing up level for play took: 0.047784
+[2019.03.29-20.27.49:841][919]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.27.49:842][919]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.49:842][919]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.27.49:842][919]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.27.49:845][919]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.27.49:849][919]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel 1.068
+[2019.03.29-20.27.49:849][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.27.49:919][920]LogRenderer: Reallocating scene render targets to support 3152x1968 Format 26 NumSamples 1 (Frame:1).
+[2019.03.29-20.28.23:553][834]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.28.23:553][834]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.28.23:554][834]LogNet: Browse: /Game/Levels/MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.28.23:588][834]LogLoad: LoadMap: /Game/Levels/MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.28.30:063][834]LogAIModule: Creating AISystem for world MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.28.30:063][834]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.28.30:067][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MemoryBubbleShileyOutsideStairs.MemoryBubbleShileyOutsideStairs up for play (max tick rate 0) at 2019.03.29-13.28.30
+[2019.03.29-20.28.30:067][834]LogWorld: Bringing up level for play took: 0.002759
+[2019.03.29-20.28.30:067][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.03.29-20.28.30:067][834]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.28.30:067][834]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.28.30:067][834]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.28.30:067][834]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.28.30:072][834]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.28.30:072][834]LogLoad: Took 6.484204 seconds to LoadMap(/Game/Levels/MemoryBubbleShileyOutsideStairs)
+[2019.03.29-20.28.33:820][ 49]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.28.33:820][ 49]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.28.33:821][ 49]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_Level
+[2019.03.29-20.28.33:837][ 49]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_Level
+[2019.03.29-20.28.41:848][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk327_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk327_group000_sub002_filled001.
+[2019.03.29-20.28.41:848][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk327_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk327_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.41:959][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.41:959][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.41:960][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk317_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk317_group001_sub009_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.03.29-20.28.41:960][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk317_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk317_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.42:022][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk111_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk111_group002_sub028_filled001.
+[2019.03.29-20.28.42:022][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk111_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk111_group002_sub028_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024.99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024 2 (FlipX:0). The remaining elements will not get cooked.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024.99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024 2 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.42:105][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024.99c48a26d12c4d62a48590d082b297e6_chunk003_group001_sub024:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.42:618][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk094_group000_sub005_filled001.99c48a26d12c4d62a48590d082b297e6_chunk094_group000_sub005_filled001.
+[2019.03.29-20.28.42:618][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk094_group000_sub005_filled001.99c48a26d12c4d62a48590d082b297e6_chunk094_group000_sub005_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.43:691][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk671_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk671_group002_sub028_filled001.
+[2019.03.29-20.28.43:691][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk671_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk671_group002_sub028_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.44:750][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window425_group001_sub009.99c48a26d12c4d62a48590d082b297e6_window425_group001_sub009.
+[2019.03.29-20.28.44:750][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window425_group001_sub009.99c48a26d12c4d62a48590d082b297e6_window425_group001_sub009:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.44:881][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk519_group000_sub005.99c48a26d12c4d62a48590d082b297e6_chunk519_group000_sub005.
+[2019.03.29-20.28.44:881][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk519_group000_sub005.99c48a26d12c4d62a48590d082b297e6_chunk519_group000_sub005:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.44:889][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk518_group000_sub004.99c48a26d12c4d62a48590d082b297e6_chunk518_group000_sub004.
+[2019.03.29-20.28.44:889][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk518_group000_sub004.99c48a26d12c4d62a48590d082b297e6_chunk518_group000_sub004:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.45:234][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window710_group001_sub009.99c48a26d12c4d62a48590d082b297e6_window710_group001_sub009.
+[2019.03.29-20.28.45:234][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window710_group001_sub009.99c48a26d12c4d62a48590d082b297e6_window710_group001_sub009:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.45:493][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk824_group000_sub002.99c48a26d12c4d62a48590d082b297e6_chunk824_group000_sub002.
+[2019.03.29-20.28.45:493][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk824_group000_sub002.99c48a26d12c4d62a48590d082b297e6_chunk824_group000_sub002:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.46:317][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk152_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk152_group002_sub028.
+[2019.03.29-20.28.46:317][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk152_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk152_group002_sub028:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.47:291][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk452_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk452_group002_sub028.
+[2019.03.29-20.28.47:291][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk452_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk452_group002_sub028:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.47:510][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk167_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001.99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001.99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.47:801][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001.99c48a26d12c4d62a48590d082b297e6_chunk391_group001_sub012_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.47:843][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk846_group001_sub009.99c48a26d12c4d62a48590d082b297e6_chunk846_group001_sub009.
+[2019.03.29-20.28.47:843][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk846_group001_sub009.99c48a26d12c4d62a48590d082b297e6_chunk846_group001_sub009:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.48:180][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.48:180][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.48:180][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk636_group001_sub024_filled001.99c48a26d12c4d62a48590d082b297e6_chunk636_group001_sub024_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.48:180][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk636_group001_sub024_filled001.99c48a26d12c4d62a48590d082b297e6_chunk636_group001_sub024_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.48:791][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk618_group000_sub005_filled001.99c48a26d12c4d62a48590d082b297e6_chunk618_group000_sub005_filled001.
+[2019.03.29-20.28.48:791][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk618_group000_sub005_filled001.99c48a26d12c4d62a48590d082b297e6_chunk618_group000_sub005_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.48:880][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.48:880][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.48:880][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk447_group000_sub002.99c48a26d12c4d62a48590d082b297e6_chunk447_group000_sub002 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.48:880][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk447_group000_sub002.99c48a26d12c4d62a48590d082b297e6_chunk447_group000_sub002:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:391][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk587_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk587_group001_sub009_filled001.
+[2019.03.29-20.28.49:391][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk587_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk587_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:414][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk740_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk740_group002_sub028.
+[2019.03.29-20.28.49:415][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk740_group002_sub028.99c48a26d12c4d62a48590d082b297e6_chunk740_group002_sub028:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:478][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk511_group001_sub026_filled001.99c48a26d12c4d62a48590d082b297e6_chunk511_group001_sub026_filled001.
+[2019.03.29-20.28.49:479][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk511_group001_sub026_filled001.99c48a26d12c4d62a48590d082b297e6_chunk511_group001_sub026_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:736][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk336_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk336_group001_sub009_filled001.
+[2019.03.29-20.28.49:736][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk336_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk336_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:756][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk595_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk595_group000_sub002_filled001.
+[2019.03.29-20.28.49:756][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk595_group000_sub002_filled001.99c48a26d12c4d62a48590d082b297e6_chunk595_group000_sub002_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.49:941][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk164_group001_sub010_filled001.99c48a26d12c4d62a48590d082b297e6_chunk164_group001_sub010_filled001.
+[2019.03.29-20.28.49:941][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk164_group001_sub010_filled001.99c48a26d12c4d62a48590d082b297e6_chunk164_group001_sub010_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.50:102][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk495_group002_sub027.99c48a26d12c4d62a48590d082b297e6_chunk495_group002_sub027.
+[2019.03.29-20.28.50:102][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk495_group002_sub027.99c48a26d12c4d62a48590d082b297e6_chunk495_group002_sub027:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.50:377][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk679_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk679_group001_sub009_filled001.
+[2019.03.29-20.28.50:377][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk679_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk679_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.50:442][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.50:443][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.50:443][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk677_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk677_group002_sub028_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.50:443][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk677_group002_sub028_filled001.99c48a26d12c4d62a48590d082b297e6_chunk677_group002_sub028_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.50:464][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk675_group001_sub010.99c48a26d12c4d62a48590d082b297e6_chunk675_group001_sub010.
+[2019.03.29-20.28.50:464][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk675_group001_sub010.99c48a26d12c4d62a48590d082b297e6_chunk675_group001_sub010:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:030][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk872_group000_sub021_filled001.99c48a26d12c4d62a48590d082b297e6_chunk872_group000_sub021_filled001.
+[2019.03.29-20.28.54:031][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk872_group000_sub021_filled001.99c48a26d12c4d62a48590d082b297e6_chunk872_group000_sub021_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001 0 (FlipX:0). The remaining elements will not get cooked.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: PHYSX: (D:\Build\++UE4+Release-4.20+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 937) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: Failed to cook convex: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001 0 (FlipX:1). The remaining elements will not get cooked.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001.
+[2019.03.29-20.28.54:173][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk819_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:241][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window856_group001_sub026_filled001.99c48a26d12c4d62a48590d082b297e6_window856_group001_sub026_filled001.
+[2019.03.29-20.28.54:241][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window856_group001_sub026_filled001.99c48a26d12c4d62a48590d082b297e6_window856_group001_sub026_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:249][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window845_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window845_group001_sub025_filled001.
+[2019.03.29-20.28.54:249][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window845_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window845_group001_sub025_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:249][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window844_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window844_group001_sub025_filled001.
+[2019.03.29-20.28.54:250][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window844_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window844_group001_sub025_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:250][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window843_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window843_group001_sub025_filled001.
+[2019.03.29-20.28.54:250][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window843_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_window843_group001_sub025_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:312][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk158_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk158_group001_sub009_filled001.
+[2019.03.29-20.28.54:312][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk158_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk158_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:391][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk662_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk662_group001_sub009_filled001.
+[2019.03.29-20.28.54:391][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk662_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk662_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:501][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk433_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk433_group001_sub009_filled001.
+[2019.03.29-20.28.54:502][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk433_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_chunk433_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:528][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk592_group002_sub015_filled001.99c48a26d12c4d62a48590d082b297e6_chunk592_group002_sub015_filled001.
+[2019.03.29-20.28.54:528][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk592_group002_sub015_filled001.99c48a26d12c4d62a48590d082b297e6_chunk592_group002_sub015_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:582][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk621_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_chunk621_group001_sub025_filled001.
+[2019.03.29-20.28.54:582][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk621_group001_sub025_filled001.99c48a26d12c4d62a48590d082b297e6_chunk621_group001_sub025_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:678][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk602_group001_sub026.99c48a26d12c4d62a48590d082b297e6_chunk602_group001_sub026.
+[2019.03.29-20.28.54:678][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_chunk602_group001_sub026.99c48a26d12c4d62a48590d082b297e6_chunk602_group001_sub026:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:949][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window784_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window784_group001_sub009_filled001.
+[2019.03.29-20.28.54:950][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window784_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window784_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:960][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window787_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window787_group001_sub009_filled001.
+[2019.03.29-20.28.54:960][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window787_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window787_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.28.54:960][ 49]LogPhysics: Warning: Failed to cook TriMesh: /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window781_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window781_group001_sub009_filled001.
+[2019.03.29-20.28.54:960][ 49]LogPhysics: Warning: Attempt to build physics data for /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_window781_group001_sub009_filled001.99c48a26d12c4d62a48590d082b297e6_window781_group001_sub009_filled001:BodySetup_0 when we are unable to.
+[2019.03.29-20.29.00:827][ 49]LogAIModule: Creating AISystem for world ShileyHall_Matterport_Level
+[2019.03.29-20.29.00:827][ 49]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.29.00:833][ 49]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_133_jpg_ncl1_1.99c48a26d12c4d62a48590d082b297e6_133_jpg_ncl1_1 missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2019.03.29-20.29.00:833][ 49]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2019.03.29-20.29.00:838][ 49]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_324_jpg.99c48a26d12c4d62a48590d082b297e6_324_jpg missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2019.03.29-20.29.00:838][ 49]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2019.03.29-20.29.00:843][ 49]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_423_jpg.99c48a26d12c4d62a48590d082b297e6_423_jpg missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2019.03.29-20.29.00:843][ 49]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2019.03.29-20.29.00:847][ 49]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_035_jpg_ncl1_1.99c48a26d12c4d62a48590d082b297e6_035_jpg_ncl1_1 missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2019.03.29-20.29.00:847][ 49]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2019.03.29-20.29.00:847][ 49]LogMaterial: Warning: Material /Game/ShileyHall_Matterport_obj_and_textures/99c48a26d12c4d62a48590d082b297e6_119_jpg_ncl1_1.99c48a26d12c4d62a48590d082b297e6_119_jpg_ncl1_1 missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2019.03.29-20.29.00:847][ 49]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2019.03.29-20.29.01:016][ 49]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_Level.ShileyHall_Matterport_Level up for play (max tick rate 0) at 2019.03.29-13.29.01
+[2019.03.29-20.29.01:021][ 49]LogWorld: Bringing up level for play took: 0.193299
+[2019.03.29-20.29.01:021][ 49]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.29.01:021][ 49]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.29.01:021][ 49]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.29.01:021][ 49]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.29.01:026][ 49]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.29.01:026][ 49]LogLoad: Took 27.188772 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_Level)
+[2019.03.29-20.29.01:554][ 69]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.29.02:553][118]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.29.02:835][132]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.29.03:887][188]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.29.15:800][867]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.29.16:121][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.29.16:308][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.29.16:361][883]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.29-20.29.16:423][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.29.16:424][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.29.16:501][884]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.29-20.29.16:583][888]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.29.16:717][895]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 7, WantedMips: 7, Boost: 0.2 (updated)
+[2019.03.29-20.29.16:813][902]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_Level_BuiltData.ShileyHall_Matterport_Level_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 7, WantedMips: 7, Boost: 0.2 (updated)
+[2019.03.29-20.29.39:667][510]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameModes/VirtualUPGameInstance.VirtualUPGameInstance
+[2019.03.29-20.29.40:324][510]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.03.29-20.29.41:345][510]LogSlate: Took 0.004754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.29-20.29.41:525][511]LogSlate: Took 0.006531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.29-20.29.52:697][152]LogSlate: Took 0.004679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.29-20.29.57:827][581]BlueprintLog: New page: Compile VirtualUPGameInstance
+[2019.03.29-20.30.13:746][514]BlueprintLog: New page: Compile VirtualUPGameInstance
+[2019.03.29-20.30.15:153][597]LogSlate: Window 'VirtualUPGameInstance*' being destroyed
+[2019.03.29-20.30.15:156][597]LogSlate: Window 'VirtualUPGameInstance*' being destroyed
+[2019.03.29-20.30.38:816][972]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/Blueprints/StartBlock.StartBlock
+[2019.03.29-20.31.53:859][993]BlueprintLog: New page: Compile StartBlock
+[2019.03.29-20.32.15:423][241]BlueprintLog: New page: Compile StartBlock
+[2019.03.29-20.32.33:734][550]LogSlate: Window 'StartBlock*' being destroyed
+[2019.03.29-20.32.33:737][550]LogSlate: Window 'StartBlock*' being destroyed
+[2019.03.29-20.32.41:525][946]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/Blueprints/ActualTeleportBackSystem.ActualTeleportBackSystem
+[2019.03.29-20.33.12:715][427]BlueprintLog: New page: Compile ActualTeleportBackSystem
+[2019.03.29-20.33.21:204][921]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/Blueprints/ResumeBlock.ResumeBlock
+[2019.03.29-20.34.23:632][628]BlueprintLog: New page: Compile ResumeBlock
+[2019.03.29-20.34.37:136][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/Blueprints/BackSphere.BackSphere
+[2019.03.29-20.34.52:119][621]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/Blueprints/HelpSphere.HelpSphere
+[2019.03.29-20.34.59:702][127]LogSlate: Window 'HelpSphere' being destroyed
+[2019.03.29-20.34.59:705][127]LogSlate: Window 'HelpSphere' being destroyed
+[2019.03.29-20.34.59:785][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.29-20.34.59:859][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.29-20.35.08:160][639]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.35.08:173][639]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartingLevel.StartingLevel
+[2019.03.29-20.35.11:133][639]LogSlate: Window 'Save Content' being destroyed
+[2019.03.29-20.35.11:336][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameModes/VirtualUPGameInstance" FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/GameModes/VirtualUPGameInstance.uasset" SILENT=true
+[2019.03.29-20.35.11:384][639]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/VirtualUPGameInstance634206064019664A20243985738553F8.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/GameModes/VirtualUPGameInstance.uasset'
+[2019.03.29-20.35.11:417][639]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ActualTeleportBackSystemDA1F55AD4EEE8DA4EA948B80CC2D70AA.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/LevelBluePrints/Blueprints/ActualTeleportBackSystem.uasset'
+[2019.03.29-20.35.11:475][639]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ResumeBlock0632ADA7497C1EB5CD04D6BC252C0DC8.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/LevelBluePrints/Blueprints/ResumeBlock.uasset'
+[2019.03.29-20.35.11:528][639]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/StartBlockE1048024432BC9048691D48021B20CBA.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/LevelBluePrints/Blueprints/StartBlock.uasset'
+[2019.03.29-20.35.11:532][639]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/StartingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.35.11:532][639]LightingResults: New page: Lighting Build
+[2019.03.29-20.35.11:533][639]LoadErrors: New page: Loading map: StartingLevel.umap
+[2019.03.29-20.35.11:544][639]MapCheck: New page: Map Check
+[2019.03.29-20.35.11:544][639]LightingResults: New page: Lighting Build
+[2019.03.29-20.35.12:005][639]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.35.12:077][639]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.35.14:832][639]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,755.749ms to complete.
+[2019.03.29-20.35.14:834][639]LogFileHelpers: Loading map 'StartingLevel' took 3.303
+[2019.03.29-20.35.40:834][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.35.40:933][744]LogTemp: Repeating last play command: VR Preview
+[2019.03.29-20.35.40:971][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.35.40:971][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.35.40:971][744]PIE: New page: PIE session: StartingLevel (Mar 29, 2019, 6:35:40 AM)
+[2019.03.29-20.35.40:975][744]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2019.03.29-20.35.40:989][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013687s)
+[2019.03.29-20.35.40:990][744]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.35.40:990][744]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.03.29-20.35.40:990][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.014564s)
+[2019.03.29-20.35.41:039][744]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.35.41:051][744]LogInit: FAudioDevice initialized.
+[2019.03.29-20.35.41:093][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.35.41:240][744]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.35.41:244][744]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2019.03.29-13.35.41
+[2019.03.29-20.35.41:248][744]LogWorld: Bringing up level for play took: 0.007530
+[2019.03.29-20.35.41:261][744]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.35.41:261][744]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.35.41:261][744]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.35.41:261][744]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.35.41:264][744]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.35.41:267][744]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.485
+[2019.03.29-20.35.41:267][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.35.45:129][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.35.45:307][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.35.45:348][975]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.29-20.35.45:382][975]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.35.45:383][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.35.45:434][976]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.29-20.35.47:893][255]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartingLevel.StartingLevel
+[2019.03.29-20.35.47:919][255]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/StartingLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.35.47:919][255]LightingResults: New page: Lighting Build
+[2019.03.29-20.35.47:919][255]LoadErrors: New page: Loading map: StartingLevel.umap
+[2019.03.29-20.35.47:921][255]MapCheck: New page: Map Check
+[2019.03.29-20.35.47:921][255]LightingResults: New page: Lighting Build
+[2019.03.29-20.35.48:008][255]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.35.48:123][255]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.35.48:199][255]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.35.48:702][255]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 501.835ms to complete.
+[2019.03.29-20.35.48:703][255]LogFileHelpers: Loading map 'StartingLevel' took 0.784
+[2019.03.29-20.36.00:931][603]LogTemp: Repeating last play command: VR Preview
+[2019.03.29-20.36.00:955][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.36.00:955][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.36.00:956][603]PIE: New page: PIE session: StartingLevel (Mar 29, 2019, 6:36:00 AM)
+[2019.03.29-20.36.00:956][603]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2019.03.29-20.36.00:968][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012488s)
+[2019.03.29-20.36.00:969][603]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.36.00:969][603]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2019.03.29-20.36.00:969][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.013245s)
+[2019.03.29-20.36.01:042][603]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.36.01:054][603]LogInit: FAudioDevice initialized.
+[2019.03.29-20.36.01:097][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.36.01:243][603]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.36.01:246][603]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2019.03.29-13.36.01
+[2019.03.29-20.36.01:247][603]LogWorld: Bringing up level for play took: 0.002780
+[2019.03.29-20.36.01:259][603]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.36.01:259][603]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.01:259][603]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.01:259][603]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.01:262][603]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.01:264][603]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartingLevel 0.482
+[2019.03.29-20.36.01:265][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.36.16:559][504]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.16:559][504]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.16:559][504]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.16:575][504]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.21:360][504]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.21:360][504]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.36.21:512][504]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.36.21
+[2019.03.29-20.36.21:516][504]LogWorld: Bringing up level for play took: 0.156077
+[2019.03.29-20.36.21:517][504]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.36.21:517][504]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.21:517][504]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.21:517][504]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.21:521][504]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.21:521][504]LogLoad: Took 4.945805 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_NewLevel)
+[2019.03.29-20.36.23:395][594]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.36.25:158][643]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.36.27:966][720]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.36.29:805][793]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.29:805][793]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.29:805][793]LogNet: Browse: /Game/Levels/MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.36.29:827][793]LogLoad: LoadMap: /Game/Levels/MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.36.30:062][793]LogAIModule: Creating AISystem for world MemoryBubbleShileyOutsideStairs
+[2019.03.29-20.36.30:062][793]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.36.30:065][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MemoryBubbleShileyOutsideStairs.MemoryBubbleShileyOutsideStairs up for play (max tick rate 0) at 2019.03.29-13.36.30
+[2019.03.29-20.36.30:066][793]LogWorld: Bringing up level for play took: 0.002906
+[2019.03.29-20.36.30:066][793]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.03.29-20.36.30:066][793]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.36.30:066][793]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.30:066][793]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.30:066][793]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.30:069][793]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.30:069][793]LogLoad: Took 0.240968 seconds to LoadMap(/Game/Levels/MemoryBubbleShileyOutsideStairs)
+[2019.03.29-20.36.34:847][ 81]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.34:847][ 81]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.36.34:848][ 81]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.34:864][ 81]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.36:864][ 81]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.36.36:865][ 81]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.36.37:021][ 81]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.36.37
+[2019.03.29-20.36.37:026][ 81]LogWorld: Bringing up level for play took: 0.160496
+[2019.03.29-20.36.37:027][ 81]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.36.37:027][ 81]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.37:027][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.36.37:027][ 81]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.37:032][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.36.37:032][ 81]LogLoad: Took 2.169082 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_NewLevel)
+[2019.03.29-20.36.38:228][115]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.36.53:066][591]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.36.54:234][626]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.36.55:633][668]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.36.56:567][696]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.36.57:033][710]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.36.57:483][724]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.01:435][843]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.02:370][871]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.03:766][913]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.03:766][913]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.03:767][913]LogNet: Browse: /Game/Levels/InGameMenu
+[2019.03.29-20.37.03:800][913]LogLoad: LoadMap: /Game/Levels/InGameMenu
+[2019.03.29-20.37.04:138][913]LogAIModule: Creating AISystem for world InGameMenu
+[2019.03.29-20.37.04:138][913]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.37.04:142][913]LogWorld: Bringing World /Game/Levels/UEDPIE_0_InGameMenu.InGameMenu up for play (max tick rate 0) at 2019.03.29-13.37.04
+[2019.03.29-20.37.04:142][913]LogWorld: Bringing up level for play took: 0.003060
+[2019.03.29-20.37.04:142][913]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.37.04:143][913]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.37.04:143][913]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.37.04:143][913]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.37.04:145][913]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.37.04:145][913]LogLoad: Took 0.344946 seconds to LoadMap(/Game/Levels/InGameMenu)
+[2019.03.29-20.37.09:818][249]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.09:818][249]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.09:819][249]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.37.09:835][249]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.37.11:734][249]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.37.11:734][249]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.37.11:886][249]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.37.11
+[2019.03.29-20.37.11:892][249]LogWorld: Bringing up level for play took: 0.157449
+[2019.03.29-20.37.11:893][249]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.37.11:893][249]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.37.11:893][249]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.37.11:893][249]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.37.11:897][249]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.37.11:897][249]LogLoad: Took 2.062034 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_NewLevel)
+[2019.03.29-20.37.12:167][255]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.13:777][311]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.29:789][535]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.31:546][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.37.32:097][582]EditorErrors: New page: Actor attachment
+[2019.03.29-20.37.35:948][647]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.44:817][752]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.45:867][773]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.48:117][822]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.48:583][836]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.53:956][997]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.55:344][ 25]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.55:344][ 25]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.37.56:049][ 39]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.37.59:846][115]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.59:846][115]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.37.59:846][115]LogNet: Browse: /Game/Levels/InGameMenu
+[2019.03.29-20.37.59:897][115]LogLoad: LoadMap: /Game/Levels/InGameMenu
+[2019.03.29-20.38.00:144][115]LogAIModule: Creating AISystem for world InGameMenu
+[2019.03.29-20.38.00:144][115]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.38.00:147][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_InGameMenu.InGameMenu up for play (max tick rate 0) at 2019.03.29-13.38.00
+[2019.03.29-20.38.00:148][115]LogWorld: Bringing up level for play took: 0.002304
+[2019.03.29-20.38.00:148][115]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.38.00:148][115]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.00:148][115]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.00:148][115]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.00:150][115]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.00:150][115]LogLoad: Took 0.253379 seconds to LoadMap(/Game/Levels/InGameMenu)
+[2019.03.29-20.38.03:615][318]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.03:615][318]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.03:615][318]LogNet: Browse: /Game/Levels/StartingLevel
+[2019.03.29-20.38.03:631][318]LogLoad: LoadMap: /Game/Levels/StartingLevel
+[2019.03.29-20.38.03:660][318]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartingLevel
+[2019.03.29-20.38.03:670][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009902s)
+[2019.03.29-20.38.03:670][318]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.38.03:671][318]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2019.03.29-20.38.03:671][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartingLevel.StartingLevel to /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel (0.010768s)
+[2019.03.29-20.38.03:671][318]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.38.03:674][318]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2019.03.29-13.38.03
+[2019.03.29-20.38.03:675][318]LogWorld: Bringing up level for play took: 0.002853
+[2019.03.29-20.38.03:675][318]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.38.03:675][318]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.03:675][318]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.03:675][318]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.03:677][318]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.03:677][318]LogLoad: Took 0.046440 seconds to LoadMap(/Game/Levels/UEDPIE_0_StartingLevel)
+[2019.03.29-20.38.16:366][ 69]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.16:366][ 69]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.16:367][ 69]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.16:382][ 69]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.18:304][ 69]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.18:304][ 69]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.38.18:464][ 69]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.38.18
+[2019.03.29-20.38.18:468][ 69]LogWorld: Bringing up level for play took: 0.163821
+[2019.03.29-20.38.18:469][ 69]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.38.18:469][ 69]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.18:469][ 69]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.18:469][ 69]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.18:473][ 69]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'coinLocations' of length 3 in '/Game/GameModes/VirtualUPGameInstance.VirtualUPGameInstance_C'!
+[2019.03.29-20.38.18:474][ 69]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.18:474][ 69]LogLoad: Took 2.091442 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_NewLevel)
+[2019.03.29-20.38.18:845][ 75]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.38.19:795][ 89]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.38.23:730][152]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.38.34:980][355]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.38.36:028][376]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.38.44:080][537]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.38.44:627][548]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.44:627][548]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.44:627][548]LogNet: Browse: /Game/Levels/MemoryBubbleLobby
+[2019.03.29-20.38.44:678][548]LogLoad: LoadMap: /Game/Levels/MemoryBubbleLobby
+[2019.03.29-20.38.44:905][548]LogAIModule: Creating AISystem for world MemoryBubbleLobby
+[2019.03.29-20.38.44:905][548]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.38.44:907][548]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MemoryBubbleLobby.MemoryBubbleLobby up for play (max tick rate 0) at 2019.03.29-13.38.44
+[2019.03.29-20.38.44:907][548]LogWorld: Bringing up level for play took: 0.001920
+[2019.03.29-20.38.44:908][548]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.38.44:908][548]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.44:908][548]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.44:908][548]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.44:911][548]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.44:911][548]LogLoad: Took 0.233075 seconds to LoadMap(/Game/Levels/MemoryBubbleLobby)
+[2019.03.29-20.38.53:021][797]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.53:021][797]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.38.53:022][797]LogNet: Browse: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.53:054][797]LogLoad: LoadMap: /Game/Levels/ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.55:211][797]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.38.55:212][797]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.38.55:365][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.38.55
+[2019.03.29-20.38.55:369][797]LogWorld: Bringing up level for play took: 0.156538
+[2019.03.29-20.38.55:370][797]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.38.55:370][797]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.55:370][797]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.38.55:370][797]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.55:375][797]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'coinLocations' of length 2 in '/Game/GameModes/VirtualUPGameInstance.VirtualUPGameInstance_C'!
+[2019.03.29-20.38.55:375][797]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.38.55:375][797]LogLoad: Took 2.321393 seconds to LoadMap(/Game/Levels/ShileyHall_Matterport_NewLevel)
+[2019.03.29-20.38.55:694][803]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.39.08:633][ 83]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.39.19:587][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.39.19:812][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.39.19:864][302]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.29-20.39.19:937][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.39.19:937][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel' with GeneratedClass '/Game/Levels/StartingLevel.StartingLevel_C' with ClassGeneratedBy '/Game/Levels/StartingLevel.StartingLevel:PersistentLevel.StartingLevel'
+[2019.03.29-20.39.20:015][303]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.29-20.39.32:650][494]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/ShileyHallBubbleLobby.ShileyHallBubbleLobby
+[2019.03.29-20.39.37:074][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.39.38:332][886]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset' is outside repository
+[2019.03.29-20.39.38:332][886]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/VREditor/Devices/Oculus: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/VREditor/Devices/Oculus' is outside repository
+[2019.03.29-20.39.41:019][137]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset' is outside repository
+[2019.03.29-20.39.41:044][139]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset' is outside repository
+[2019.03.29-20.39.41:288][163]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset' is outside repository
+[2019.03.29-20.39.41:332][167]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/TemplateResources: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/TemplateResources' is outside repository
+[2019.03.29-20.39.41:385][172]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/TemplateResources/MI_Template_BaseGray_Metal.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/TemplateResources/MI_Template_BaseGray_Metal.uasset' is outside repository
+[2019.03.29-20.39.45:685][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.39.46:144][572]BlueprintLog: New page: Compile ShileyHallBubbleLobby
+[2019.03.29-20.39.47:376][658]LogSlate: Window 'ShileyHallBubbleLobby*' being destroyed
+[2019.03.29-20.39.47:380][658]LogSlate: Window 'ShileyHallBubbleLobby*' being destroyed
+[2019.03.29-20.39.49:860][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/EarthixDemoBubble.EarthixDemoBubble
+[2019.03.29-20.40.00:631][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.40.01:950][841]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset' is outside repository
+[2019.03.29-20.40.01:950][841]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset' is outside repository
+[2019.03.29-20.40.01:950][841]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/EngineMaterials/NewBaseFlattenMaterial.uasset' is outside repository
+[2019.03.29-20.40.06:544][275]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
+[2019.03.29-20.40.08:831][489]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/ReorientedNormalsDemo.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/ReorientedNormalsDemo.uasset' is outside repository
+[2019.03.29-20.40.08:831][489]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.uasset: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.uasset' is outside repository
+[2019.03.29-20.40.11:287][715]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
+[2019.03.29-20.40.12:022][789]LogSlate: Window 'EarthixDemoBubble' being destroyed
+[2019.03.29-20.40.12:026][789]LogSlate: Window 'EarthixDemoBubble' being destroyed
+[2019.03.29-20.40.17:344][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.40.25:913][177]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.40.26:090][177]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel
+[2019.03.29-20.40.27:595][177]LogSlate: Window 'Save Content' being destroyed
+[2019.03.29-20.40.27:859][177]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHallBubbleLobby720330D74B75E8A24EEE9AB59D6DE34C.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/LevelBluePrints/ShileyHallBubbleLobby.uasset'
+[2019.03.29-20.40.28:722][177]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/StartingLevel862E076E47B02822D0FD4C9557EC1A6A.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/StartingLevel.umap'
+[2019.03.29-20.40.28:770][177]LogFileHelpers: Saving map 'StartingLevel' took 0.908
+[2019.03.29-20.40.28:771][177]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.40.28:771][177]LightingResults: New page: Lighting Build
+[2019.03.29-20.40.28:771][177]LoadErrors: New page: Loading map: ShileyHall_Matterport_NewLevel.umap
+[2019.03.29-20.40.28:772][177]MapCheck: New page: Map Check
+[2019.03.29-20.40.28:772][177]LightingResults: New page: Lighting Build
+[2019.03.29-20.40.29:522][177]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.40.29:606][177]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.40.30:088][177]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 481.881ms to complete.
+[2019.03.29-20.40.30:091][177]LogFileHelpers: Loading map 'ShileyHall_Matterport_NewLevel' took 1.322
+[2019.03.29-20.40.31:192][215]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.40.32:899][299]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.40.34:821][416]LogEditorViewport: Clicking on Actor (LMB): EarthixDemoBubble_C (MemoruBubbleTwo)
+[2019.03.29-20.40.40:292][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.41.20:778][349]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelBluePrints/EarthixDemoBubble.EarthixDemoBubble
+[2019.03.29-20.41.48:236][402]LogSlate: Window 'EarthixDemoBubble' being destroyed
+[2019.03.29-20.41.56:030][901]LogAIModule: Creating AISystem for world EarthixDemoBubble
+[2019.03.29-20.41.56:034][901]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/EarthixDemoBubble.EarthixDemoBubble
+[2019.03.29-20.41.56:065][901]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/EarthixDemoBubble.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.41.56:065][901]LightingResults: New page: Lighting Build
+[2019.03.29-20.41.56:066][901]LoadErrors: New page: Loading map: EarthixDemoBubble.umap
+[2019.03.29-20.41.56:078][901]MapCheck: New page: Map Check
+[2019.03.29-20.41.56:078][901]LightingResults: New page: Lighting Build
+[2019.03.29-20.41.56:213][901]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.41.56:287][901]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.41.56:780][901]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 493.699ms to complete.
+[2019.03.29-20.41.56:783][901]LogFileHelpers: Loading map 'EarthixDemoBubble' took 0.719
+[2019.03.29-20.41.57:849][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (new)
+[2019.03.29-20.41.59:179][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.42.00:197][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.42.00:205][251]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/EarthixDemoBubble.EarthixDemoBubble:PersistentLevel.EarthixDemoBubble
+[2019.03.29-20.42.06:241][796]LogSlate: Window 'EarthixDemoBubble - Level Blueprint Editor' being destroyed
+[2019.03.29-20.42.08:845][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.42.14:600][720]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.42.14:762][720]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel
+[2019.03.29-20.42.14:807][720]Cmd: MAP LOAD FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-20.42.14:807][720]LightingResults: New page: Lighting Build
+[2019.03.29-20.42.14:808][720]LoadErrors: New page: Loading map: ShileyHall_Matterport_NewLevel.umap
+[2019.03.29-20.42.14:809][720]MapCheck: New page: Map Check
+[2019.03.29-20.42.14:809][720]LightingResults: New page: Lighting Build
+[2019.03.29-20.42.15:294][720]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-20.42.15:377][720]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-20.42.15:861][720]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 484.072ms to complete.
+[2019.03.29-20.42.15:863][720]LogFileHelpers: Loading map 'ShileyHall_Matterport_NewLevel' took 1.057
+[2019.03.29-20.42.16:596][747]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.42.53:912][785]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.43.23:063][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (editModel)
+[2019.03.29-20.43.24:992][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.29-20.43.35:720][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2019.03.29-20.43.42:420][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2019.03.29-20.43.46:827][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.03.29-20.43.52:500][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.03.29-20.44.01:901][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2019.03.29-20.44.20:072][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (editModel)
+[2019.03.29-20.44.21:997][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.03.29-20.44.22:166][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.03.29-20.44.46:768][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.44.46:985][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.44.48:977][317]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHall_Matterport_NewLevelDA51F5374A3376FCB1E1159561AC2BAB.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel.umap'
+[2019.03.29-20.44.52:483][317]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/ShileyHall_Matterport_NewLevel_BCD2B72FF4A252065819594AF6B129B4F.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/Levels/ShileyHall_Matterport_NewLevel_BuiltData.uasset'
+[2019.03.29-20.44.52:638][324]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.44.52:638][324]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.44.56:173][542]LogTemp: Repeating last play command: VR Preview
+[2019.03.29-20.44.56:206][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.44.56:206][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.44.56:206][542]PIE: New page: PIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:44:56 AM)
+[2019.03.29-20.44.56:206][542]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.44.56:304][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097670s)
+[2019.03.29-20.44.56:304][542]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.44.56:305][542]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2019.03.29-20.44.56:305][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.098817s)
+[2019.03.29-20.44.56:353][542]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.44.56:365][542]LogInit: FAudioDevice initialized.
+[2019.03.29-20.44.56:408][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.44.56:559][542]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.44.56:604][542]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.44.56
+[2019.03.29-20.44.56:608][542]LogWorld: Bringing up level for play took: 0.047727
+[2019.03.29-20.44.56:620][542]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.44.56:620][542]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.44.56:620][542]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.44.56:620][542]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.44.56:624][542]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.44.56:627][542]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel -0.158
+[2019.03.29-20.44.56:627][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.45.20:661][299]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.45.20:661][299]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.45.20:662][299]LogNet: Browse: /Game/Levels/EarthixDemoBubble
+[2019.03.29-20.45.20:694][299]LogLoad: LoadMap: /Game/Levels/EarthixDemoBubble
+[2019.03.29-20.45.20:866][299]LogAIModule: Creating AISystem for world EarthixDemoBubble
+[2019.03.29-20.45.20:866][299]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.45.20:868][299]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EarthixDemoBubble.EarthixDemoBubble up for play (max tick rate 0) at 2019.03.29-13.45.20
+[2019.03.29-20.45.20:868][299]LogWorld: Bringing up level for play took: 0.001579
+[2019.03.29-20.45.20:869][299]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.45.20:869][299]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.45.20:869][299]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.45.20:869][299]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.45.20:871][299]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.45.20:871][299]LogLoad: Took 0.178408 seconds to LoadMap(/Game/Levels/EarthixDemoBubble)
+[2019.03.29-20.45.25:573][554]LogPackageName: SearchForPackageOnDisk took   0.323s, but failed to resolve None.umap.
+[2019.03.29-20.45.25:576][555]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.45.25:576][555]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.45.25:700][555]LogPackageName: SearchForPackageOnDisk took   0.123s, but failed to resolve None.umap.
+[2019.03.29-20.45.25:700][555]LogNet: Browse: /Game/Levels/StartingLevel
+[2019.03.29-20.45.25:704][555]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/StartingLevel
+[2019.03.29-20.45.25:704][555]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/StartingLevel'. Shutting down PIE.
+[2019.03.29-20.45.25:704][555]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/StartingLevel'. Shutting down PIE.
+[2019.03.29-20.45.25:704][555]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/StartingLevel
+[2019.03.29-20.45.25:704][555]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/StartingLevel'. Shutting down PIE.
+[2019.03.29-20.45.25:704][555]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/StartingLevel'. Shutting down PIE.
+[2019.03.29-20.45.25:705][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.45.25:782][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.45.25:823][555]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.29-20.45.25:861][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.45.25:862][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.45.25:969][556]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.03.29-20.45.27:210][620]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.45.28:267][676]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.45.35:432][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.46.05:617][760]LogSlate: Window 'Message Log' being destroyed
+[2019.03.29-20.46.05:637][760]LogSlate: Window 'Message Log' being destroyed
+[2019.03.29-20.46.07:227][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.46.19:234][693]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GameModes/VirtualUPGameInstance.VirtualUPGameInstance
+[2019.03.29-20.46.45:547][ 55]BlueprintLog: New page: Compile VirtualUPGameInstance
+[2019.03.29-20.46.48:278][194]LogSlate: Window 'VirtualUPGameInstance*' being destroyed
+[2019.03.29-20.46.48:299][194]LogSlate: Window 'VirtualUPGameInstance*' being destroyed
+[2019.03.29-20.46.51:596][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-20.46.51:707][392]LogTemp: Repeating last play command: VR Preview
+[2019.03.29-20.46.51:739][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.46.51:739][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.29-20.46.51:740][392]PIE: New page: PIE session: ShileyHall_Matterport_NewLevel (Mar 29, 2019, 6:46:51 AM)
+[2019.03.29-20.46.51:755][392]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel
+[2019.03.29-20.46.51:860][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104677s)
+[2019.03.29-20.46.51:860][392]LogAIModule: Creating AISystem for world ShileyHall_Matterport_NewLevel
+[2019.03.29-20.46.51:861][392]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.03.29-20.46.51:861][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel to /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel (0.106097s)
+[2019.03.29-20.46.51:911][392]LogInit: XAudio2 using 'Headphones (Realtek USB2.0 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-20.46.51:924][392]LogInit: FAudioDevice initialized.
+[2019.03.29-20.46.51:968][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.46.52:115][392]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.46.52:163][392]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel up for play (max tick rate 0) at 2019.03.29-13.46.52
+[2019.03.29-20.46.52:168][392]LogWorld: Bringing up level for play took: 0.051678
+[2019.03.29-20.46.52:180][392]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.46.52:180][392]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.46.52:180][392]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.46.52:180][392]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.46.52:184][392]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.46.52:187][392]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShileyHall_Matterport_NewLevel 1.402
+[2019.03.29-20.46.52:187][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.46.52:633][415]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.46.52:633][415]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.47.03:214][863]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.47.03:214][863]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.47.17:315][275]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.47.17:315][275]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.47.17:315][275]LogNet: Browse: /Game/Levels/EarthixDemoBubble
+[2019.03.29-20.47.17:344][275]LogLoad: LoadMap: /Game/Levels/EarthixDemoBubble
+[2019.03.29-20.47.17:525][275]LogAIModule: Creating AISystem for world EarthixDemoBubble
+[2019.03.29-20.47.17:526][275]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.47.17:528][275]LogWorld: Bringing World /Game/Levels/UEDPIE_0_EarthixDemoBubble.EarthixDemoBubble up for play (max tick rate 0) at 2019.03.29-13.47.17
+[2019.03.29-20.47.17:528][275]LogWorld: Bringing up level for play took: 0.001614
+[2019.03.29-20.47.17:528][275]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.47.17:528][275]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.47.17:528][275]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.47.17:528][275]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.47.17:530][275]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.47.17:530][275]LogLoad: Took 0.186128 seconds to LoadMap(/Game/Levels/EarthixDemoBubble)
+[2019.03.29-20.47.17:975][295]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.47.17:975][295]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.03.29-20.47.20:055][411]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.47.20:055][411]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.03.29-20.47.20:055][411]LogNet: Browse: /Game/Levels/StartingLevel
+[2019.03.29-20.47.20:071][411]LogLoad: LoadMap: /Game/Levels/StartingLevel
+[2019.03.29-20.47.20:424][411]LogAIModule: Creating AISystem for world StartingLevel
+[2019.03.29-20.47.20:424][411]LogLoad: Game class is 'VirtualUPGameMode_C'
+[2019.03.29-20.47.20:435][411]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartingLevel.StartingLevel up for play (max tick rate 0) at 2019.03.29-13.47.20
+[2019.03.29-20.47.20:436][411]LogWorld: Bringing up level for play took: 0.011463
+[2019.03.29-20.47.20:436][411]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.03.29-20.47.20:436][411]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.47.20:437][411]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.03.29-20.47.20:437][411]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.47.20:439][411]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.03.29-20.47.20:439][411]LogLoad: Took 0.367731 seconds to LoadMap(/Game/Levels/StartingLevel)
+[2019.03.29-20.47.20:773][431]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_9", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.47.20:773][431]LogContentStreaming: Texture: "LightMapTexture2D /Game/Levels/ShileyHall_Matterport_NewLevel_BuiltData.ShileyHall_Matterport_NewLevel_BuiltData:HQ_Lightmap0_18", ResidentMips: 11/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.03.29-20.47.29:942][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.47.30:137][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-20.47.30:181][981]LogSlate: Window 'VirtualUP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.29-20.47.30:218][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.29-20.47.30:219][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel' with GeneratedClass '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel_C' with ClassGeneratedBy '/Game/Levels/ShileyHall_Matterport_NewLevel.ShileyHall_Matterport_NewLevel:PersistentLevel.ShileyHall_Matterport_NewLevel'
+[2019.03.29-20.47.30:272][982]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.03.29-20.47.36:060][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.47.37:407][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.47.37:541][459]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-20.47.37:545][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameModes/VirtualUPGameInstance" FILE="../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/GameModes/VirtualUPGameInstance.uasset" SILENT=true
+[2019.03.29-20.47.37:588][459]LogSavePackage: Moving '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Saved/VirtualUPGameInstance9190947448CCDFEBFF83949783269BB5.tmp' to '../../../../../../Users/nguyenmi19/Documents/GitHub/VirtualUP/Content/GameModes/VirtualUPGameInstance.uasset'
